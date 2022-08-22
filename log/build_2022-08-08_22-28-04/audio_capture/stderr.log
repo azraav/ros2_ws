@@ -1,0 +1,102 @@
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:13:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K*[m[K’ token
+   13 |   class RosGstCapture: public rclcpp::Node [01;31m[K*[m[K _node
+      |                                            [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   15 |     [01;31m[Kpublic[m[K:
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:14:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   14 |   [01;36m[K{[m[K
+      |   [01;36m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:169:22:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~audio_transport::RosGstCapture[m[K’ as non-member
+  169 |       ~RosGstCapture([01;31m[K)[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In function ‘[01m[Kvoid audio_transport::publish(const AudioData&)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:186:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_pub[m[K’ was not declared in this scope
+  186 |         [01;31m[K_pub[m[K->publish(msg);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn audio_transport::onNewBuffer(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:210:15:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass audio_transport::RosGstCapture[m[K’
+  210 |         server[01;31m[K->[m[Kpublish(msg);
+      |               [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass audio_transport::RosGstCapture[m[K’
+   13 |   class [01;36m[KRosGstCapture[m[K: public rclcpp::Node * _node
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In function ‘[01m[Kgboolean audio_transport::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:225:32:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass audio_transport::RosGstCapture[m[K’
+  225 |         g_main_loop_quit(server[01;31m[K->[m[K_loop);
+      |                                [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass audio_transport::RosGstCapture[m[K’
+   13 |   class [01;36m[KRosGstCapture[m[K: public rclcpp::Node * _node
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:226:15:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass audio_transport::RosGstCapture[m[K’
+  226 |         server[01;31m[K->[m[KexitOnMainThread(1);
+      |               [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:13:9:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass audio_transport::RosGstCapture[m[K’
+   13 |   class [01;36m[KRosGstCapture[m[K: public rclcpp::Node * _node
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:215:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  215 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                  [01;35m[K~~~~~~~~^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K At global scope:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:230:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+  230 |     [01;31m[Kprivate[m[K:
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:241:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  241 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:242:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  242 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:248:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<audio_transport::RosGstCapture>)[m[K’
+  248 |   rclcpp::spin(std::make_shared<audio_transport::RosGstCapture>()[01;31m[K)[m[K;
+      |                                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kaudio_transport::RosGstCapture[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+   45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+   49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kaudio_transport::RosGstCapture[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+   49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_tree.h:69[m[K,
+                 from [01m[K/usr/include/c++/9/map:60[m[K,
+                 from [01m[K/usr/include/boost/system/detail/std_interoperability.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/system/error_code.hpp:959[m[K,
+                 from [01m[K/usr/include/boost/system/system_error.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:4[m[K:
+/usr/include/c++/9/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<audio_transport::RosGstCapture>[m[K’:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:535:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<audio_transport::RosGstCapture, std::allocator<audio_transport::RosGstCapture>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:596:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<audio_transport::RosGstCapture, std::allocator<audio_transport::RosGstCapture>, __gnu_cxx::_S_atomic>[m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:676:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = audio_transport::RosGstCapture; _Alloc = std::allocator<audio_transport::RosGstCapture>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<audio_transport::RosGstCapture>; _Args = {}; _Tp = audio_transport::RosGstCapture; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<audio_transport::RosGstCapture>; _Args = {}; _Tp = audio_transport::RosGstCapture][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = audio_transport::RosGstCapture; _Alloc = std::allocator<audio_transport::RosGstCapture>; _Args = {}][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = audio_transport::RosGstCapture; _Args = {}][m[K’
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:248:65:[m[K   required from here
+[01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Kaudio_transport::RosGstCapture[m[K’
+   91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Kaudio_transport::RosGstCapture[m[K’
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K At global scope:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:215:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgboolean audio_transport::onMessage(GstBus*, GstMessage*, gpointer)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  215 |       static gboolean [01;35m[KonMessage[m[K (GstBus *bus, GstMessage *message, gpointer userData)
+      |                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:189:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KGstFlowReturn audio_transport::onNewBuffer(GstAppSink*, gpointer)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  189 |       static GstFlowReturn [01;35m[KonNewBuffer[m[K (GstAppSink *appsink, gpointer userData)
+      |                            [01;35m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/audio_capture.dir/build.make:63: CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/audio_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

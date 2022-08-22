@@ -1,0 +1,2 @@
+Invoking command in '/home/azraa/ros2_ws/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/gscam -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/gscam
+Invoked command in '/home/azraa/ros2_ws/build/gscam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/gscam -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/gscam

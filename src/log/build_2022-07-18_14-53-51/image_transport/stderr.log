@@ -1,0 +1,23 @@
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:65:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   65 |     auto qos_override_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+   67 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+   68 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+   69 |       rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+   72 |     pub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+   83 |     sub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

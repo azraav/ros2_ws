@@ -1,0 +1,33 @@
+[1.537s] Invoking command in '/home/azraa/ros2_ws/src/m2s2_test_python': PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/m2s2_test_python build --build-base /home/azraa/ros2_ws/build/m2s2_test_python/build install --prefix /home/azraa/ros2_ws/install/m2s2_test_python --record /home/azraa/ros2_ws/build/m2s2_test_python/install.log --single-version-externally-managed
+[1.950s] running egg_info
+[1.951s] creating ../../build/m2s2_test_python/m2s2_test_python.egg-info
+[1.951s] writing ../../build/m2s2_test_python/m2s2_test_python.egg-info/PKG-INFO
+[1.951s] writing dependency_links to ../../build/m2s2_test_python/m2s2_test_python.egg-info/dependency_links.txt
+[1.951s] writing entry points to ../../build/m2s2_test_python/m2s2_test_python.egg-info/entry_points.txt
+[1.952s] writing requirements to ../../build/m2s2_test_python/m2s2_test_python.egg-info/requires.txt
+[1.952s] writing top-level names to ../../build/m2s2_test_python/m2s2_test_python.egg-info/top_level.txt
+[1.954s] writing manifest file '../../build/m2s2_test_python/m2s2_test_python.egg-info/SOURCES.txt'
+[2.034s] reading manifest file '../../build/m2s2_test_python/m2s2_test_python.egg-info/SOURCES.txt'
+[2.036s] writing manifest file '../../build/m2s2_test_python/m2s2_test_python.egg-info/SOURCES.txt'
+[2.036s] running build
+[2.037s] running build_py
+[2.037s] creating /home/azraa/ros2_ws/build/m2s2_test_python/build
+[2.037s] creating /home/azraa/ros2_ws/build/m2s2_test_python/build/lib
+[2.038s] creating /home/azraa/ros2_ws/build/m2s2_test_python/build/lib/m2s2_test_python
+[2.038s] copying m2s2_test_python/__init__.py -> /home/azraa/ros2_ws/build/m2s2_test_python/build/lib/m2s2_test_python
+[2.038s] running install
+[2.038s] running install_lib
+[2.040s] creating /home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages/m2s2_test_python
+[2.040s] copying /home/azraa/ros2_ws/build/m2s2_test_python/build/lib/m2s2_test_python/__init__.py -> /home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages/m2s2_test_python
+[2.042s] byte-compiling /home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages/m2s2_test_python/__init__.py to __init__.cpython-38.pyc
+[2.043s] running install_data
+[2.044s] creating /home/azraa/ros2_ws/install/m2s2_test_python/share/ament_index
+[2.044s] creating /home/azraa/ros2_ws/install/m2s2_test_python/share/ament_index/resource_index
+[2.045s] creating /home/azraa/ros2_ws/install/m2s2_test_python/share/ament_index/resource_index/packages
+[2.045s] copying resource/m2s2_test_python -> /home/azraa/ros2_ws/install/m2s2_test_python/share/ament_index/resource_index/packages
+[2.045s] copying package.xml -> /home/azraa/ros2_ws/install/m2s2_test_python/share/m2s2_test_python
+[2.045s] running install_egg_info
+[2.047s] Copying ../../build/m2s2_test_python/m2s2_test_python.egg-info to /home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages/m2s2_test_python-0.0.0-py3.8.egg-info
+[2.049s] running install_scripts
+[2.081s] writing list of installed files to '/home/azraa/ros2_ws/build/m2s2_test_python/install.log'
+[2.123s] Invoked command in '/home/azraa/ros2_ws/src/m2s2_test_python' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/m2s2_test_python build --build-base /home/azraa/ros2_ws/build/m2s2_test_python/build install --prefix /home/azraa/ros2_ws/install/m2s2_test_python --record /home/azraa/ros2_ws/build/m2s2_test_python/install.log --single-version-externally-managed

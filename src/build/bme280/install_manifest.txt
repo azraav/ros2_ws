@@ -1,0 +1,17 @@
+/home/azraa/ros2_ws/src/install/bme280/lib/bme280/enviro_node
+/home/azraa/ros2_ws/src/install/bme280/lib/bme280/enviro_subscriber_node
+/home/azraa/ros2_ws/src/install/bme280/share/ament_index/resource_index/package_run_dependencies/bme280
+/home/azraa/ros2_ws/src/install/bme280/share/ament_index/resource_index/parent_prefix_path/bme280
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/ament_prefix_path.sh
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/ament_prefix_path.dsv
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/path.sh
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/path.dsv
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.bash
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.sh
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.zsh
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.dsv
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/package.dsv
+/home/azraa/ros2_ws/src/install/bme280/share/ament_index/resource_index/packages/bme280
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/cmake/bme280Config.cmake
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/cmake/bme280Config-version.cmake
+/home/azraa/ros2_ws/src/install/bme280/share/bme280/package.xml

@@ -1,0 +1,20 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found audio_common_msgs: 0.3.12 (/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azraa/ros2_ws/build/audio_play
+[35m[1mScanning dependencies of target audio_play[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play/src/audio_play.cpp:[m[K In static member function ‘[01m[Kstatic void audio_transport::RosGstPlay::cb_newpad(GstElement*, GstPad*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play/src/audio_play.cpp:154:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdecodebin[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  154 |      static void cb_newpad ([01;35m[KGstElement *decodebin[m[K, GstPad *pad,
+      |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable audio_play[0m
+[100%] Built target audio_play

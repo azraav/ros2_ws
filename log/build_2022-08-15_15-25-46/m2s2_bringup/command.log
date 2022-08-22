@@ -1,0 +1,4 @@
+Invoking command in '/home/azraa/ros2_ws/build/m2s2_bringup': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_bringup -- -j4 -l4
+Invoked command in '/home/azraa/ros2_ws/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_bringup -- -j4 -l4
+Invoking command in '/home/azraa/ros2_ws/build/m2s2_bringup': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_bringup
+Invoked command in '/home/azraa/ros2_ws/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_bringup

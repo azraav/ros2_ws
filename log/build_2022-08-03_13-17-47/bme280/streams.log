@@ -1,0 +1,75 @@
+[0.133s] Invoking command in '/home/azraa/ros2_ws/build/bme280': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/bme280 -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/bme280
+[0.510s] -- The C compiler identification is GNU 9.4.0
+[0.842s] -- The CXX compiler identification is GNU 9.4.0
+[0.891s] -- Check for working C compiler: /usr/bin/cc
+[1.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.315s] -- Detecting C compiler ABI info
+[1.812s] -- Detecting C compiler ABI info - done
+[1.975s] -- Detecting C compile features
+[1.978s] -- Detecting C compile features - done
+[2.032s] -- Check for working CXX compiler: /usr/bin/c++
+[2.555s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.555s] -- Detecting CXX compiler ABI info
+[3.043s] -- Detecting CXX compiler ABI info - done
+[3.175s] -- Detecting CXX compile features
+[3.176s] -- Detecting CXX compile features - done
+[3.198s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.455s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.455s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.809s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.417s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.955s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.142s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.682s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.941s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.950s] -- Looking for pthread.h
+[7.115s] -- Looking for pthread.h - found
+[7.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.415s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.416s] -- Looking for pthread_create in pthreads
+[7.581s] -- Looking for pthread_create in pthreads - not found
+[7.582s] -- Looking for pthread_create in pthread
+[7.760s] -- Looking for pthread_create in pthread - found
+[7.771s] -- Found Threads: TRUE  
+[8.516s] -- Found m2s2_custom_interfaces: 0.0.0 (/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake)
+[8.802s] -- Configuring done
+[8.848s] -- Generating done
+[8.867s] -- Build files have been written to: /home/azraa/ros2_ws/build/bme280
+[8.919s] Invoked command in '/home/azraa/ros2_ws/build/bme280' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/bme280 -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/bme280
+[8.925s] Invoking command in '/home/azraa/ros2_ws/build/bme280': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/bme280 -- -j4 -l4
+[9.139s] [35m[1mScanning dependencies of target bme280[0m
+[9.261s] [ 20%] [32mBuilding C object CMakeFiles/bme280.dir/src/driver/bme280_linux.c.o[0m
+[9.497s] [01m[K/home/azraa/ros2_ws/src/M2S2/bme280/src/driver/bme280_linux.c:[m[K In function ‘[01m[Kuser_delay_us[m[K’:
+[9.497s] [01m[K/home/azraa/ros2_ws/src/M2S2/bme280/src/driver/bme280_linux.c:73:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kintf_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.497s]    73 | void user_delay_us(uint32_t period, [01;35m[Kvoid *intf_ptr[m[K)
+[9.497s]       |                                     [01;35m[K~~~~~~^~~~~~~~[m[K
+[9.772s] [ 40%] [32mBuilding C object CMakeFiles/bme280.dir/src/driver/bme280.c.o[0m
+[10.416s] [ 60%] [32m[1mLinking C static library libbme280.a[0m
+[10.802s] [ 60%] Built target bme280
+[10.925s] [35m[1mScanning dependencies of target enviro_node[0m
+[11.657s] [ 80%] [32mBuilding CXX object CMakeFiles/enviro_node.dir/src/enviro_sensor.cpp.o[0m
+[37.010s] [100%] [32m[1mLinking CXX executable enviro_node[0m
+[38.353s] [100%] Built target enviro_node
+[38.399s] Invoked command in '/home/azraa/ros2_ws/build/bme280' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/bme280 -- -j4 -l4
+[38.728s] Invoking command in '/home/azraa/ros2_ws/build/bme280': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/bme280
+[38.842s] -- Install configuration: ""
+[38.847s] -- Installing: /home/azraa/ros2_ws/install/bme280/lib/bme280/enviro_node
+[38.847s] -- Set runtime path of "/home/azraa/ros2_ws/install/bme280/lib/bme280/enviro_node" to ""
+[38.847s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/ament_index/resource_index/package_run_dependencies/bme280
+[38.848s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/ament_index/resource_index/parent_prefix_path/bme280
+[38.848s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/environment/ament_prefix_path.sh
+[38.848s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/environment/ament_prefix_path.dsv
+[38.848s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/environment/path.sh
+[39.040s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/environment/path.dsv
+[39.040s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/local_setup.bash
+[39.040s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/local_setup.sh
+[39.040s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/local_setup.zsh
+[39.041s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/local_setup.dsv
+[39.041s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/package.dsv
+[39.041s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/ament_index/resource_index/packages/bme280
+[39.043s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/cmake/bme280Config.cmake
+[39.045s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/cmake/bme280Config-version.cmake
+[39.046s] -- Installing: /home/azraa/ros2_ws/install/bme280/share/bme280/package.xml
+[39.051s] Invoked command in '/home/azraa/ros2_ws/build/bme280' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/bme280

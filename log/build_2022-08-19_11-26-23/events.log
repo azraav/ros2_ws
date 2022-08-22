@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000237] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000276] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.000308] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.000339] (-) JobUnselected: {'identifier': 'bme280'}
+[0.000378] (-) JobUnselected: {'identifier': 'flir_lepton_ros2'}
+[0.000402] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.000430] (-) JobUnselected: {'identifier': 'm2s2_custom_interfaces'}
+[0.000458] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.000482] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000506] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.000534] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000562] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000587] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.000611] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.000639] (-) JobUnselected: {'identifier': 'ximea_ros2_cam'}
+[0.000669] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict()}
+[0.000702] (gscam) JobStarted: {'identifier': 'gscam'}
+[0.023457] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'cmake'}
+[0.025579] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'build'}
+[0.025669] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/build/gscam', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/build/gscam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1640'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1433'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:39110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1695,unix/azraa-VirtualBox:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', '3f4211ff439144dea124f38b2443f09d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8201c1f8_2ece_458d_a682_1ef5d054d1f3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.646'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/gscam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.093636] (gscam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam\x1b[0m\n'}
+[0.095602] (gscam) StdoutLine: {'line': b'[ 20%] Built target gtest_main\n'}
+[0.095876] (gscam) StdoutLine: {'line': b'[ 40%] Built target gtest\n'}
+[0.098470] (-) TimerEvent: {}
+[0.112301] (gscam) StdoutLine: {'line': b'[ 60%] Built target gscam_node\n'}
+[0.146188] (gscam) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o\x1b[0m\n'}
+[0.198773] (-) TimerEvent: {}
+[0.299426] (-) TimerEvent: {}
+[0.399998] (-) TimerEvent: {}
+[0.501009] (-) TimerEvent: {}
+[0.601489] (-) TimerEvent: {}
+[0.702315] (-) TimerEvent: {}
+[0.803248] (-) TimerEvent: {}
+[0.903928] (-) TimerEvent: {}
+[1.004876] (-) TimerEvent: {}
+[1.105401] (-) TimerEvent: {}
+[1.206462] (-) TimerEvent: {}
+[1.307327] (-) TimerEvent: {}
+[1.408119] (-) TimerEvent: {}
+[1.508602] (-) TimerEvent: {}
+[1.609099] (-) TimerEvent: {}
+[1.709841] (-) TimerEvent: {}
+[1.810442] (-) TimerEvent: {}
+[1.892222] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gscam::GSCam::publish_stream()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.892552] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:421:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _data_type = class std::vector<short int, std::allocator<short int> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<short int, std::allocator<short int> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdim\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.892853] (gscam) StderrLine: {'line': b'  421 |       msg->data.\x1b[01;31m\x1b[Kdim\x1b[m\x1b[K[1].label = "width";\n'}
+[1.892928] (gscam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.892977] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:423:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing _data_type = class std::vector<short int, std::allocator<short int> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::vector<short int, std::allocator<short int> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdim\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.893026] (gscam) StderrLine: {'line': b'  423 |       msg->data.\x1b[01;31m\x1b[Kdim\x1b[m\x1b[K[1].stride = 160;\n'}
+[1.893071] (gscam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.893115] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:433:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid cast from type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<short int, std::allocator<short int> >\x1b[m\x1b[K\xe2\x80\x99} to type \xe2\x80\x98\x1b[01m\x1b[Kuint8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.893166] (gscam) StderrLine: {'line': b'  433 |       img->data = uint8_t(msg->data\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.893280] (gscam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.900120] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:437:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >::publish(example_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.900491] (gscam) StderrLine: {'line': b'  437 |       raw_data_pub_->publish(msg\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.900602] (gscam) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.900667] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp:29\x1b[m\x1b[K,\n'}
+[1.900736] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:55\x1b[m\x1b[K,\n'}
+[1.900799] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.900980] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.901113] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.901256] (gscam) StderrLine: {'line': b'  185 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[1.901350] (gscam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.901428] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.901523] (gscam) StderrLine: {'line': b'  185 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[1.901601] (gscam) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.901679] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.901762] (gscam) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[1.901839] (gscam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.901917] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst example_interfaces::msg::Int16MultiArray_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.902051] (gscam) StderrLine: {'line': b'  209 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[1.902159] (gscam) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.902236] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.902316] (gscam) StderrLine: {'line': b'  226 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[1.902393] (gscam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.902470] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.902554] (gscam) StderrLine: {'line': b'  226 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[1.902632] (gscam) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.902709] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.902789] (gscam) StderrLine: {'line': b'  232 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[1.902870] (gscam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.902948] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.903054] (gscam) StderrLine: {'line': b'  232 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[1.903134] (gscam) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.903211] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.903290] (gscam) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[1.903372] (gscam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.903450] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.903536] (gscam) StderrLine: {'line': b'  246 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[1.903613] (gscam) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.910869] (-) TimerEvent: {}
+[1.911290] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:442:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbuf\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.911428] (gscam) StderrLine: {'line': b'  442 |     if (\x1b[01;31m\x1b[Kbuf\x1b[m\x1b[K) {\n'}
+[1.911480] (gscam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.914051] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:443:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmemory\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmemcpy\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.914185] (gscam) StderrLine: {'line': b'  443 |       gst_memory_unmap(\x1b[01;31m\x1b[Kmemory\x1b[m\x1b[K, &info);\n'}
+[1.914265] (gscam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.914317] (gscam) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kmemcpy\x1b[m\x1b[K\n'}
+[1.916649] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:443:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinfo\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.916851] (gscam) StderrLine: {'line': b'  443 |       gst_memory_unmap(memory, &\x1b[01;31m\x1b[Kinfo\x1b[m\x1b[K);\n'}
+[1.916934] (gscam) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.919726] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:445:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksample\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KGstSample\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.919851] (gscam) StderrLine: {'line': b'  445 |       gst_sample_unref(\x1b[01;31m\x1b[Ksample\x1b[m\x1b[K);\n'}
+[1.919903] (gscam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.919949] (gscam) StderrLine: {'line': b'      |                        \x1b[32m\x1b[KGstSample\x1b[m\x1b[K\n'}
+[1.920730] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.920828] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:450:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGSCam\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.920879] (gscam) StderrLine: {'line': b'  450 | void \x1b[01;31m\x1b[KGSCam\x1b[m\x1b[K::cleanup_stream()\n'}
+[1.920925] (gscam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.921878] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.921985] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.922038] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.922085] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.922137] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.922181] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid cleanup_stream()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.922232] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.922282] (gscam) StderrLine: {'line': b'  453 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Stopping gstreamer pipeline...");\n'}
+[1.922327] (gscam) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922371] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.922415] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.922458] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.922556] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.922642] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.922723] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.922803] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.922883] (gscam) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.922963] (gscam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.923042] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.923121] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.923200] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.923280] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.923359] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.923438] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.923592] (gscam) StderrLine: {'line': b'  453 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Stopping gstreamer pipeline...");\n'}
+[1.923673] (gscam) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.923751] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.923836] (gscam) StderrLine: {'line': b'  453 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Stopping gstreamer pipeline...");\n'}
+[1.923914] (gscam) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.923991] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.924068] (gscam) StderrLine: {'line': b'  453 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Stopping gstreamer pipeline...");\n'}
+[1.924145] (gscam) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925194] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:454:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpipeline_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.925402] (gscam) StderrLine: {'line': b'  454 |   if (\x1b[01;31m\x1b[Kpipeline_\x1b[m\x1b[K) {\n'}
+[1.925572] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925862] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.925957] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:461:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGSCam\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.926008] (gscam) StderrLine: {'line': b'  461 | void \x1b[01;31m\x1b[KGSCam\x1b[m\x1b[K::run()\n'}
+[1.926055] (gscam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.926099] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid run()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.926166] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:463:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.926218] (gscam) StderrLine: {'line': b'  463 |   if (!\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->configure()) {\n'}
+[1.926276] (gscam) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.926685] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.926764] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.926815] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.926861] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.926906] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.926950] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.927005] (gscam) StderrLine: {'line': b'  464 |     RCLCPP_FATAL(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Failed to configure gscam!");\n'}
+[1.927050] (gscam) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.927092] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.927135] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.927178] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.927225] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.927268] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.927311] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.927354] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.927506] (gscam) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.927587] (gscam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.927664] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.927741] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.927819] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.927896] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.927972] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.928049] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.928126] (gscam) StderrLine: {'line': b'  464 |     \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K(get_logger(), "Failed to configure gscam!");\n'}
+[1.928203] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.928281] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.928409] (gscam) StderrLine: {'line': b'  464 |     \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K(get_logger(), "Failed to configure gscam!");\n'}
+[1.928533] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.928632] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.928716] (gscam) StderrLine: {'line': b'  464 |     \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K(get_logger(), "Failed to configure gscam!");\n'}
+[1.928794] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.930510] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:468:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop_signal_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstrsignal\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.930678] (gscam) StderrLine: {'line': b'  468 |   while (!\x1b[01;31m\x1b[Kstop_signal_\x1b[m\x1b[K && rclcpp::ok()) {\n'}
+[1.930732] (gscam) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.930779] (gscam) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kstrsignal\x1b[m\x1b[K\n'}
+[1.930823] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:469:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.930889] (gscam) StderrLine: {'line': b'  469 |     if (!\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->init_stream()) {\n'}
+[1.930937] (gscam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.931754] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.931860] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.932102] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.932170] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.932221] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.932321] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.932408] (gscam) StderrLine: {'line': b'  470 |       RCLCPP_FATAL(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Failed to initialize gscam stream!");\n'}
+[1.932488] (gscam) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.932590] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.932690] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.932971] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.933034] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.933083] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.933129] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.933174] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.933276] (gscam) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.933385] (gscam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.933471] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.933562] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.933640] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.933717] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.933794] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.933871] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.933949] (gscam) StderrLine: {'line': b'  470 |       \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K(get_logger(), "Failed to initialize gscam stream!");\n'}
+[1.934027] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.934104] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.934181] (gscam) StderrLine: {'line': b'  470 |       \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K(get_logger(), "Failed to initialize gscam stream!");\n'}
+[1.934336] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.934415] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.934493] (gscam) StderrLine: {'line': b'  470 |       \x1b[01;31m\x1b[KRCLCPP_FATAL\x1b[m\x1b[K(get_logger(), "Failed to initialize gscam stream!");\n'}
+[1.934570] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.934647] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:475:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.934727] (gscam) StderrLine: {'line': b'  475 |     \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->publish_stream();\n'}
+[1.934833] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.934927] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:477:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[1.935006] (gscam) StderrLine: {'line': b'  477 |     \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->cleanup_stream();\n'}
+[1.935083] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.935160] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.935269] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.935349] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.935431] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.935509] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.935586] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.935665] (gscam) StderrLine: {'line': b'  479 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "GStreamer stream stopped!");\n'}
+[1.935743] (gscam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.935820] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.935898] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.935975] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.936052] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.936129] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.936275] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.936355] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.936440] (gscam) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.936519] (gscam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.936601] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.936678] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.936759] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.936898] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.936985] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.937071] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.937186] (gscam) StderrLine: {'line': b'  479 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "GStreamer stream stopped!");\n'}
+[1.937340] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.937435] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.937525] (gscam) StderrLine: {'line': b'  479 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "GStreamer stream stopped!");\n'}
+[1.937616] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.937704] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.937792] (gscam) StderrLine: {'line': b'  479 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "GStreamer stream stopped!");\n'}
+[1.937880] (gscam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.940020] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:481:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kreopen_on_eof_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.940294] (gscam) StderrLine: {'line': b'  481 |     if (\x1b[01;31m\x1b[Kreopen_on_eof_\x1b[m\x1b[K) {\n'}
+[1.940392] (gscam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.941352] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.941454] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.941507] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.941554] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.941608] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.941652] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.941699] (gscam) StderrLine: {'line': b'  482 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Reopening stream...");\n'}
+[1.941743] (gscam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.941787] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.941831] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.941884] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.941929] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.941972] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.942086] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.942184] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.942269] (gscam) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.942369] (gscam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.942468] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.942578] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.942692] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.942800] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.942914] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.943067] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.943202] (gscam) StderrLine: {'line': b'  482 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Reopening stream...");\n'}
+[1.943308] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.943423] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.943545] (gscam) StderrLine: {'line': b'  482 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Reopening stream...");\n'}
+[1.943671] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.943937] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.944066] (gscam) StderrLine: {'line': b'  482 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Reopening stream...");\n'}
+[1.944152] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.944234] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.944317] (gscam) StderrLine: {'line': b'  484 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Cleaning up stream and exiting...");\n'}
+[1.944397] (gscam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.944477] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[1.944556] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.944635] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.944721] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.944800] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.944885] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.945033] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.945128] (gscam) StderrLine: {'line': b'   80 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[1.945206] (gscam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.945322] (gscam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[1.945406] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[1.945484] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[1.945561] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[1.945638] (gscam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27\x1b[m\x1b[K:\n'}
+[1.945715] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.945793] (gscam) StderrLine: {'line': b'  484 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Cleaning up stream and exiting...");\n'}
+[1.945870] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.945998] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.946092] (gscam) StderrLine: {'line': b'  484 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Cleaning up stream and exiting...");\n'}
+[1.946170] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.946246] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.946323] (gscam) StderrLine: {'line': b'  484 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Cleaning up stream and exiting...");\n'}
+[1.946400] (gscam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.946476] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.946552] (gscam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:504:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.946636] (gscam) StderrLine: {'line': b'  504 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace gscam\n'}
+[1.946713] (gscam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.011094] (-) TimerEvent: {}
+[2.111554] (-) TimerEvent: {}
+[2.211988] (-) TimerEvent: {}
+[2.312472] (-) TimerEvent: {}
+[2.413132] (-) TimerEvent: {}
+[2.513728] (-) TimerEvent: {}
+[2.614113] (-) TimerEvent: {}
+[2.714921] (-) TimerEvent: {}
+[2.815401] (-) TimerEvent: {}
+[2.916596] (-) TimerEvent: {}
+[3.017140] (-) TimerEvent: {}
+[3.118265] (-) TimerEvent: {}
+[3.218883] (-) TimerEvent: {}
+[3.293579] (gscam) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gscam.dir/build.make:63: CMakeFiles/gscam.dir/src/gscam.cpp.o] Error 1\n'}
+[3.293976] (gscam) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:132: CMakeFiles/gscam.dir/all] Error 2\n'}
+[3.294070] (gscam) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.298125] (gscam) CommandEnded: {'returncode': 2}
+[3.319083] (-) TimerEvent: {}
+[3.377990] (gscam) JobEnded: {'identifier': 'gscam', 'rc': 2}
+[3.389099] (-) EventReactorShutdown: {}

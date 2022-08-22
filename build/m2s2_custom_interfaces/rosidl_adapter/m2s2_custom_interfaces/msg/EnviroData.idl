@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from m2s2_custom_interfaces/msg/EnviroData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module m2s2_custom_interfaces {
+  module msg {
+    struct EnviroData {
+      std_msgs::msg::Header header;
+
+      double temperature;
+
+      double pressure;
+
+      double humidity;
+    };
+  };
+};

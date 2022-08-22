@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbme280.a  CMakeFiles/bme280.dir/src/driver/bme280_linux.c.o CMakeFiles/bme280.dir/src/driver/bme280.c.o
+/usr/bin/ranlib libbme280.a

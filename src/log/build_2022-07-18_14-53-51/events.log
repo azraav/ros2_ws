@@ -1,0 +1,1096 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (camera_calibration_parsers) JobQueued: {'identifier': 'camera_calibration_parsers', 'dependencies': OrderedDict()}
+[0.000416] (image_transport) JobQueued: {'identifier': 'image_transport', 'dependencies': OrderedDict()}
+[0.000452] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000486] (camera_info_manager) JobQueued: {'identifier': 'camera_info_manager', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers')])}
+[0.000523] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/azraa/ros2_ws/src/install/my_robot_interfaces')])}
+[0.000558] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/azraa/ros2_ws/src/install/my_robot_interfaces')])}
+[0.000592] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers'), ('image_transport', '/home/azraa/ros2_ws/src/install/image_transport'), ('camera_info_manager', '/home/azraa/ros2_ws/src/install/camera_info_manager')])}
+[0.000634] (image_common) JobQueued: {'identifier': 'image_common', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers'), ('image_transport', '/home/azraa/ros2_ws/src/install/image_transport'), ('camera_info_manager', '/home/azraa/ros2_ws/src/install/camera_info_manager')])}
+[0.000671] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/azraa/ros2_ws/src/install/my_robot_interfaces'), ('my_cpp_pkg', '/home/azraa/ros2_ws/src/install/my_cpp_pkg'), ('my_py_pkg', '/home/azraa/ros2_ws/src/install/my_py_pkg')])}
+[0.000703] (camera_calibration_parsers) JobStarted: {'identifier': 'camera_calibration_parsers'}
+[0.020056] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.031547] (image_transport) JobStarted: {'identifier': 'image_transport'}
+[0.043068] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'cmake'}
+[0.043207] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '/home/azraa/ros2_ws/src/image_common/camera_calibration_parsers', '-DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/camera_calibration_parsers'], 'cwd': '/home/azraa/ros2_ws/src/build/camera_calibration_parsers', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/camera_calibration_parsers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.053517] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.053648] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/azraa/ros2_ws/src/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/my_robot_interfaces'], 'cwd': '/home/azraa/ros2_ws/src/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.059141] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'cmake'}
+[0.060814] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '/home/azraa/ros2_ws/src/image_common/image_transport', '-DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/image_transport'], 'cwd': '/home/azraa/ros2_ws/src/build/image_transport', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/image_transport'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.097890] (-) TimerEvent: {}
+[0.136062] (my_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.137465] (camera_calibration_parsers) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.142548] (image_transport) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.198081] (-) TimerEvent: {}
+[0.207912] (my_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.208070] (camera_calibration_parsers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.215438] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.215618] (camera_calibration_parsers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.216337] (image_transport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.224687] (image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298251] (-) TimerEvent: {}
+[0.299746] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.300964] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301163] (camera_calibration_parsers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.302659] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.310051] (image_transport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.311336] (image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.385354] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.385553] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.395720] (image_transport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.398429] (-) TimerEvent: {}
+[0.405998] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406150] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406499] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.406590] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.410652] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.410807] (camera_calibration_parsers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.417621] (image_transport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.418113] (image_transport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.422101] (image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.498634] (-) TimerEvent: {}
+[0.506006] (camera_calibration_parsers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.507544] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.515498] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.516922] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.518054] (image_transport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.519515] (image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.598828] (-) TimerEvent: {}
+[0.606360] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.617292] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.617481] (image_transport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.633045] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.633861] (camera_calibration_parsers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.636157] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.638779] (image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.639585] (image_transport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.641868] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.642101] (image_transport) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.642815] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.645765] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.683527] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.683873] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.686818] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.687060] (camera_calibration_parsers) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.689168] (image_transport) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.689325] (image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.698947] (-) TimerEvent: {}
+[0.799260] (-) TimerEvent: {}
+[0.899618] (-) TimerEvent: {}
+[0.960240] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.965290] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.965473] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.974554] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.975951] (image_transport) StdoutLine: {'line': b'-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[0.981069] (image_transport) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[0.999780] (-) TimerEvent: {}
+[1.033284] (camera_calibration_parsers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.042392] (image_transport) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.042982] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.092438] (image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.097369] (my_robot_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.099891] (-) TimerEvent: {}
+[1.102821] (image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.134894] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.138451] (my_robot_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.175126] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.199323] (image_transport) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.200417] (-) TimerEvent: {}
+[1.242831] (image_transport) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.254593] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.289581] (camera_calibration_parsers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.300591] (-) TimerEvent: {}
+[1.334777] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.354511] (image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.385714] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.388048] (camera_calibration_parsers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.389524] (camera_calibration_parsers) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.400730] (-) TimerEvent: {}
+[1.450733] (image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.453546] (image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.454967] (image_transport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.476991] (camera_calibration_parsers) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.477369] (camera_calibration_parsers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.500855] (-) TimerEvent: {}
+[1.548217] (image_transport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.548417] (image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.550319] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.573299] (camera_calibration_parsers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.573499] (camera_calibration_parsers) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.601067] (-) TimerEvent: {}
+[1.634478] (image_transport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.634731] (image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.643092] (camera_calibration_parsers) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.643349] (camera_calibration_parsers) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.687900] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.701233] (-) TimerEvent: {}
+[1.703288] (image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.703521] (image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.703744] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.727576] (camera_calibration_parsers) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.729038] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.745633] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.748145] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.788018] (image_transport) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.789396] (image_transport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.795447] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.795667] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.795732] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.795786] (my_robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.802177] (-) TimerEvent: {}
+[1.830831] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.902394] (-) TimerEvent: {}
+[1.907543] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.971867] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.976888] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/src/build/my_robot_interfaces\n'}
+[1.985936] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[1.986546] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[1.988762] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/src/build/my_robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/src/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[2.002582] (-) TimerEvent: {}
+[2.005929] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.039442] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.039751] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__cpp\x1b[0m\n'}
+[2.052104] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.061423] (image_transport) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.102739] (-) TimerEvent: {}
+[2.203070] (-) TimerEvent: {}
+[2.234700] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[2.235088] (camera_calibration_parsers) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[2.241069] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[2.244409] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[2.247901] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[2.251479] (camera_calibration_parsers) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[2.258904] (camera_calibration_parsers) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.262375] (camera_calibration_parsers) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.292898] (image_transport) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.303203] (-) TimerEvent: {}
+[2.363582] (camera_calibration_parsers) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[2.403348] (-) TimerEvent: {}
+[2.421582] (image_transport) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.424999] (image_transport) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.464239] (camera_calibration_parsers) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.503496] (-) TimerEvent: {}
+[2.509264] (camera_calibration_parsers) StdoutLine: {'line': b'-- Generating done\n'}
+[2.513447] (camera_calibration_parsers) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/src/build/camera_calibration_parsers\n'}
+[2.524235] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[2.526997] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'build'}
+[2.527267] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/src/build/camera_calibration_parsers', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/src/build/camera_calibration_parsers', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/camera_calibration_parsers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[2.559693] (image_transport) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[2.592442] (image_transport) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.595444] (image_transport) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.595578] (image_transport) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.602850] (image_transport) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.603602] (-) TimerEvent: {}
+[2.606979] (image_transport) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.607172] (image_transport) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.610809] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_calibration_parsers\x1b[0m\n'}
+[2.611645] (image_transport) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.612812] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[2.617831] (image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.625032] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[2.655002] (camera_calibration_parsers) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.664783] (camera_calibration_parsers) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.703744] (-) TimerEvent: {}
+[2.715427] (camera_calibration_parsers) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o\x1b[0m\n'}
+[2.726952] (camera_calibration_parsers) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o\x1b[0m\n'}
+[2.790013] (image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[2.803893] (-) TimerEvent: {}
+[2.807021] (image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/src/build/image_transport\n'}
+[2.833483] (image_transport) CommandEnded: {'returncode': 0}
+[2.836824] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'build'}
+[2.837173] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/src/build/image_transport', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/src/build/image_transport', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/image_transport'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[2.904116] (-) TimerEvent: {}
+[2.995169] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[3.004269] (-) TimerEvent: {}
+[3.022575] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[3.022829] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport\x1b[0m\n'}
+[3.053948] (image_transport) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.102768] (image_transport) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.104394] (-) TimerEvent: {}
+[3.131777] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] Built target my_robot_interfaces__cpp\n'}
+[3.198176] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.204625] (-) TimerEvent: {}
+[3.254216] (my_robot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.255255] (image_transport) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.258754] (image_transport) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_common.cpp.o\x1b[0m\n'}
+[3.304915] (-) TimerEvent: {}
+[3.401413] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.405043] (-) TimerEvent: {}
+[3.438266] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.505184] (-) TimerEvent: {}
+[3.560351] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[3.605295] (-) TimerEvent: {}
+[3.706048] (-) TimerEvent: {}
+[3.775289] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_states__functions.c.o\x1b[0m\n'}
+[3.806185] (-) TimerEvent: {}
+[3.906550] (-) TimerEvent: {}
+[3.971052] (my_robot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[4.006701] (-) TimerEvent: {}
+[4.107061] (-) TimerEvent: {}
+[4.176172] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[4.194786] (image_transport) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[4.207214] (-) TimerEvent: {}
+[4.307534] (-) TimerEvent: {}
+[4.402579] (my_robot_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.407680] (-) TimerEvent: {}
+[4.508047] (-) TimerEvent: {}
+[4.608411] (-) TimerEvent: {}
+[4.611151] (my_robot_interfaces) StdoutLine: {'line': b'[ 18%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[4.684735] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.708537] (-) TimerEvent: {}
+[4.808917] (-) TimerEvent: {}
+[4.909366] (-) TimerEvent: {}
+[5.010000] (-) TimerEvent: {}
+[5.110372] (-) TimerEvent: {}
+[5.148818] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.211694] (-) TimerEvent: {}
+[5.281431] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[5.311835] (-) TimerEvent: {}
+[5.412205] (-) TimerEvent: {}
+[5.512548] (-) TimerEvent: {}
+[5.514034] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.570912] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[5.573368] (camera_calibration_parsers) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.609095] (image_transport) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.612716] (-) TimerEvent: {}
+[5.713092] (-) TimerEvent: {}
+[5.791051] (image_transport) StdoutLine: {'line': b'[ 18%] Built target gtest_main\n'}
+[5.803375] (camera_calibration_parsers) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[5.813286] (-) TimerEvent: {}
+[5.839019] (image_transport) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o\x1b[0m\n'}
+[5.861388] (camera_calibration_parsers) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o\x1b[0m\n'}
+[5.913445] (-) TimerEvent: {}
+[5.941617] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.013558] (-) TimerEvent: {}
+[6.066807] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[6.113857] (-) TimerEvent: {}
+[6.214242] (-) TimerEvent: {}
+[6.314613] (-) TimerEvent: {}
+[6.414996] (-) TimerEvent: {}
+[6.515421] (-) TimerEvent: {}
+[6.595087] (my_robot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/led_states__type_support.cpp.o\x1b[0m\n'}
+[6.614607] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/led_states__type_support.cpp.o\x1b[0m\n'}
+[6.615512] (-) TimerEvent: {}
+[6.715811] (-) TimerEvent: {}
+[6.816227] (-) TimerEvent: {}
+[6.916607] (-) TimerEvent: {}
+[7.017099] (-) TimerEvent: {}
+[7.111439] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.122372] (-) TimerEvent: {}
+[7.214674] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[7.222508] (-) TimerEvent: {}
+[7.322867] (-) TimerEvent: {}
+[7.423242] (-) TimerEvent: {}
+[7.423627] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/led_states__type_support.c.o\x1b[0m\n'}
+[7.523390] (-) TimerEvent: {}
+[7.586993] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[7.623533] (-) TimerEvent: {}
+[7.678609] (my_robot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[7.702923] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/led_states__type_support.cpp.o\x1b[0m\n'}
+[7.723689] (-) TimerEvent: {}
+[7.753245] (my_robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[7.823841] (-) TimerEvent: {}
+[7.834685] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[7.923068] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.924197] (-) TimerEvent: {}
+[8.024748] (-) TimerEvent: {}
+[8.121687] (my_robot_interfaces) StdoutLine: {'line': b'[ 43%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.124892] (-) TimerEvent: {}
+[8.184734] (my_robot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.225051] (-) TimerEvent: {}
+[8.325602] (-) TimerEvent: {}
+[8.426039] (-) TimerEvent: {}
+[8.526529] (-) TimerEvent: {}
+[8.627000] (-) TimerEvent: {}
+[8.727458] (-) TimerEvent: {}
+[8.827902] (-) TimerEvent: {}
+[8.885001] (my_robot_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[8.926655] (my_robot_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[8.928040] (-) TimerEvent: {}
+[9.028468] (-) TimerEvent: {}
+[9.128913] (-) TimerEvent: {}
+[9.229976] (-) TimerEvent: {}
+[9.330544] (-) TimerEvent: {}
+[9.334931] (my_robot_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[9.430693] (-) TimerEvent: {}
+[9.531231] (-) TimerEvent: {}
+[9.632281] (-) TimerEvent: {}
+[9.732753] (-) TimerEvent: {}
+[9.833252] (-) TimerEvent: {}
+[9.933850] (-) TimerEvent: {}
+[10.034467] (-) TimerEvent: {}
+[10.128417] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[10.134640] (-) TimerEvent: {}
+[10.233712] (my_robot_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[10.234773] (-) TimerEvent: {}
+[10.335247] (-) TimerEvent: {}
+[10.364844] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.429305] (my_robot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/led_states__type_support.cpp.o\x1b[0m\n'}
+[10.435433] (-) TimerEvent: {}
+[10.452508] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.535588] (-) TimerEvent: {}
+[10.580530] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[10.604878] (my_robot_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led__type_support.cpp.o\x1b[0m\n'}
+[10.635780] (-) TimerEvent: {}
+[10.646887] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[10.735975] (-) TimerEvent: {}
+[10.805266] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.836094] (-) TimerEvent: {}
+[10.855236] (my_robot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[10.936267] (-) TimerEvent: {}
+[11.018045] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.033735] (camera_calibration_parsers) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_calibration_parsers.so\x1b[0m\n'}
+[11.036449] (-) TimerEvent: {}
+[11.063705] (image_transport) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[11.136585] (-) TimerEvent: {}
+[11.193836] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[11.236761] (-) TimerEvent: {}
+[11.337304] (-) TimerEvent: {}
+[11.437796] (-) TimerEvent: {}
+[11.533217] (camera_calibration_parsers) StdoutLine: {'line': b'[ 50%] Built target camera_calibration_parsers\n'}
+[11.537953] (-) TimerEvent: {}
+[11.597295] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target convert\x1b[0m\n'}
+[11.638116] (-) TimerEvent: {}
+[11.676453] (camera_calibration_parsers) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[11.738274] (-) TimerEvent: {}
+[11.838783] (-) TimerEvent: {}
+[11.916527] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.938950] (-) TimerEvent: {}
+[12.039380] (-) TimerEvent: {}
+[12.139810] (-) TimerEvent: {}
+[12.240320] (-) TimerEvent: {}
+[12.314711] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.340484] (-) TimerEvent: {}
+[12.374991] (my_robot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.440625] (-) TimerEvent: {}
+[12.541002] (-) TimerEvent: {}
+[12.642197] (-) TimerEvent: {}
+[12.742700] (-) TimerEvent: {}
+[12.843109] (-) TimerEvent: {}
+[12.943559] (-) TimerEvent: {}
+[13.044028] (-) TimerEvent: {}
+[13.144479] (-) TimerEvent: {}
+[13.244929] (-) TimerEvent: {}
+[13.345253] (-) TimerEvent: {}
+[13.445665] (-) TimerEvent: {}
+[13.561294] (-) TimerEvent: {}
+[13.660249] (image_transport) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o\x1b[0m\n'}
+[13.661402] (-) TimerEvent: {}
+[13.761874] (-) TimerEvent: {}
+[13.798621] (image_transport) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o\x1b[0m\n'}
+[13.862055] (-) TimerEvent: {}
+[13.874685] (camera_calibration_parsers) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable convert\x1b[0m\n'}
+[13.962194] (-) TimerEvent: {}
+[14.062661] (-) TimerEvent: {}
+[14.163134] (-) TimerEvent: {}
+[14.263552] (-) TimerEvent: {}
+[14.283341] (camera_calibration_parsers) StdoutLine: {'line': b'[ 64%] Built target convert\n'}
+[14.314218] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[14.363747] (-) TimerEvent: {}
+[14.402517] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[14.411501] (my_robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/led_states__type_support_c.cpp.o\x1b[0m\n'}
+[14.431824] (my_robot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[14.435116] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led__type_support_c.cpp.o\x1b[0m\n'}
+[14.463964] (-) TimerEvent: {}
+[14.512034] (camera_calibration_parsers) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[14.564161] (-) TimerEvent: {}
+[14.664686] (-) TimerEvent: {}
+[14.765292] (-) TimerEvent: {}
+[14.847625] (camera_calibration_parsers) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[14.865465] (-) TimerEvent: {}
+[14.910648] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_calibration_parsers-parse_yml\x1b[0m\n'}
+[14.912779] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_calibration_parsers-parse_ini\x1b[0m\n'}
+[14.965604] (-) TimerEvent: {}
+[15.021476] (camera_calibration_parsers) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o\x1b[0m\n'}
+[15.021861] (camera_calibration_parsers) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o\x1b[0m\n'}
+[15.066137] (-) TimerEvent: {}
+[15.166613] (-) TimerEvent: {}
+[15.267128] (-) TimerEvent: {}
+[15.295504] (image_transport) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.367268] (-) TimerEvent: {}
+[15.467683] (-) TimerEvent: {}
+[15.568150] (-) TimerEvent: {}
+[15.620645] (image_transport) StdoutLine: {'line': b'[ 34%] Built target gtest\n'}
+[15.668257] (-) TimerEvent: {}
+[15.768714] (-) TimerEvent: {}
+[15.870496] (-) TimerEvent: {}
+[15.939548] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.970729] (-) TimerEvent: {}
+[16.071128] (-) TimerEvent: {}
+[16.171589] (-) TimerEvent: {}
+[16.271989] (-) TimerEvent: {}
+[16.284172] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[16.339295] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces\x1b[0m\n'}
+[16.372135] (-) TimerEvent: {}
+[16.395767] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_robot_interfaces\n'}
+[16.449447] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__py\x1b[0m\n'}
+[16.472292] (-) TimerEvent: {}
+[16.495852] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.572454] (-) TimerEvent: {}
+[16.672973] (-) TimerEvent: {}
+[16.773527] (-) TimerEvent: {}
+[16.873994] (-) TimerEvent: {}
+[16.974463] (-) TimerEvent: {}
+[17.074929] (-) TimerEvent: {}
+[17.175410] (-) TimerEvent: {}
+[17.275904] (-) TimerEvent: {}
+[17.376410] (-) TimerEvent: {}
+[17.476881] (-) TimerEvent: {}
+[17.578817] (-) TimerEvent: {}
+[17.656364] (camera_calibration_parsers) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable camera_calibration_parsers-parse_ini\x1b[0m\n'}
+[17.657996] (camera_calibration_parsers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_calibration_parsers-parse_yml\x1b[0m\n'}
+[17.678956] (-) TimerEvent: {}
+[17.779354] (-) TimerEvent: {}
+[17.879851] (-) TimerEvent: {}
+[17.980406] (-) TimerEvent: {}
+[18.000881] (camera_calibration_parsers) StdoutLine: {'line': b'[100%] Built target camera_calibration_parsers-parse_ini\n'}
+[18.080562] (-) TimerEvent: {}
+[18.181034] (-) TimerEvent: {}
+[18.196965] (camera_calibration_parsers) StdoutLine: {'line': b'[100%] Built target camera_calibration_parsers-parse_yml\n'}
+[18.219842] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[18.274263] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'install'}
+[18.281242] (-) TimerEvent: {}
+[18.289338] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azraa/ros2_ws/src/build/camera_calibration_parsers'], 'cwd': '/home/azraa/ros2_ws/src/build/camera_calibration_parsers', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/camera_calibration_parsers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[18.306244] (camera_calibration_parsers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.306531] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so\n'}
+[18.306710] (camera_calibration_parsers) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""\n'}
+[18.306890] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert\n'}
+[18.307048] (camera_calibration_parsers) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert" to ""\n'}
+[18.307211] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers\n'}
+[18.308410] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers\n'}
+[18.308701] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp\n'}
+[18.308906] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h\n'}
+[18.309076] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp\n'}
+[18.309387] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp\n'}
+[18.309520] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h\n'}
+[18.309633] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp\n'}
+[18.309742] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h\n'}
+[18.309887] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers\n'}
+[18.309997] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers\n'}
+[18.310112] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh\n'}
+[18.310227] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv\n'}
+[18.310359] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh\n'}
+[18.310691] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv\n'}
+[18.310850] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash\n'}
+[18.310983] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh\n'}
+[18.311103] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh\n'}
+[18.311385] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv\n'}
+[18.311543] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv\n'}
+[18.311837] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers\n'}
+[18.312028] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake\n'}
+[18.312199] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake\n'}
+[18.312343] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.313028] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.313176] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake\n'}
+[18.313329] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake\n'}
+[18.313464] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml\n'}
+[18.316317] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[18.381446] (-) TimerEvent: {}
+[18.445006] (camera_calibration_parsers) JobEnded: {'identifier': 'camera_calibration_parsers', 'rc': 0}
+[18.446206] (camera_info_manager) JobStarted: {'identifier': 'camera_info_manager'}
+[18.471950] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'cmake'}
+[18.478826] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/azraa/ros2_ws/src/image_common/camera_info_manager', '-DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/camera_info_manager'], 'cwd': '/home/azraa/ros2_ws/src/build/camera_info_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/camera_info_manager'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[18.481579] (-) TimerEvent: {}
+[18.575642] (camera_info_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[18.581732] (-) TimerEvent: {}
+[18.682298] (camera_info_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[18.682525] (-) TimerEvent: {}
+[18.690906] (camera_info_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[18.782684] (-) TimerEvent: {}
+[18.795066] (camera_info_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[18.796527] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.882826] (-) TimerEvent: {}
+[18.896238] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.924873] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.925549] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.931277] (camera_info_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[18.982950] (-) TimerEvent: {}
+[19.082446] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_interfaces__py\n'}
+[19.083083] (-) TimerEvent: {}
+[19.096097] (camera_info_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[19.098003] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.110048] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__python\x1b[0m\n'}
+[19.160237] (my_robot_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[19.175159] (my_robot_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/msg/_led_states_s.c.o\x1b[0m\n'}
+[19.179946] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[19.186545] (-) TimerEvent: {}
+[19.209802] (my_robot_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__python.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_s.c.o\x1b[0m\n'}
+[19.286731] (-) TimerEvent: {}
+[19.317935] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.359665] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.361039] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.364944] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[19.386933] (-) TimerEvent: {}
+[19.438557] (camera_info_manager) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[19.439034] (camera_info_manager) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[19.487086] (-) TimerEvent: {}
+[19.488582] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__python.so\x1b[0m\n'}
+[19.551708] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] Built target my_robot_interfaces__python\n'}
+[19.569830] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.587267] (-) TimerEvent: {}
+[19.588044] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.609366] (my_robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.639647] (my_robot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.657133] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.687417] (-) TimerEvent: {}
+[19.695481] (my_robot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.787570] (-) TimerEvent: {}
+[19.872089] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.887795] (-) TimerEvent: {}
+[19.954451] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[19.975937] (my_robot_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.986683] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)\n'}
+[19.987934] (-) TimerEvent: {}
+[19.992399] (camera_info_manager) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.2.1 (/home/azraa/ros2_ws/src/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)\n'}
+[20.007045] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.090486] (-) TimerEvent: {}
+[20.115391] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[20.140097] (camera_info_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.155543] (camera_info_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[20.163729] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.183653] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[20.190720] (-) TimerEvent: {}
+[20.291453] (-) TimerEvent: {}
+[20.318612] (camera_info_manager) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[20.337979] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[20.341120] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azraa/ros2_ws/src/build/my_robot_interfaces'], 'cwd': '/home/azraa/ros2_ws/src/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[20.356602] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.357127] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[20.357477] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces\n'}
+[20.357742] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg\n'}
+[20.357996] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail\n'}
+[20.358229] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.h\n'}
+[20.358581] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__functions.h\n'}
+[20.359001] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.h\n'}
+[20.359275] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[20.359501] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[20.359753] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__functions.c\n'}
+[20.360012] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[20.360185] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[20.360398] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h\n'}
+[20.360657] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.h\n'}
+[20.360865] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.361004] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv\n'}
+[20.361131] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.h\n'}
+[20.362510] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail\n'}
+[20.363627] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[20.364326] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.c\n'}
+[20.365508] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.h\n'}
+[20.366256] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[20.366981] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[20.367128] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[20.368290] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.h\n'}
+[20.369125] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.h\n'}
+[20.370501] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[20.371093] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[20.372219] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[20.372421] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[20.372584] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.373916] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces\n'}
+[20.374217] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg\n'}
+[20.374372] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.374498] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail\n'}
+[20.374622] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[20.374764] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h\n'}
+[20.374891] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv\n'}
+[20.375000] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail\n'}
+[20.375106] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[20.375254] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[20.375371] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.375481] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.375616] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces\n'}
+[20.375733] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg\n'}
+[20.375839] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail\n'}
+[20.375945] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.376051] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.376320] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[20.376461] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.376578] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv\n'}
+[20.376685] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail\n'}
+[20.376801] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.376908] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.377021] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[20.377146] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.377365] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.377494] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces\n'}
+[20.377648] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg\n'}
+[20.377835] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail\n'}
+[20.378062] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h\n'}
+[20.378237] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.c\n'}
+[20.378392] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[20.378577] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[20.378714] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.378857] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv\n'}
+[20.378982] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail\n'}
+[20.379135] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[20.379285] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[20.379396] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[20.379526] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.c\n'}
+[20.379667] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.379792] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.379929] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[20.380119] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.380273] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces\n'}
+[20.380431] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg\n'}
+[20.380647] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail\n'}
+[20.380784] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__builder.hpp\n'}
+[20.380918] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[20.381035] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[20.381281] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[20.381436] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.hpp\n'}
+[20.381602] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__traits.hpp\n'}
+[20.381743] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.hpp\n'}
+[20.381883] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[20.382008] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv\n'}
+[20.382153] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[20.382311] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail\n'}
+[20.382456] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[20.382666] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__builder.hpp\n'}
+[20.382842] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[20.383046] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.hpp\n'}
+[20.383231] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__traits.hpp\n'}
+[20.383401] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[20.383631] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.hpp\n'}
+[20.383776] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces\n'}
+[20.383972] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg\n'}
+[20.384134] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail\n'}
+[20.384291] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.384425] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[20.384647] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.384833] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.cpp\n'}
+[20.384994] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv\n'}
+[20.385123] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail\n'}
+[20.397481] (-) TimerEvent: {}
+[20.397819] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[20.397981] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.398100] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.398269] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.cpp\n'}
+[20.398386] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.398501] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.398617] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.398728] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.398838] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[20.398949] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[20.399058] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py\n'}
+[20.410221] (camera_info_manager) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[20.436675] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py'...\n"}
+[20.444091] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg\n'}
+[20.444514] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_states.py\n'}
+[20.444720] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[20.444883] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_states_s.c\n'}
+[20.445243] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py\n'}
+[20.445433] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[20.445670] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv\n'}
+[20.445804] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[20.445918] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[20.446162] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led_s.c\n'}
+[20.446291] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py\n'}
+[20.446403] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led.py\n'}
+[20.446513] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.446831] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.447187] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.447934] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.448242] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.448975] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.449313] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so\n'}
+[20.449706] (my_robot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so" to ""\n'}
+[20.449944] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[20.450165] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.idl\n'}
+[20.450368] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[20.450610] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl\n'}
+[20.450816] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[20.451093] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.msg\n'}
+[20.451222] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[20.451559] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[20.451758] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[20.451950] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv\n'}
+[20.452169] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg\n'}
+[20.452313] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg\n'}
+[20.452532] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[20.452724] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[20.452920] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[20.453143] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.453401] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[20.453608] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[20.453803] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[20.454115] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[20.454366] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[20.454580] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[20.454793] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[20.454949] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[20.455149] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.455367] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.455609] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.455815] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.456046] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.456249] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.456519] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.456794] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.457013] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.457317] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.457538] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.457746] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.457948] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.458148] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.458347] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.458542] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.458750] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.458944] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.459173] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[20.461383] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[20.470169] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[20.470343] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[20.498253] (-) TimerEvent: {}
+[20.598959] (-) TimerEvent: {}
+[20.641976] (camera_info_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.699117] (-) TimerEvent: {}
+[20.761884] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[20.763056] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[20.799337] (-) TimerEvent: {}
+[20.806461] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[20.843734] (camera_info_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[20.844179] (camera_info_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[20.847183] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[20.867290] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[20.870349] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/azraa/ros2_ws/src/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/my_cpp_pkg'], 'cwd': '/home/azraa/ros2_ws/src/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/src/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/src/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[20.901563] (-) TimerEvent: {}
+[20.992301] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[21.001709] (-) TimerEvent: {}
+[21.102356] (-) TimerEvent: {}
+[21.105299] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[21.106127] (camera_info_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[21.162853] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[21.178239] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[21.202535] (-) TimerEvent: {}
+[21.302972] (-) TimerEvent: {}
+[21.356921] (camera_info_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[21.357830] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[21.403187] (-) TimerEvent: {}
+[21.413834] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[21.416267] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[21.503357] (-) TimerEvent: {}
+[21.568926] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[21.569974] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[21.599873] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[21.603464] (-) TimerEvent: {}
+[21.644374] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[21.645808] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[21.653050] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[21.703635] (-) TimerEvent: {}
+[21.804093] (-) TimerEvent: {}
+[21.818756] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[21.820496] (camera_info_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.883686] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[21.886345] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[21.904233] (-) TimerEvent: {}
+[22.004630] (-) TimerEvent: {}
+[22.105042] (-) TimerEvent: {}
+[22.148620] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[22.202597] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[22.203609] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[22.205221] (-) TimerEvent: {}
+[22.207262] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[22.286559] (my_cpp_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[22.286832] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[22.305736] (-) TimerEvent: {}
+[22.361999] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/azraa/ros2_ws/src/install/my_py_pkg', '--uninstall', '--editable', '--build-directory', '/home/azraa/ros2_ws/src/build/my_py_pkg/build'], 'cwd': '/home/azraa/ros2_ws/src/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_ZA:en', 'USER': 'azraa', 'SSH_AGENT_PID': '1608', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/azraa', 'OLDPWD': '/home/azraa/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1406', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/azraa/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'azraa', 'JOURNAL_STREAM': '8:34777', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'azraa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668', 'INVOCATION_ID': '92b30d105c1146deb51ae26f431276ce', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_ZA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/azraa/ros2_ws/src/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/azraa/ros2_ws/src/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/azraa/ros2_ws/src/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[22.406284] (-) TimerEvent: {}
+[22.506806] (-) TimerEvent: {}
+[22.607280] (-) TimerEvent: {}
+[22.707758] (-) TimerEvent: {}
+[22.801877] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[22.807926] (-) TimerEvent: {}
+[22.839382] (camera_info_manager) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[22.864200] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[22.867033] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[22.869811] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[22.883388] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[22.908072] (-) TimerEvent: {}
+[22.925417] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.955811] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[23.008197] (-) TimerEvent: {}
+[23.052907] (camera_info_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.076890] (camera_info_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[23.080213] (camera_info_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/src/build/camera_info_manager\n'}
+[23.094325] (camera_info_manager) CommandEnded: {'returncode': 0}
+[23.097948] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'build'}
+[23.098384] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/src/build/camera_info_manager', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/src/build/camera_info_manager', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1608'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:34777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668'), ('INVOCATION_ID', '92b30d105c1146deb51ae26f431276ce'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/src/build/camera_info_manager'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/src/install/camera_calibration_parsers:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[23.108354] (-) TimerEvent: {}
+[23.127969] (my_py_pkg) StdoutLine: {'line': b'Removing /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[23.164426] (my_py_pkg) CommandEnded: {'returncode': 0}
+[23.168037] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_py_pkg', 'build', '--build-base', '/home/azraa/ros2_ws/src/build/my_py_pkg/build', 'install', '--prefix', '/home/azraa/ros2_ws/src/install/my_py_pkg', '--record', '/home/azraa/ros2_ws/src/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/azraa/ros2_ws/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_ZA:en', 'USER': 'azraa', 'SSH_AGENT_PID': '1608', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/azraa', 'OLDPWD': '/home/azraa/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1406', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/azraa/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'azraa', 'JOURNAL_STREAM': '8:34777', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'azraa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1668,unix/azraa-VirtualBox:/tmp/.ICE-unix/1668', 'INVOCATION_ID': '92b30d105c1146deb51ae26f431276ce', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/669b15a2_603a_4e51_a67f_52673eb0160d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_ZA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/azraa/ros2_ws/src/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_py_pkg:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/azraa/ros2_ws/src/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/azraa/ros2_ws/src/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces'}, 'shell': False}
+[23.195578] (my_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[23.208494] (-) TimerEvent: {}
+[23.245428] (camera_info_manager) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_info_manager\x1b[0m\n'}
+[23.252836] (my_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[23.308655] (-) TimerEvent: {}
+[23.373308] (camera_info_manager) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o\x1b[0m\n'}
+[23.408795] (-) TimerEvent: {}
+[23.459204] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.508971] (-) TimerEvent: {}
+[23.581967] (camera_info_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/camera_info_manager/src/camera_info_manager.cpp:46:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krcpputils/env.hpp: No such file or directory\n'}
+[23.582334] (camera_info_manager) StderrLine: {'line': b'   46 | #include \x1b[01;31m\x1b[K"rcpputils/env.hpp"\x1b[m\x1b[K\n'}
+[23.582538] (camera_info_manager) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.582757] (camera_info_manager) StderrLine: {'line': b'compilation terminated.\n'}
+[23.586031] (camera_info_manager) StderrLine: {'line': b'make[2]: *** [CMakeFiles/camera_info_manager.dir/build.make:63: CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o] Error 1\n'}
+[23.586821] (camera_info_manager) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_info_manager.dir/all] Error 2\n'}
+[23.587319] (camera_info_manager) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[23.590499] (camera_info_manager) CommandEnded: {'returncode': 2}
+[23.609241] (-) TimerEvent: {}
+[23.638586] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[23.639137] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[23.639372] (my_py_pkg) StdoutLine: {'line': b'writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[23.639592] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[23.639887] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[23.640134] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[23.640337] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[23.644307] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[23.645648] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[23.650729] (camera_info_manager) JobEnded: {'identifier': 'camera_info_manager', 'rc': 2}
+[23.709322] (-) TimerEvent: {}
+[23.757039] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[23.759923] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[23.760491] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[23.760671] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[23.760953] (my_py_pkg) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/src/build/my_py_pkg/build\n'}
+[23.761473] (my_py_pkg) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib\n'}
+[23.761649] (my_py_pkg) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.761812] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_server.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.762724] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/template_python_node.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.763407] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/battery_node.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.763988] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_counter.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.764405] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/hw_status_publisher.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.764881] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.765478] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.765983] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/robot_news_station.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.766597] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/smartphone.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.767115] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.767342] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/number_publisher.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.767833] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/add_two_ints_client.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.768345] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/led_panel.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[23.769450] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[23.771178] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[23.773451] (my_py_pkg) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.774048] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.774338] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.774650] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/battery_node.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.774956] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.775406] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.775697] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.775899] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.776080] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.776258] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.776436] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.776611] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.776990] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.777263] (my_py_pkg) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[23.777468] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc\n'}
+[23.780390] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-38.pyc\n'}
+[23.780893] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/battery_node.py to battery_node.cpython-38.pyc\n'}
+[23.782312] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-38.pyc\n'}
+[23.783101] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-38.pyc\n'}
+[23.783749] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-38.pyc\n'}
+[23.784430] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc\n'}
+[23.785039] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-38.pyc\n'}
+[23.785815] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-38.pyc\n'}
+[23.786362] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[23.787183] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-38.pyc\n'}
+[23.787741] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-38.pyc\n'}
+[23.788666] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-38.pyc\n'}
+[23.789582] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[23.792738] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/azraa/ros2_ws/src/install/my_py_pkg/share/my_py_pkg\n'}
+[23.793091] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.796583] (my_py_pkg) StdoutLine: {'line': b'Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info\n'}
+[23.798742] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[23.809724] (-) TimerEvent: {}
+[23.811292] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[23.811728] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[23.828407] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.828781] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.828984] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.829283] (my_py_pkg) StdoutLine: {'line': b'Installing battery script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.829478] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.829640] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.829761] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.829991] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.830145] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.830250] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.830406] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg\n'}
+[23.830788] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/azraa/ros2_ws/src/build/my_py_pkg/install.log'\n"}
+[23.864493] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 'SIGINT'}
+[23.909949] (-) TimerEvent: {}
+[23.927626] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[23.927942] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[24.010145] (-) TimerEvent: {}
+[24.014385] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[24.014703] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[24.110361] (-) TimerEvent: {}
+[24.117560] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[24.119227] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[24.210528] (-) TimerEvent: {}
+[24.311034] (-) TimerEvent: {}
+[24.412099] (-) TimerEvent: {}
+[24.449458] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[24.512328] (-) TimerEvent: {}
+[24.613032] (-) TimerEvent: {}
+[24.713537] (-) TimerEvent: {}
+[24.723472] (my_cpp_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/azraa/ros2_ws/src/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[24.813764] (-) TimerEvent: {}
+[24.867181] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.913993] (-) TimerEvent: {}
+[24.927598] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[24.931454] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/src/build/my_cpp_pkg\n'}
+[24.943018] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[25.014186] (-) TimerEvent: {}
+[25.114576] (-) TimerEvent: {}
+[25.215016] (-) TimerEvent: {}
+[25.315649] (-) TimerEvent: {}
+[25.416482] (-) TimerEvent: {}
+[25.517206] (-) TimerEvent: {}
+[25.618268] (-) TimerEvent: {}
+[25.718805] (-) TimerEvent: {}
+[25.819868] (-) TimerEvent: {}
+[25.920435] (-) TimerEvent: {}
+[26.020936] (-) TimerEvent: {}
+[26.121378] (-) TimerEvent: {}
+[26.221813] (-) TimerEvent: {}
+[26.322236] (-) TimerEvent: {}
+[26.422683] (-) TimerEvent: {}
+[26.523229] (-) TimerEvent: {}
+[26.623961] (-) TimerEvent: {}
+[26.724350] (-) TimerEvent: {}
+[26.815274] (image_transport) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libimage_transport.so\x1b[0m\n'}
+[26.824671] (-) TimerEvent: {}
+[26.925385] (-) TimerEvent: {}
+[27.026154] (-) TimerEvent: {}
+[27.126506] (-) TimerEvent: {}
+[27.227030] (-) TimerEvent: {}
+[27.327641] (-) TimerEvent: {}
+[27.428693] (-) TimerEvent: {}
+[27.450871] (image_transport) StdoutLine: {'line': b'[ 37%] Built target image_transport\n'}
+[27.463089] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport-remapping\x1b[0m\n'}
+[27.463350] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target republish\x1b[0m\n'}
+[27.463522] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport_plugins\x1b[0m\n'}
+[27.464189] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target list_transports\x1b[0m\n'}
+[27.521392] (image_transport) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o\x1b[0m\n'}
+[27.528827] (-) TimerEvent: {}
+[27.535566] (image_transport) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o\x1b[0m\n'}
+[27.547342] (image_transport) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o\x1b[0m\n'}
+[27.551978] (image_transport) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_transport-remapping.dir/test/test_remapping.cpp.o\x1b[0m\n'}
+[27.629005] (-) TimerEvent: {}
+[27.730102] (-) TimerEvent: {}
+[27.830561] (-) TimerEvent: {}
+[27.931048] (-) TimerEvent: {}
+[28.031605] (-) TimerEvent: {}
+[28.132098] (-) TimerEvent: {}
+[28.232598] (-) TimerEvent: {}
+[28.333045] (-) TimerEvent: {}
+[28.433573] (-) TimerEvent: {}
+[28.534036] (-) TimerEvent: {}
+[28.634496] (-) TimerEvent: {}
+[28.734957] (-) TimerEvent: {}
+[28.835443] (-) TimerEvent: {}
+[28.935931] (-) TimerEvent: {}
+[29.036456] (-) TimerEvent: {}
+[29.136942] (-) TimerEvent: {}
+[29.238052] (-) TimerEvent: {}
+[29.338501] (-) TimerEvent: {}
+[29.438947] (-) TimerEvent: {}
+[29.539446] (-) TimerEvent: {}
+[29.639924] (-) TimerEvent: {}
+[29.740417] (-) TimerEvent: {}
+[29.840935] (-) TimerEvent: {}
+[29.941505] (-) TimerEvent: {}
+[30.042240] (-) TimerEvent: {}
+[30.142726] (-) TimerEvent: {}
+[30.175992] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.176496] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:65:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQosOverridingOptions\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.176638] (image_transport) StderrLine: {'line': b'   65 |     auto qos_override_options = rclcpp::\x1b[01;31m\x1b[KQosOverridingOptions\x1b[m\x1b[K(\n'}
+[30.176754] (image_transport) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.176865] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:67:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::QosPolicyKind\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[30.176984] (image_transport) StderrLine: {'line': b'   67 |       rclcpp::\x1b[01;31m\x1b[KQosPolicyKind\x1b[m\x1b[K::Depth,\n'}
+[30.177094] (image_transport) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.177258] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:68:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::QosPolicyKind\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[30.177376] (image_transport) StderrLine: {'line': b'   68 |       rclcpp::\x1b[01;31m\x1b[KQosPolicyKind\x1b[m\x1b[K::Durability,\n'}
+[30.177571] (image_transport) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.177801] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:69:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::QosPolicyKind\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[30.177917] (image_transport) StderrLine: {'line': b'   69 |       rclcpp::\x1b[01;31m\x1b[KQosPolicyKind\x1b[m\x1b[K::History,\n'}
+[30.178026] (image_transport) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.178135] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:72:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kqos_overriding_options\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.178259] (image_transport) StderrLine: {'line': b'   72 |     pub_options.\x1b[01;31m\x1b[Kqos_overriding_options\x1b[m\x1b[K = qos_override_options;\n'}
+[30.178369] (image_transport) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.178520] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:83:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kqos_overriding_options\x1b[m\x1b[K\xe2\x80\x99\n'}
+[30.178641] (image_transport) StderrLine: {'line': b'   83 |     sub_options.\x1b[01;31m\x1b[Kqos_overriding_options\x1b[m\x1b[K = qos_override_options;\n'}
+[30.178751] (image_transport) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.242894] (-) TimerEvent: {}
+[30.343400] (-) TimerEvent: {}
+[30.443913] (-) TimerEvent: {}
+[30.544402] (-) TimerEvent: {}
+[30.644899] (-) TimerEvent: {}
+[30.745996] (-) TimerEvent: {}
+[30.846500] (-) TimerEvent: {}
+[30.946972] (-) TimerEvent: {}
+[31.047487] (-) TimerEvent: {}
+[31.147979] (-) TimerEvent: {}
+[31.248488] (-) TimerEvent: {}
+[31.348965] (-) TimerEvent: {}
+[31.449493] (-) TimerEvent: {}
+[31.550068] (-) TimerEvent: {}
+[31.607919] (image_transport) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable image_transport-remapping\x1b[0m\n'}
+[31.650199] (-) TimerEvent: {}
+[31.750772] (-) TimerEvent: {}
+[31.851432] (-) TimerEvent: {}
+[31.952014] (-) TimerEvent: {}
+[32.052518] (-) TimerEvent: {}
+[32.112570] (image_transport) StdoutLine: {'line': b'[ 53%] Built target image_transport-remapping\n'}
+[32.126992] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport-camera_common\x1b[0m\n'}
+[32.152688] (-) TimerEvent: {}
+[32.157807] (image_transport) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/image_transport-camera_common.dir/test/test_camera_common.cpp.o\x1b[0m\n'}
+[32.252858] (-) TimerEvent: {}
+[32.307683] (image_transport) StderrLine: {'line': b'make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1\n'}
+[32.307908] (image_transport) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2\n'}
+[32.308031] (image_transport) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[32.352999] (-) TimerEvent: {}
+[32.453346] (-) TimerEvent: {}
+[32.554258] (-) TimerEvent: {}
+[32.654703] (-) TimerEvent: {}
+[32.755091] (-) TimerEvent: {}
+[32.855435] (-) TimerEvent: {}
+[32.955811] (-) TimerEvent: {}
+[33.056221] (-) TimerEvent: {}
+[33.156658] (-) TimerEvent: {}
+[33.257034] (-) TimerEvent: {}
+[33.357800] (-) TimerEvent: {}
+[33.387618] (image_transport) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable image_transport-camera_common\x1b[0m\n'}
+[33.458114] (-) TimerEvent: {}
+[33.558779] (-) TimerEvent: {}
+[33.659420] (-) TimerEvent: {}
+[33.760004] (-) TimerEvent: {}
+[33.801014] (image_transport) StdoutLine: {'line': b'[ 59%] Built target image_transport-camera_common\n'}
+[33.860326] (-) TimerEvent: {}
+[33.960960] (-) TimerEvent: {}
+[34.061540] (-) TimerEvent: {}
+[34.162086] (-) TimerEvent: {}
+[34.262687] (-) TimerEvent: {}
+[34.363417] (-) TimerEvent: {}
+[34.464030] (-) TimerEvent: {}
+[34.511411] (image_transport) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable list_transports\x1b[0m\n'}
+[34.564231] (-) TimerEvent: {}
+[34.664767] (-) TimerEvent: {}
+[34.765296] (-) TimerEvent: {}
+[34.865961] (-) TimerEvent: {}
+[34.885628] (image_transport) StdoutLine: {'line': b'[ 62%] Built target list_transports\n'}
+[34.966328] (-) TimerEvent: {}
+[35.066899] (-) TimerEvent: {}
+[35.132534] (image_transport) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libimage_transport_plugins.so\x1b[0m\n'}
+[35.167055] (-) TimerEvent: {}
+[35.267418] (-) TimerEvent: {}
+[35.367800] (-) TimerEvent: {}
+[35.468201] (-) TimerEvent: {}
+[35.496564] (image_transport) StdoutLine: {'line': b'[ 65%] Built target image_transport_plugins\n'}
+[35.498437] (image_transport) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[35.501140] (image_transport) JobEnded: {'identifier': 'image_transport', 'rc': 'SIGINT'}
+[35.512074] (gscam) JobSkipped: {'identifier': 'gscam'}
+[35.512297] (image_common) JobSkipped: {'identifier': 'image_common'}
+[35.512359] (my_robot_bringup) JobSkipped: {'identifier': 'my_robot_bringup'}
+[35.512404] (-) EventReactorShutdown: {}

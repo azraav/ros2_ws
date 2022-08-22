@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000236] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000270] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.000310] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.000355] (-) JobUnselected: {'identifier': 'bme280'}
+[0.000386] (-) JobUnselected: {'identifier': 'flir_lepton_msgs'}
+[0.000429] (-) JobUnselected: {'identifier': 'gscam'}
+[0.000453] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.000476] (-) JobUnselected: {'identifier': 'm2s2_custom_interfaces'}
+[0.000500] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.000528] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000551] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.000574] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000602] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000626] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.000649] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.000677] (flir_lepton_capture) JobQueued: {'identifier': 'flir_lepton_capture', 'dependencies': OrderedDict([('m2s2_custom_interfaces', '/home/azraa/ros2_ws/install/m2s2_custom_interfaces')])}
+[0.000711] (flir_lepton_capture) JobStarted: {'identifier': 'flir_lepton_capture'}
+[0.030758] (flir_lepton_capture) JobProgress: {'identifier': 'flir_lepton_capture', 'progress': 'cmake'}
+[0.030961] (flir_lepton_capture) JobProgress: {'identifier': 'flir_lepton_capture', 'progress': 'build'}
+[0.031025] (flir_lepton_capture) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/build/flir_lepton_capture', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/build/flir_lepton_capture', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1667'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:38920'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1724,unix/azraa-VirtualBox:/tmp/.ICE-unix/1724'), ('INVOCATION_ID', '0b2dc7eccb254304ba89955957988d4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a02e15c_59df_4ad6_9aa3_a60e9e3946d9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.350'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/flir_lepton_capture'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.071177] (flir_lepton_capture) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098411] (-) TimerEvent: {}
+[0.110151] (flir_lepton_capture) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198653] (-) TimerEvent: {}
+[0.299101] (-) TimerEvent: {}
+[0.400425] (-) TimerEvent: {}
+[0.461853] (flir_lepton_capture) StdoutLine: {'line': b'-- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)\n'}
+[0.486684] (flir_lepton_capture) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[0.500804] (-) TimerEvent: {}
+[0.528141] (flir_lepton_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.533074] (flir_lepton_capture) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.601417] (-) TimerEvent: {}
+[0.696019] (flir_lepton_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701671] (-) TimerEvent: {}
+[0.774544] (flir_lepton_capture) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.777357] (flir_lepton_capture) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801901] (-) TimerEvent: {}
+[0.902769] (-) TimerEvent: {}
+[1.003156] (-) TimerEvent: {}
+[1.103956] (-) TimerEvent: {}
+[1.204425] (-) TimerEvent: {}
+[1.243549] (flir_lepton_capture) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.304650] (-) TimerEvent: {}
+[1.325108] (flir_lepton_capture) StdoutLine: {'line': b'-- Found m2s2_custom_interfaces: 0.0.0 (/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake)\n'}
+[1.404844] (-) TimerEvent: {}
+[1.505609] (-) TimerEvent: {}
+[1.605932] (-) TimerEvent: {}
+[1.706310] (-) TimerEvent: {}
+[1.747359] (flir_lepton_capture) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.806893] (-) TimerEvent: {}
+[1.907224] (-) TimerEvent: {}
+[1.913673] (flir_lepton_capture) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.966585] (flir_lepton_capture) StdoutLine: {'line': b'-- Generating done\n'}
+[1.969828] (flir_lepton_capture) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/build/flir_lepton_capture\n'}
+[2.003496] (flir_lepton_capture) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_publisher\x1b[0m\n'}
+[2.007315] (-) TimerEvent: {}
+[2.055134] (flir_lepton_capture) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o\x1b[0m\n'}
+[2.107677] (-) TimerEvent: {}
+[2.208164] (-) TimerEvent: {}
+[2.308725] (-) TimerEvent: {}
+[2.322813] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[2.323145] (flir_lepton_capture) StderrLine: {'line': b"  263 | data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>(\x1b[01;35m\x1b[K'lepton_raw'\x1b[m\x1b[K,qos);\n"}
+[2.323246] (flir_lepton_capture) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.323328] (flir_lepton_capture) StderrLine: {'line': b'\n'}
+[2.409149] (-) TimerEvent: {}
+[2.509743] (-) TimerEvent: {}
+[2.610186] (-) TimerEvent: {}
+[2.711072] (-) TimerEvent: {}
+[2.812346] (-) TimerEvent: {}
+[2.912894] (-) TimerEvent: {}
+[3.013486] (-) TimerEvent: {}
+[3.114224] (-) TimerEvent: {}
+[3.214721] (-) TimerEvent: {}
+[3.315447] (-) TimerEvent: {}
+[3.416524] (-) TimerEvent: {}
+[3.517431] (-) TimerEvent: {}
+[3.618561] (-) TimerEvent: {}
+[3.719042] (-) TimerEvent: {}
+[3.819544] (-) TimerEvent: {}
+[3.920819] (-) TimerEvent: {}
+[4.021353] (-) TimerEvent: {}
+[4.121813] (-) TimerEvent: {}
+[4.222429] (-) TimerEvent: {}
+[4.324103] (-) TimerEvent: {}
+[4.424518] (-) TimerEvent: {}
+[4.525148] (-) TimerEvent: {}
+[4.625643] (-) TimerEvent: {}
+[4.680347] (flir_lepton_capture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:44\x1b[m\x1b[K:\n'}
+[4.680639] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflir_lepton_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kflir_lepton\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.680926] (flir_lepton_capture) StderrLine: {'line': b'   95 |   rclcpp::Publisher<\x1b[01;31m\x1b[Kflir_lepton_msgs\x1b[m\x1b[K::msg::RawData>::SharedPtr raw_data_pub_;\n'}
+[4.681003] (flir_lepton_capture) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.681055] (flir_lepton_capture) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kflir_lepton\x1b[m\x1b[K\n'}
+[4.681102] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.681150] (flir_lepton_capture) StderrLine: {'line': b'   95 |   rclcpp::Publisher<flir_lepton_msgs::msg::RawData\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr raw_data_pub_;\n'}
+[4.681195] (flir_lepton_capture) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.681240] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.681290] (flir_lepton_capture) StderrLine: {'line': b'   95 |   rclcpp::Publisher<flir_lepton_msgs::msg::RawData>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K raw_data_pub_;\n'}
+[4.681335] (flir_lepton_capture) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.681380] (flir_lepton_capture) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.690019] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kraw_data_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.690164] (flir_lepton_capture) StderrLine: {'line': b'   95 |   rclcpp::Publisher<flir_lepton_msgs::msg::RawData>::SharedPtr \x1b[01;31m\x1b[Kraw_data_pub_\x1b[m\x1b[K;\n'}
+[4.690283] (flir_lepton_capture) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.723668] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool flir_lepton::FlirLeptonNode::init_stream()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.723874] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kraw_data_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.723932] (flir_lepton_capture) StderrLine: {'line': b"  263 |   \x1b[01;31m\x1b[Kraw_data_pub_\x1b[m\x1b[K = create_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos);\n"}
+[4.723993] (flir_lepton_capture) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.725837] (-) TimerEvent: {}
+[4.734394] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflir_lepton_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kflir_lepton\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.734678] (flir_lepton_capture) StderrLine: {'line': b"  263 |   raw_data_pub_ = create_publisher<\x1b[01;31m\x1b[Kflir_lepton_msgs\x1b[m\x1b[K::msg::RawData>('lepton_raw',qos);\n"}
+[4.734815] (flir_lepton_capture) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.734944] (flir_lepton_capture) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[Kflir_lepton\x1b[m\x1b[K\n'}
+[4.735056] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[4.735291] (flir_lepton_capture) StderrLine: {'line': b"  263 |   raw_data_pub_ = \x1b[01;31m\x1b[Kcreate_publisher<flir_lepton_msgs::msg::RawData>\x1b[m\x1b[K('lepton_raw',qos);\n"}
+[4.735373] (flir_lepton_capture) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.735452] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kflir_lepton::FlirLeptonNode::create_publisher<<expression error> >(int, const rclcpp::QoS&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.735533] (flir_lepton_capture) StderrLine: {'line': b"  263 | te_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n"}
+[4.735611] (flir_lepton_capture) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.735690] (flir_lepton_capture) StderrLine: {'line': b'\n'}
+[4.735767] (flir_lepton_capture) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[4.735854] (flir_lepton_capture) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27\x1b[m\x1b[K:\n'}
+[4.735933] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.736019] (flir_lepton_capture) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[4.736582] (flir_lepton_capture) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.736680] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.736762] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.736842] (flir_lepton_capture) StderrLine: {'line': b"  263 | te_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n"}
+[4.736927] (flir_lepton_capture) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.737006] (flir_lepton_capture) StderrLine: {'line': b'\n'}
+[4.742360] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid flir_lepton::FlirLeptonNode::publish_stream()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.742472] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:394:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflir_lepton_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.742527] (flir_lepton_capture) StderrLine: {'line': b'  394 |       \x1b[01;31m\x1b[Kflir_lepton_msgs\x1b[m\x1b[K::msg::RawData::SharedPtr raw_data(new flir_lepton_msgs::msg::RawData());\n'}
+[4.742576] (flir_lepton_capture) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.748020] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:400:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kraw_data\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.748181] (flir_lepton_capture) StderrLine: {'line': b'  400 |       \x1b[01;31m\x1b[Kraw_data\x1b[m\x1b[K->header.stamp = timestamp_;\n'}
+[4.748243] (flir_lepton_capture) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.759493] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:449:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kraw_data_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.759719] (flir_lepton_capture) StderrLine: {'line': b'  449 |       \x1b[01;31m\x1b[Kraw_data_pub_\x1b[m\x1b[K.publish(raw_data);\n'}
+[4.759830] (flir_lepton_capture) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.763721] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid flir_lepton::gst_eos_cb(GstAppSink*, gpointer)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.763896] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kappsink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.764032] (flir_lepton_capture) StderrLine: {'line': b'  506 | void gst_eos_cb(\x1b[01;35m\x1b[KGstAppSink * appsink\x1b[m\x1b[K, gpointer user_data)\n'}
+[4.764299] (flir_lepton_capture) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.764376] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuser_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.764444] (flir_lepton_capture) StderrLine: {'line': b'  506 | void gst_eos_cb(GstAppSink * appsink, \x1b[01;35m\x1b[Kgpointer user_data\x1b[m\x1b[K)\n'}
+[4.764492] (flir_lepton_capture) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.764627] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KGstFlowReturn flir_lepton::gst_new_preroll_cb(GstAppSink*, gpointer)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.764717] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kappsink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.764797] (flir_lepton_capture) StderrLine: {'line': b'  509 | GstFlowReturn gst_new_preroll_cb(\x1b[01;35m\x1b[KGstAppSink * appsink\x1b[m\x1b[K, gpointer user_data)\n'}
+[4.764876] (flir_lepton_capture) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.764955] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuser_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.765034] (flir_lepton_capture) StderrLine: {'line': b'  509 | GstFlowReturn gst_new_preroll_cb(GstAppSink * appsink, \x1b[01;35m\x1b[Kgpointer user_data\x1b[m\x1b[K)\n'}
+[4.765113] (flir_lepton_capture) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.765198] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KGstFlowReturn flir_lepton::gst_new_asample_cb(GstAppSink*, gpointer)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.765277] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kappsink\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.765356] (flir_lepton_capture) StderrLine: {'line': b'  513 | GstFlowReturn gst_new_asample_cb(\x1b[01;35m\x1b[KGstAppSink * appsink\x1b[m\x1b[K, gpointer user_data)\n'}
+[4.765434] (flir_lepton_capture) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.765558] (flir_lepton_capture) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuser_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.765657] (flir_lepton_capture) StderrLine: {'line': b'  513 | GstFlowReturn gst_new_asample_cb(GstAppSink * appsink, \x1b[01;35m\x1b[Kgpointer user_data\x1b[m\x1b[K)\n'}
+[4.765735] (flir_lepton_capture) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.826251] (-) TimerEvent: {}
+[4.926715] (-) TimerEvent: {}
+[5.027608] (-) TimerEvent: {}
+[5.128217] (-) TimerEvent: {}
+[5.228644] (-) TimerEvent: {}
+[5.329430] (-) TimerEvent: {}
+[5.430369] (-) TimerEvent: {}
+[5.531343] (-) TimerEvent: {}
+[5.554927] (flir_lepton_capture) StderrLine: {'line': b'make[2]: *** [CMakeFiles/flir_lepton_publisher.dir/build.make:63: CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o] Error 1\n'}
+[5.555507] (flir_lepton_capture) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flir_lepton_publisher.dir/all] Error 2\n'}
+[5.555610] (flir_lepton_capture) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.560618] (flir_lepton_capture) CommandEnded: {'returncode': 2}
+[5.614052] (flir_lepton_capture) JobEnded: {'identifier': 'flir_lepton_capture', 'rc': 2}
+[5.625706] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[0.040s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake /home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/flir_lepton_capture
+[0.083s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.204s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.705s] -- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+[0.741s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.193s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.475s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.571s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.922s] -- Configuring done
+[1.959s] -- Generating done
+[1.965s] -- Build files have been written to: /home/azraa/ros2_ws/build/flir_lepton_capture
+[1.980s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_capture' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake /home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/flir_lepton_capture
+[1.988s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_capture -- -j4 -l4
+[2.115s] [35m[1mScanning dependencies of target flir_lepton_capture[0m
+[2.116s] [35m[1mScanning dependencies of target lepton_node[0m
+[2.277s] [ 25%] [32mBuilding CXX object CMakeFiles/lepton_node.dir/rclcpp_components/node_main_lepton_node.cpp.o[0m
+[2.339s] [ 50%] [32mBuilding CXX object CMakeFiles/flir_lepton_capture.dir/src/flir_lepton_capture.cpp.o[0m
+[2.477s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29:10:[m[K [01;31m[Kfatal error: [m[Kflir_lepton/flir_lepton.hpp: No such file or directory
+[2.477s]    29 | #include [01;31m[K"flir_lepton/flir_lepton.hpp"[m[K
+[2.477s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.477s] compilation terminated.
+[2.479s] make[2]: *** [CMakeFiles/flir_lepton_capture.dir/build.make:63: CMakeFiles/flir_lepton_capture.dir/src/flir_lepton_capture.cpp.o] Error 1
+[2.480s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/flir_lepton_capture.dir/all] Error 2
+[2.480s] make[1]: *** Waiting for unfinished jobs....
+[5.488s] [ 75%] [32m[1mLinking CXX executable lepton_node[0m
+[5.867s] [ 75%] Built target lepton_node
+[5.869s] make: *** [Makefile:141: all] Error 2
+[5.873s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_capture' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_capture -- -j4 -l4

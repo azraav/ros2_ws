@@ -1,0 +1,37 @@
+[0.023s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/my_robot_bringup
+[0.291s] -- The C compiler identification is GNU 9.4.0
+[0.500s] -- The CXX compiler identification is GNU 9.4.0
+[0.517s] -- Check for working C compiler: /usr/bin/cc
+[0.597s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.600s] -- Detecting C compiler ABI info
+[0.680s] -- Detecting C compiler ABI info - done
+[0.702s] -- Detecting C compile features
+[0.703s] -- Detecting C compile features - done
+[0.708s] -- Check for working CXX compiler: /usr/bin/c++
+[0.797s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.799s] -- Detecting CXX compiler ABI info
+[0.890s] -- Detecting CXX compiler ABI info - done
+[0.911s] -- Detecting CXX compile features
+[0.912s] -- Detecting CXX compile features - done
+[0.926s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.975s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.372s] -- Configuring done
+[1.374s] -- Generating done
+[1.376s] -- Build files have been written to: /home/azraa/ros2_ws/build/my_robot_bringup
+[1.383s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/my_robot_bringup
+[1.384s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[1.425s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[1.461s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_bringup
+[1.470s] -- Install configuration: ""
+[1.471s] -- Execute custom install script
+[1.471s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:20 (message):
+[1.471s]   ament_cmake_symlink_install_directory() called with unused/unsupported
+[1.471s]   arguments: /my_robot_bringup
+[1.471s] Call Stack (most recent call first):
+[1.471s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.471s]   cmake_install.cmake:41 (include)
+[1.471s] 
+[1.471s] 
+[1.472s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_bringup

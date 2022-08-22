@@ -1,0 +1,15 @@
+[0.048s] Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/azraa/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/my_cpp_pkg
+[0.074s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.435s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.447s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.809s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.812s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.115s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.362s] -- Found my_robot_interfaces: 0.0.0 (/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.516s] -- Configuring done
+[1.586s] -- Generating done
+[1.592s] -- Build files have been written to: /home/azraa/ros2_ws/build/my_cpp_pkg

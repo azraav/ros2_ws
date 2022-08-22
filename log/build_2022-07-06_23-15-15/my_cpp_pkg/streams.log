@@ -1,0 +1,48 @@
+[0.049s] Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.247s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.032s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.225s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.940s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.950s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.429s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.017s] -- Configuring done
+[3.146s] -- Generating done
+[3.155s] -- Build files have been written to: /home/azraa/ros2_ws/build/my_cpp_pkg
+[3.287s] [ 33%] Built target cpp_node
+[3.288s] [ 33%] Built target add_two_ints_server
+[3.292s] [ 50%] Built target robot_news_station
+[3.296s] [ 66%] Built target smartphone
+[3.320s] [35m[1mScanning dependencies of target add_two_ints_client[0m
+[3.369s] [ 83%] Built target add_two_ints_client_no_oop
+[3.409s] [ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[8.542s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[9.061s] [100%] Built target add_two_ints_client
+[9.095s] Invoked command in '/home/azraa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[9.248s] Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_cpp_pkg
+[9.271s] -- Install configuration: ""
+[9.282s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[9.285s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[9.289s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[9.293s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[9.298s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[9.299s] -- Installing: /home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[9.302s] -- Set runtime path of "/home/azraa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[9.302s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[9.303s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[9.304s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[9.304s] -- Installing: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[9.305s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[9.305s] -- Installing: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[9.306s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[9.307s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[9.307s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[9.308s] -- Installing: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[9.308s] -- Installing: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[9.309s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[9.311s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[9.311s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[9.312s] -- Up-to-date: /home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[9.319s] Invoked command in '/home/azraa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_cpp_pkg

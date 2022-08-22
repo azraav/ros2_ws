@@ -1,0 +1,21 @@
+[0.043s] Invoking command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_custom_interfaces -- -j4 -l4
+[0.090s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.154s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.630s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.652s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.206s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.403s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[1.403s]   rosidl_generate_interfaces() the passed dependency 'example_interfaces' has
+[1.404s]   not been found before using find_package()
+[1.404s] Call Stack (most recent call first):
+[1.404s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[1.404s] 
+[1.405s] 
+[1.409s] -- Configuring incomplete, errors occurred!
+[1.409s] See also "/home/azraa/ros2_ws/build/m2s2_custom_interfaces/CMakeFiles/CMakeOutput.log".
+[1.423s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[1.433s] Invoked command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_custom_interfaces -- -j4 -l4

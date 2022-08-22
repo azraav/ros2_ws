@@ -1,0 +1,36 @@
+[9.348s] Invoking command in '/home/azraa/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build
+[11.424s] running develop
+[12.949s] Invoked command in '/home/azraa/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build
+[12.951s] Invoking command in '/home/azraa/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/azraa/ros2_ws/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/install/my_py_pkg --record /home/azraa/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[15.024s] running egg_info
+[15.033s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[15.038s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[15.041s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[15.042s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[15.042s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[15.614s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[15.614s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[15.614s] running build
+[15.614s] running build_py
+[15.626s] running install
+[15.628s] running install_lib
+[15.640s] running install_data
+[15.644s] running install_egg_info
+[15.675s] removing '/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[15.675s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[15.675s] running install_scripts
+[15.847s] Installing add_two_ints_client script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.855s] Installing add_two_ints_client_no_oop script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.858s] Installing add_two_ints_server script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.868s] Installing battery script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.876s] Installing hw_status_publisher script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.894s] Installing image_subscriber script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.894s] Installing image_subscriber_rt script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.895s] Installing led_panel script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.895s] Installing number_counter script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.895s] Installing number_publisher script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.895s] Installing py_node script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.895s] Installing robot_news_station script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.895s] Installing smartphone script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[15.896s] writing list of installed files to '/home/azraa/ros2_ws/build/my_py_pkg/install.log'
+[16.299s] Invoked command in '/home/azraa/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/azraa/ros2_ws/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/install/my_py_pkg --record /home/azraa/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

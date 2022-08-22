@@ -1,0 +1,170 @@
+[0.050s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_msgs': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_msgs -- -j4 -l4
+[0.222s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.222s] [35m[1mScanning dependencies of target flir_lepton_msgs__cpp[0m
+[0.259s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.980s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_generator_c[0m
+[0.981s] [  6%] Built target flir_lepton_msgs__cpp
+[1.005s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.009s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.032s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.054s] [ 19%] [32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_generator_c.dir/rosidl_generator_c/flir_lepton_msgs/msg/detail/raw_data__functions.c.o[0m
+[1.286s] [ 22%] [32m[1mLinking C shared library libflir_lepton_msgs__rosidl_generator_c.so[0m
+[1.465s] [ 22%] Built target flir_lepton_msgs__rosidl_generator_c
+[1.526s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.920s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_cpp[0m
+[1.954s] [ 29%] [32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flir_lepton_msgs/msg/raw_data__type_support.cpp.o[0m
+[1.968s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.028s] [ 32%] [32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flir_lepton_msgs/msg/detail/dds_fastrtps/raw_data__type_support.cpp.o[0m
+[2.207s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.315s] [ 35%] [32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flir_lepton_msgs/msg/detail/raw_data__type_support.cpp.o[0m
+[2.427s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_introspection_c[0m
+[2.467s] [ 38%] [32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flir_lepton_msgs/msg/detail/raw_data__type_support.c.o[0m
+[2.533s] [ 41%] [32m[1mLinking C shared library libflir_lepton_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.627s] [ 41%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_c
+[2.700s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.202s] [ 48%] [32m[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_cpp.so[0m
+[3.376s] [ 48%] Built target flir_lepton_msgs__rosidl_typesupport_cpp
+[3.534s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_c[0m
+[3.567s] [ 51%] [32m[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.584s] [ 54%] [32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flir_lepton_msgs/msg/raw_data__type_support.cpp.o[0m
+[3.610s] [ 58%] [32m[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.697s] [ 61%] [32m[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_c.so[0m
+[3.815s] [ 61%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_cpp
+[3.845s] [ 61%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp
+[3.862s] [ 61%] Built target flir_lepton_msgs__rosidl_typesupport_c
+[3.874s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.459s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.484s] [ 67%] [32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flir_lepton_msgs/msg/detail/raw_data__type_support_c.cpp.o[0m
+[5.010s] [ 70%] [32m[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.171s] [ 70%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_c
+[5.192s] [35m[1mScanning dependencies of target flir_lepton_msgs[0m
+[5.212s] [ 70%] Built target flir_lepton_msgs
+[5.232s] [35m[1mScanning dependencies of target flir_lepton_msgs__py[0m
+[5.254s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.368s] [ 74%] Built target flir_lepton_msgs__py
+[6.399s] [35m[1mScanning dependencies of target flir_lepton_msgs__python[0m
+[6.536s] [ 77%] [32mBuilding C object CMakeFiles/flir_lepton_msgs__python.dir/rosidl_generator_py/flir_lepton_msgs/msg/_raw_data_s.c.o[0m
+[6.850s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/flir_lepton_msgs/libflir_lepton_msgs__python.so[0m
+[6.964s] [ 80%] Built target flir_lepton_msgs__python
+[6.985s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_c__pyext[0m
+[6.985s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.986s] [35m[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[7.027s] [ 83%] [32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flir_lepton_msgs/_flir_lepton_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.035s] [ 87%] [32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flir_lepton_msgs/_flir_lepton_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.038s] [ 90%] [32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flir_lepton_msgs/_flir_lepton_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.191s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.198s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.209s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.254s] [100%] Built target flir_lepton_msgs__rosidl_typesupport_c__pyext
+[7.257s] [100%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext
+[7.325s] [100%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.350s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_msgs' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_msgs -- -j4 -l4
+[7.509s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_msgs': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/flir_lepton_msgs
+[7.533s] -- Install configuration: ""
+[7.534s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/rosidl_interfaces/flir_lepton_msgs
+[7.534s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs
+[7.535s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg
+[7.535s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail
+[7.536s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__type_support.h
+[7.536s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__functions.c
+[7.537s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__functions.h
+[7.537s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__struct.h
+[7.537s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/raw_data.h
+[7.538s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.538s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/library_path.sh
+[7.538s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/library_path.dsv
+[7.538s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_generator_c.so
+[7.539s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_generator_c.so" to ""
+[7.540s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs
+[7.540s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg
+[7.541s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.541s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail
+[7.541s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_fastrtps_c.h
+[7.542s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_c.so
+[7.542s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.543s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs
+[7.543s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg
+[7.544s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail
+[7.544s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/dds_fastrtps
+[7.544s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.545s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.545s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.546s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.546s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs
+[7.546s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg
+[7.547s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail
+[7.547s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__type_support.c
+[7.547s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_introspection_c.h
+[7.548s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.548s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_c.so
+[7.548s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.549s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_c.so
+[7.549s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_c.so" to ""
+[7.550s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs
+[7.550s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg
+[7.551s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail
+[7.551s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__builder.hpp
+[7.552s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__struct.hpp
+[7.552s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__traits.hpp
+[7.552s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/raw_data.hpp
+[7.553s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs
+[7.553s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg
+[7.553s] -- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail
+[7.554s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_introspection_cpp.hpp
+[7.554s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__type_support.cpp
+[7.554s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_cpp.so
+[7.554s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.555s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_cpp.so
+[7.555s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_cpp.so" to ""
+[7.555s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/pythonpath.sh
+[7.556s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/pythonpath.dsv
+[7.556s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/__init__.py
+[7.653s] Compiling '/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/__init__.py'...
+[7.660s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg
+[7.660s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_raw_data.py
+[7.661s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/__init__.py
+[7.661s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_raw_data_s.c
+[7.661s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.662s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.662s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.663s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.663s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.664s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.664s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__python.so
+[7.665s] -- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__python.so" to ""
+[7.665s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/msg/RawData.idl
+[7.665s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/msg/RawData.msg
+[7.666s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/package_run_dependencies/flir_lepton_msgs
+[7.666s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/parent_prefix_path/flir_lepton_msgs
+[7.666s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/ament_prefix_path.sh
+[7.667s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/ament_prefix_path.dsv
+[7.667s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/path.sh
+[7.667s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/path.dsv
+[7.668s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.bash
+[7.668s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.sh
+[7.668s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.zsh
+[7.669s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.dsv
+[7.669s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/package.dsv
+[7.669s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/packages/flir_lepton_msgs
+[7.669s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cExport.cmake
+[7.670s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.670s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.671s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.671s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cExport.cmake
+[7.671s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.672s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cppExport.cmake
+[7.672s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.673s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.673s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cppExport.cmake
+[7.673s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.674s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/rosidl_cmake-extras.cmake
+[7.674s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.674s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.675s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.675s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.675s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.676s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.676s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgsConfig.cmake
+[7.676s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgsConfig-version.cmake
+[7.677s] -- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/package.xml
+[7.687s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_msgs' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/flir_lepton_msgs

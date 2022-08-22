@@ -1,0 +1,77 @@
+[1.558s] Invoking command in '/home/azraa/ros2_ws/src/build/my_py_pkg': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/src/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/src/build/my_py_pkg/build
+[2.077s] running develop
+[2.322s] Removing /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[2.358s] Invoked command in '/home/azraa/ros2_ws/src/build/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/src/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/src/build/my_py_pkg/build
+[2.362s] Invoking command in '/home/azraa/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/src/install/my_robot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/azraa/ros2_ws/src/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/src/install/my_py_pkg --record /home/azraa/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed
+[2.832s] running egg_info
+[2.833s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.833s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.833s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.834s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.834s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.951s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.954s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.954s] running build
+[2.954s] running build_py
+[2.955s] creating /home/azraa/ros2_ws/src/build/my_py_pkg/build
+[2.955s] creating /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib
+[2.955s] creating /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.955s] copying my_py_pkg/add_two_ints_server.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.956s] copying my_py_pkg/template_python_node.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.957s] copying my_py_pkg/battery_node.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.958s] copying my_py_pkg/number_counter.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.958s] copying my_py_pkg/hw_status_publisher.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.959s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.959s] copying my_py_pkg/my_first_node.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.960s] copying my_py_pkg/robot_news_station.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.960s] copying my_py_pkg/smartphone.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.961s] copying my_py_pkg/__init__.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.961s] copying my_py_pkg/number_publisher.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.962s] copying my_py_pkg/add_two_ints_client.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.962s] copying my_py_pkg/led_panel.py -> /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[2.963s] running install
+[2.965s] running install_lib
+[2.967s] creating /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.968s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.968s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.968s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/battery_node.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.969s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.969s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.969s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.970s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.970s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.970s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.970s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.970s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.971s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.971s] copying /home/azraa/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[2.971s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+[2.974s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-38.pyc
+[2.974s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/battery_node.py to battery_node.cpython-38.pyc
+[2.976s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-38.pyc
+[2.977s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-38.pyc
+[2.977s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-38.pyc
+[2.978s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[2.979s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-38.pyc
+[2.979s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-38.pyc
+[2.980s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[2.981s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-38.pyc
+[2.981s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-38.pyc
+[2.982s] byte-compiling /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-38.pyc
+[2.983s] running install_data
+[2.986s] copying package.xml -> /home/azraa/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[2.987s] running install_egg_info
+[2.990s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[2.992s] running install_scripts
+[3.022s] Installing add_two_ints_client script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.022s] Installing add_two_ints_client_no_oop script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.023s] Installing add_two_ints_server script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.023s] Installing battery script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.023s] Installing hw_status_publisher script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.023s] Installing led_panel script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.023s] Installing number_counter script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.024s] Installing number_publisher script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.024s] Installing py_node script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.024s] Installing robot_news_station script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.024s] Installing smartphone script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.024s] writing list of installed files to '/home/azraa/ros2_ws/src/build/my_py_pkg/install.log'

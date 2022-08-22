@@ -1,0 +1,36 @@
+[1.531s] Invoking command in '/home/azraa/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build
+[2.104s] running develop
+[2.449s] Invoked command in '/home/azraa/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build
+[2.450s] Invoking command in '/home/azraa/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/azraa/ros2_ws/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/install/my_py_pkg --record /home/azraa/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.964s] running egg_info
+[2.965s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.965s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.966s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.966s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.967s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.059s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.062s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.062s] running build
+[3.062s] running build_py
+[3.063s] running install
+[3.065s] running install_lib
+[3.068s] running install_data
+[3.069s] running install_egg_info
+[3.072s] removing '/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.073s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[3.074s] running install_scripts
+[3.110s] Installing add_two_ints_client script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.110s] Installing add_two_ints_client_no_oop script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.111s] Installing add_two_ints_server script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.111s] Installing battery script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.111s] Installing hw_status_publisher script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.111s] Installing image_subscriber script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.112s] Installing image_subscriber_rt script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.113s] Installing led_panel script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.113s] Installing number_counter script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.113s] Installing number_publisher script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.113s] Installing py_node script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.113s] Installing robot_news_station script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.113s] Installing smartphone script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.114s] writing list of installed files to '/home/azraa/ros2_ws/build/my_py_pkg/install.log'
+[3.164s] Invoked command in '/home/azraa/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/azraa/ros2_ws/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/install/my_py_pkg --record /home/azraa/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

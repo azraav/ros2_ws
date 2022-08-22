@@ -1,0 +1,109 @@
+[35m[1mScanning dependencies of target flir_lepton_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:68:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+  263 |   raw_data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>([01;35m[K'lepton_raw'[m[K,qos);
+      |                                                                    [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kbool flir_lepton::FlirLeptonNode::init_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kflir_lepton::FlirLeptonNode::create_publisher<flir_lepton_msgs::msg::RawData>(int, const rclcpp::QoS&)[m[K’
+  263 |   raw_data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos[01;31m[K)[m[K;
+      |                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:68:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K1601331575[m[K’ (type ‘[01m[Kint[m[K’) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  263 |   raw_data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>([01;36m[K'lepton_raw'[m[K,qos);
+      |                                                                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid flir_lepton::FlirLeptonNode::publish_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:406:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _layout_type = struct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  406 |       raw_data->raw_values.layout.[01;31m[Kpush_back[m[K(std_msgs::MultiArrayDimension());
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:406:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMultiArrayDimension[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’?
+  406 |       raw_data->raw_values.layout.push_back(std_msgs::[01;31m[KMultiArrayDimension[m[K());
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/multi_array_dimension.hpp:7[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:33[m[K:
+[01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/multi_array_dimension__struct.hpp:149:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’ declared here
+  149 | using [01;36m[KMultiArrayDimension[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:411:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _layout_type = struct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  411 |       raw_data->raw_values.layout.[01;31m[Kpush_back[m[K(std_msgs::MultiArrayDimension());
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:411:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMultiArrayDimension[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’?
+  411 |       raw_data->raw_values.layout.push_back(std_msgs::[01;31m[KMultiArrayDimension[m[K());
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/multi_array_dimension.hpp:7[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:33[m[K:
+[01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/multi_array_dimension__struct.hpp:149:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’ declared here
+  149 | using [01;36m[KMultiArrayDimension[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:431:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’})
+  431 |       data = raw_data->raw_values.[01;31m[Kdata[m[K;
+      |                                   [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3724[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:743:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(const cv::Mat&)[m[K’
+  743 | Mat& [01;36m[KMat[m[K::operator = (const Mat& m)
+      |      [01;36m[K^~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:743:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kconst cv::Mat&[m[K’
+  743 | Mat& Mat::operator = ([01;36m[Kconst Mat& m[m[K)
+      |                       [01;36m[K~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3724[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:3356:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(const cv::MatExpr&)[m[K’
+ 3356 | Mat& [01;36m[KMat[m[K::operator = (const MatExpr& e)
+      |      [01;36m[K^~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:3356:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kconst cv::MatExpr&[m[K’
+ 3356 | Mat& Mat::operator = ([01;36m[Kconst MatExpr& e[m[K)
+      |                       [01;36m[K~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1241:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(const Scalar&)[m[K’
+ 1241 |     Mat& [01;36m[Koperator[m[K = (const Scalar& s);
+      |          [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1241:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kconst Scalar&[m[K’ {aka ‘[01m[Kconst cv::Scalar_<double>&[m[K’}
+ 1241 |     Mat& operator = ([01;36m[Kconst Scalar& s[m[K);
+      |                      [01;36m[K~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3724[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1405:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(cv::Mat&&)[m[K’
+ 1405 | Mat& [01;36m[KMat[m[K::operator = (Mat&& m)
+      |      [01;36m[K^~~[m[K
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1405:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kcv::Mat&&[m[K’
+ 1405 | Mat& Mat::operator = ([01;36m[KMat&& m[m[K)
+      |                       [01;36m[K~~~~~~^[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:434:32:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kcv::Mat[m[K’ to type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+  434 |       cv::cvtColor(uint8_t(data[01;31m[K)[m[K, grayscale, CV_GRAY2BGR);
+      |                                [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:448:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<flir_lepton_msgs::msg::RawData_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<flir_lepton_msgs::msg::RawData_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+  448 |       raw_data_pub_.[01;31m[Kpublish[m[K(raw_data);
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:449:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgray_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kgray_img[m[K’?
+  449 |       gray_image_pub_.publish([01;31m[Kgray_image[m[K);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+      |                               [32m[Kgray_img[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[Kvoid flir_lepton::gst_eos_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:505:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  505 | void gst_eos_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:505:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  505 | void gst_eos_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_preroll_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:508:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  508 | GstFlowReturn gst_new_preroll_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:508:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  508 | GstFlowReturn gst_new_preroll_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_asample_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:512:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  512 | GstFlowReturn gst_new_asample_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:512:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  512 | GstFlowReturn gst_new_asample_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/flir_lepton_publisher.dir/build.make:63: CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flir_lepton_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

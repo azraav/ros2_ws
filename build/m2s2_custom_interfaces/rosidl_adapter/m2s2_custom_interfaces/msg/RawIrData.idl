@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from m2s2_custom_interfaces/msg/RawIrData.msg
+// generated code does not contain a copyright notice
+
+#include "example_interfaces/msg/Int16MultiArray.idl"
+#include "std_msgs/msg/Header.idl"
+
+module m2s2_custom_interfaces {
+  module msg {
+    struct RawIrData {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " The temperatures in each pixel after calibration")
+      example_interfaces::msg::Int16MultiArray raw_values;
+    };
+  };
+};

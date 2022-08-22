@@ -1,0 +1,3 @@
+[ 42%] Built target bme280
+[ 71%] Built target enviro_subscriber_node
+[100%] Built target enviro_node

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target gscam[0m
+[ 20%] Built target gtest
+[ 40%] Built target gtest_main
+[ 60%] Built target gscam_node
+[ 70%] [32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27:10:[m[K [01;31m[Kfatal error: [m[Km2s2_custom_interfaces/msg/raw_lepton_data.hpp: No such file or directory
+   27 | #include [01;31m[K"m2s2_custom_interfaces/msg/raw_lepton_data.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/gscam.dir/build.make:63: CMakeFiles/gscam.dir/src/gscam.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: CMakeFiles/gscam.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

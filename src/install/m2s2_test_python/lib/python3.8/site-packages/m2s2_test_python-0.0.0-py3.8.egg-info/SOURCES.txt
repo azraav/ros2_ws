@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/m2s2_test_python/m2s2_test_python.egg-info/PKG-INFO
+../build/m2s2_test_python/m2s2_test_python.egg-info/SOURCES.txt
+../build/m2s2_test_python/m2s2_test_python.egg-info/dependency_links.txt
+../build/m2s2_test_python/m2s2_test_python.egg-info/entry_points.txt
+../build/m2s2_test_python/m2s2_test_python.egg-info/requires.txt
+../build/m2s2_test_python/m2s2_test_python.egg-info/top_level.txt
+../build/m2s2_test_python/m2s2_test_python.egg-info/zip-safe
+m2s2_test_python/__init__.py
+resource/m2s2_test_python
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

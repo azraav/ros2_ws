@@ -1,0 +1,2 @@
+flir_lepton_purethermal2
+flir_lepton_purethermal2/submodules

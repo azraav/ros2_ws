@@ -1,0 +1,48 @@
+[35m[1mScanning dependencies of target gscam[0m
+[ 40%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target gscam_node
+[ 70%] [32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libgscam.so[0m
+[ 80%] Built target gscam
+[35m[1mScanning dependencies of target smoke_test[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable smoke_test[0m
+[100%] Built target smoke_test
+-- Install configuration: ""
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/lib/gscam/gscam_node
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/library_path.sh
+-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/library_path.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.sh
+-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/path.sh
+-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/path.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.bash
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.sh
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.zsh
+-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.dsv
+-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/package.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/packages/gscam
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/package.xml
+-- Installing: /home/azraa/ros2_ws/install/gscam/lib/libgscam.so
+-- Set runtime path of "/home/azraa/ros2_ws/install/gscam/lib/libgscam.so" to ""
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/videofile.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/minoru.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/decklink.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/v4l.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/osx.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/component_pipeline_launch.py
+-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini

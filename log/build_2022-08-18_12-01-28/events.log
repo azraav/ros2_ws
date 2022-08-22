@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000187] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000210] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.000225] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.000244] (-) JobUnselected: {'identifier': 'bme280'}
+[0.000258] (-) JobUnselected: {'identifier': 'flir_lepton_capture'}
+[0.000275] (-) JobUnselected: {'identifier': 'flir_lepton_msgs'}
+[0.000288] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.000301] (-) JobUnselected: {'identifier': 'm2s2_custom_interfaces'}
+[0.000326] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.000338] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000350] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.000362] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000378] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000389] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.000404] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.000422] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict()}
+[0.000441] (gscam) JobStarted: {'identifier': 'gscam'}
+[0.021813] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'cmake'}
+[0.025038] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'build'}
+[0.025172] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/build/gscam', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/build/gscam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1603'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1397'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:37955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1660,unix/azraa-VirtualBox:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', 'dc9316d9e5a04f8b941d8224e29fcad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/756936bc_9a26_4830_bf68_98e44e2a7377'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.481'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/gscam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.084505] (gscam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam\x1b[0m\n'}
+[0.095359] (gscam) StdoutLine: {'line': b'[ 20%] Built target gtest\n'}
+[0.098155] (gscam) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[0.099261] (-) TimerEvent: {}
+[0.105524] (gscam) StdoutLine: {'line': b'[ 60%] Built target gscam_node\n'}
+[0.136904] (gscam) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o\x1b[0m\n'}
+[0.199445] (-) TimerEvent: {}
+[0.300343] (-) TimerEvent: {}
+[0.401188] (-) TimerEvent: {}
+[0.501984] (-) TimerEvent: {}
+[0.602479] (-) TimerEvent: {}
+[0.703110] (-) TimerEvent: {}
+[0.803503] (-) TimerEvent: {}
+[0.904279] (-) TimerEvent: {}
+[1.004736] (-) TimerEvent: {}
+[1.105088] (-) TimerEvent: {}
+[1.205529] (-) TimerEvent: {}
+[1.305899] (-) TimerEvent: {}
+[1.406647] (-) TimerEvent: {}
+[1.507314] (-) TimerEvent: {}
+[1.607812] (-) TimerEvent: {}
+[1.708252] (-) TimerEvent: {}
+[1.808868] (-) TimerEvent: {}
+[1.909318] (-) TimerEvent: {}
+[2.009921] (-) TimerEvent: {}
+[2.110467] (-) TimerEvent: {}
+[2.211316] (-) TimerEvent: {}
+[2.311759] (-) TimerEvent: {}
+[2.412149] (-) TimerEvent: {}
+[2.512750] (-) TimerEvent: {}
+[2.613151] (-) TimerEvent: {}
+[2.713676] (-) TimerEvent: {}
+[2.814661] (-) TimerEvent: {}
+[2.916197] (-) TimerEvent: {}
+[3.017126] (-) TimerEvent: {}
+[3.118459] (-) TimerEvent: {}
+[3.219482] (-) TimerEvent: {}
+[3.320598] (-) TimerEvent: {}
+[3.421618] (-) TimerEvent: {}
+[3.522482] (-) TimerEvent: {}
+[3.623283] (-) TimerEvent: {}
+[3.723794] (-) TimerEvent: {}
+[3.824388] (-) TimerEvent: {}
+[3.925277] (-) TimerEvent: {}
+[4.026132] (-) TimerEvent: {}
+[4.127116] (-) TimerEvent: {}
+[4.227410] (-) TimerEvent: {}
+[4.327850] (-) TimerEvent: {}
+[4.428518] (-) TimerEvent: {}
+[4.517736] (gscam) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libgscam.so\x1b[0m\n'}
+[4.528753] (-) TimerEvent: {}
+[4.629460] (-) TimerEvent: {}
+[4.730045] (-) TimerEvent: {}
+[4.830571] (-) TimerEvent: {}
+[4.896432] (gscam) StdoutLine: {'line': b'[ 80%] Built target gscam\n'}
+[4.930695] (-) TimerEvent: {}
+[4.936042] (gscam) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable smoke_test\x1b[0m\n'}
+[5.030916] (-) TimerEvent: {}
+[5.131376] (-) TimerEvent: {}
+[5.231826] (-) TimerEvent: {}
+[5.332192] (-) TimerEvent: {}
+[5.420146] (gscam) StdoutLine: {'line': b'[100%] Built target smoke_test\n'}
+[5.432569] (-) TimerEvent: {}
+[5.433448] (gscam) CommandEnded: {'returncode': 0}
+[5.472695] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'install'}
+[5.487909] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azraa/ros2_ws/build/gscam'], 'cwd': '/home/azraa/ros2_ws/build/gscam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1603'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1397'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:37955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1660,unix/azraa-VirtualBox:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', 'dc9316d9e5a04f8b941d8224e29fcad2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/756936bc_9a26_4830_bf68_98e44e2a7377'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.481'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/gscam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[5.498292] (gscam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.498554] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/lib/gscam/gscam_node\n'}
+[5.498786] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/library_path.sh\n'}
+[5.499021] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/library_path.dsv\n'}
+[5.499202] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam\n'}
+[5.499382] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam\n'}
+[5.499583] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.sh\n'}
+[5.499710] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv\n'}
+[5.499881] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/path.sh\n'}
+[5.500086] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/path.dsv\n'}
+[5.500328] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.bash\n'}
+[5.500418] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.sh\n'}
+[5.500546] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.zsh\n'}
+[5.500628] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.dsv\n'}
+[5.500708] (gscam) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/package.dsv\n'}
+[5.500788] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/packages/gscam\n'}
+[5.500867] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam\n'}
+[5.501011] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake\n'}
+[5.501117] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake\n'}
+[5.501265] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.501395] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.501520] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.501649] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.501783] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig.cmake\n'}
+[5.501930] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake\n'}
+[5.502114] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/package.xml\n'}
+[5.502399] (gscam) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/gscam/lib/libgscam.so\n'}
+[5.503256] (gscam) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/gscam/lib/libgscam.so" to ""\n'}
+[5.503664] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples\n'}
+[5.503797] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/videofile.launch.xml\n'}
+[5.503959] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/minoru.launch.xml\n'}
+[5.504133] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/decklink.launch.xml\n'}
+[5.504257] (gscam) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/v4l.launch.xml\n'}
+[5.504508] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/osx.launch.xml\n'}
+[5.504585] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml\n'}
+[5.504637] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/component_pipeline_launch.py\n'}
+[5.504686] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini\n'}
+[5.507230] (gscam) CommandEnded: {'returncode': 0}
+[5.532972] (-) TimerEvent: {}
+[5.597008] (gscam) JobEnded: {'identifier': 'gscam', 'rc': 0}
+[5.598062] (-) EventReactorShutdown: {}

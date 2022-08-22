@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target flir_lepton_capture[0m
+[ 50%] Built target lepton_node
+[ 75%] [32mBuilding CXX object CMakeFiles/flir_lepton_capture.dir/src/flir_lepton_capture.cpp.o[0m

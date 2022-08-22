@@ -1,0 +1,7 @@
+{
+  "package_name": "m2s2_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces:msg/EnviroData.msg",
+    "/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces:msg/RawLeptonData.msg"
+  ]
+}

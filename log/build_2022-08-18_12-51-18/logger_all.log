@@ -1,0 +1,487 @@
+[0.543s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'm2s2_custom_interfaces']
+[0.543s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f16b9232ac0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['m2s2_custom_interfaces'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f16b9232ac0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f16b91fd8e0>)
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.613s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/azraa/ros2_ws'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['cmake', 'python']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'cmake'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(bags/test2) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'ros'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['cmake', 'python']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'python'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['python_setup_py']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_capture' with type 'ros.ament_cmake' and name 'audio_capture'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_common' with type 'ros.ament_cmake' and name 'audio_common'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_common_msgs' with type 'ros.ament_cmake' and name 'audio_common_msgs'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_play' with type 'ros.ament_cmake' and name 'audio_play'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/sound_play' with type 'ros.ament_cmake' and name 'sound_play'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['cmake', 'python']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'ros'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'python'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['python_setup_py']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'python_setup_py'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/bme280' with type 'ros.ament_cmake' and name 'bme280'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'ros'
+[0.653s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/m2s2_bringup' with type 'ros.ament_cmake' and name 'm2s2_bringup'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'ros'
+[0.654s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/m2s2_custom_interfaces' with type 'ros.ament_cmake' and name 'm2s2_custom_interfaces'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'colcon_pkg'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extensions ['colcon_meta']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'ros'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extensions ['cmake', 'python']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'cmake'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'python'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extensions ['python_setup_py']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton) by extension 'python_setup_py'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_capture) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flir_lepton/flir_lepton_capture' with type 'ros.ament_cmake' and name 'flir_lepton_capture'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/flir_lepton/flir_lepton_msgs) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flir_lepton/flir_lepton_msgs' with type 'ros.ament_cmake' and name 'flir_lepton_msgs'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ros'
+[0.664s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gscam' with type 'ros.ament_cmake' and name 'gscam'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/m2s2_test_python) by extension 'ros'
+[0.666s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m2s2_test_python' with type 'ros.ament_python' and name 'm2s2_test_python'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.667s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/my_python_pkg': Error(s) in package 'src/my_python_pkg/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 14, column 20
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['cmake', 'python']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'cmake'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'python'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/my_python_pkg' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extensions ['python_setup_py']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_pkg) by extension 'python_setup_py'
+[1.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_python_pkg' with type 'python' and name 'my_python_pkg'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[1.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[1.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore_ament_install'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_pkg']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_pkg'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_meta']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_meta'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ros'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['cmake', 'python']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'cmake'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['python_setup_py']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python_setup_py'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extension 'ignore'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extension 'ignore_ament_install'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extensions ['colcon_pkg']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extension 'colcon_pkg'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extensions ['colcon_meta']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extension 'colcon_meta'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/v4l2_camera) by extension 'ros'
+[1.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/src/v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'audio_common_msgs' in 'src/M2S2/audio_common/audio_common_msgs'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'flir_lepton_msgs' in 'src/flir_lepton/flir_lepton_msgs'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gscam' in 'src/gscam'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'm2s2_bringup' in 'src/M2S2/m2s2_bringup'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'm2s2_test_python' in 'src/m2s2_test_python'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_python_pkg' in 'src/my_python_pkg'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_interfaces' in 'src/my_robot_interfaces'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'v4l2_camera' in 'src/src/v4l2_camera'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'audio_capture' in 'src/M2S2/audio_common/audio_capture'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'audio_play' in 'src/M2S2/audio_common/audio_play'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bme280' in 'src/M2S2/bme280'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'flir_lepton_capture' in 'src/flir_lepton/flir_lepton_capture'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_cpp_pkg' in 'src/my_cpp_pkg'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sound_play' in 'src/M2S2/audio_common/sound_play'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'audio_common' in 'src/M2S2/audio_common/audio_common'
+[1.219s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_bringup' in 'src/my_robot_bringup'
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.226s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/azraa/ros2_ws/install
+[1.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 259 installed packages in /opt/ros/foxy
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.328s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'm2s2_custom_interfaces' is in: /home/azraa/ros2_ws/install/m2s2_custom_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding m2s2_custom_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.331s] DEBUG:colcon.colcon_core.verb:Building package 'm2s2_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/m2s2_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/m2s2_custom_interfaces', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.343s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces' with build type 'ament_cmake'
+[1.343s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces'
+[1.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.362s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_custom_interfaces -- -j4 -l4
+[3.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_custom_interfaces -- -j4 -l4
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_custom_interfaces
+[4.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2s2_custom_interfaces)
+[4.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_custom_interfaces
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake module files
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake config files
+[4.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'cmake_prefix_path')
+[4.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.ps1'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.dsv'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.sh'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib'
+[4.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'ld_library_path_lib')
+[4.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.ps1'
+[4.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.dsv'
+[4.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.sh'
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/pkgconfig/m2s2_custom_interfaces.pc'
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages'
+[4.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'pythonpath')
+[4.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.ps1'
+[4.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.dsv'
+[4.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.sh'
+[4.102s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[4.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.ps1'
+[4.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.dsv'
+[4.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.sh'
+[4.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.bash'
+[4.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.zsh'
+[4.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/colcon-core/packages/m2s2_custom_interfaces)
+[4.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2s2_custom_interfaces)
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake module files
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake config files
+[4.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'cmake_prefix_path')
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.ps1'
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.dsv'
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.sh'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib'
+[4.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'ld_library_path_lib')
+[4.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.ps1'
+[4.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.dsv'
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.sh'
+[4.214s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[4.214s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/pkgconfig/m2s2_custom_interfaces.pc'
+[4.215s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages'
+[4.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'pythonpath')
+[4.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.ps1'
+[4.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.dsv'
+[4.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.sh'
+[4.219s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.ps1'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.dsv'
+[4.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.sh'
+[4.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.bash'
+[4.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.zsh'
+[4.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/colcon-core/packages/m2s2_custom_interfaces)
+[4.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.225s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.235s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.255s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.ps1'
+[4.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azraa/ros2_ws/install/_local_setup_util_ps1.py'
+[4.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.ps1'
+[4.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.sh'
+[4.276s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azraa/ros2_ws/install/_local_setup_util_sh.py'
+[4.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.sh'
+[4.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.bash'
+[4.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.bash'
+[4.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.zsh'
+[4.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.zsh'

@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:47 (add_executable):
+  add_executable cannot create target "flir_lepton_capture" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture".  See
+  documentation for policy CMP0002 for more details.
+
+

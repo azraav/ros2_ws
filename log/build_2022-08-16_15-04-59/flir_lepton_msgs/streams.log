@@ -1,0 +1,16 @@
+[0.063s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_msgs': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_msgs -- -j4 -l4
+[0.178s] [  3%] Built target flir_lepton_msgs__cpp
+[0.216s] [ 12%] Built target flir_lepton_msgs__rosidl_generator_c
+[0.270s] [ 22%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp
+[0.281s] [ 32%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_cpp
+[0.282s] [ 41%] Built target flir_lepton_msgs__rosidl_typesupport_cpp
+[0.300s] [ 51%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_c
+[0.345s] [ 61%] Built target flir_lepton_msgs__rosidl_typesupport_c
+[0.358s] [ 70%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_c
+[0.402s] [ 70%] Built target flir_lepton_msgs
+[0.463s] [ 74%] Built target flir_lepton_msgs__py
+[0.515s] [ 80%] Built target flir_lepton_msgs__python
+[0.576s] [ 87%] Built target flir_lepton_msgs__rosidl_typesupport_c__pyext
+[0.598s] [ 93%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.611s] [100%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext
+[0.633s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_msgs' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_msgs -- -j4 -l4

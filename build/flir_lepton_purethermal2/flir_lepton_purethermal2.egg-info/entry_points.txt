@@ -1,0 +1,3 @@
+[console_scripts]
+purethermal2_node = flir_lepton_purethermal2.purethermal2_node:main
+purethermal2_subscriber = flir_lepton_purethermal2.purethermal2_subscriber:main

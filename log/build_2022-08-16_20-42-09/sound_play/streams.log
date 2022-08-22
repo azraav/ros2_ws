@@ -1,0 +1,172 @@
+[1.349s] Invoking command in '/home/azraa/ros2_ws/build/sound_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/sound_play -- -j4 -l4
+[2.660s] [ 10%] Built target sound_play__rosidl_generator_c
+[2.687s] [ 12%] Built target sound_play__cpp
+[2.738s] [ 23%] Built target sound_play__rosidl_typesupport_introspection_c
+[2.762s] [ 33%] Built target sound_play__rosidl_typesupport_c
+[2.831s] [ 43%] Built target sound_play__rosidl_typesupport_fastrtps_cpp
+[2.835s] [ 53%] Built target sound_play__rosidl_typesupport_introspection_cpp
+[2.835s] [ 64%] Built target sound_play__rosidl_typesupport_cpp
+[2.931s] [ 74%] Built target sound_play__rosidl_typesupport_fastrtps_c
+[2.992s] [ 74%] Built target sound_play
+[3.063s] [ 76%] Built target sound_play__py
+[3.185s] [ 84%] Built target sound_play__python
+[3.327s] [ 89%] Built target sound_play__rosidl_typesupport_fastrtps_c__pyext
+[3.330s] [ 94%] Built target sound_play__rosidl_typesupport_introspection_c__pyext
+[3.347s] [100%] Built target sound_play__rosidl_typesupport_c__pyext
+[3.374s] Invoked command in '/home/azraa/ros2_ws/build/sound_play' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/sound_play -- -j4 -l4
+[3.683s] Invoking command in '/home/azraa/ros2_ws/build/sound_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/sound_play
+[3.709s] -- Install configuration: ""
+[3.710s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/ament_index/resource_index/rosidl_interfaces/sound_play
+[3.710s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[3.710s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg
+[3.711s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/sound_request.h
+[3.711s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail
+[3.711s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__functions.c
+[3.711s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__functions.h
+[3.712s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__struct.h
+[3.712s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__type_support.h
+[3.712s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/rosidl_generator_c__visibility_control.h
+[3.712s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action
+[3.712s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/sound_request.h
+[3.712s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail
+[3.713s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__functions.c
+[3.713s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__functions.h
+[3.713s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__struct.h
+[3.714s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__type_support.h
+[3.714s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/library_path.sh
+[3.715s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/library_path.dsv
+[3.715s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_generator_c.so
+[3.715s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[3.715s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg
+[3.716s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.716s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail
+[3.716s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__rosidl_typesupport_fastrtps_c.h
+[3.716s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action
+[3.717s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail
+[3.717s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__rosidl_typesupport_fastrtps_c.h
+[3.717s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_typesupport_fastrtps_c.so
+[3.718s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[3.718s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg
+[3.718s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail
+[3.719s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__rosidl_typesupport_fastrtps_cpp.hpp
+[3.719s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/dds_fastrtps
+[3.719s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.720s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action
+[3.720s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail
+[3.720s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__rosidl_typesupport_fastrtps_cpp.hpp
+[3.721s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/dds_fastrtps
+[3.721s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_typesupport_fastrtps_cpp.so
+[3.721s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[3.721s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg
+[3.721s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail
+[3.722s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__type_support.c
+[3.722s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__rosidl_typesupport_introspection_c.h
+[3.722s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.723s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action
+[3.724s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail
+[3.724s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__type_support.c
+[3.724s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__rosidl_typesupport_introspection_c.h
+[3.725s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_typesupport_introspection_c.so
+[3.725s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_typesupport_c.so
+[3.725s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[3.725s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg
+[3.725s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail
+[3.726s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__builder.hpp
+[3.726s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__traits.hpp
+[3.726s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__struct.hpp
+[3.726s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/sound_request.hpp
+[3.727s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action
+[3.727s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail
+[3.727s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__builder.hpp
+[3.727s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__traits.hpp
+[3.728s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__struct.hpp
+[3.728s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/sound_request.hpp
+[3.728s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[3.729s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg
+[3.730s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail
+[3.730s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__type_support.cpp
+[3.731s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/msg/detail/sound_request__rosidl_typesupport_introspection_cpp.hpp
+[3.731s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action
+[3.731s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail
+[3.731s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__type_support.cpp
+[3.732s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/action/detail/sound_request__rosidl_typesupport_introspection_cpp.hpp
+[3.735s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_typesupport_introspection_cpp.so
+[3.737s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__rosidl_typesupport_cpp.so
+[3.738s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/pythonpath.sh
+[3.738s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/pythonpath.dsv
+[3.739s] -- Installing: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/__init__.py
+[4.199s] Compiling '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/__init__.py'...
+[4.305s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/msg
+[4.310s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/msg/_sound_request_s.c
+[4.313s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/msg/_sound_request.py
+[4.318s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/msg/__init__.py
+[4.326s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/action
+[4.329s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/action/_sound_request_s.c
+[4.339s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/action/_sound_request.py
+[4.347s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/action/__init__.py
+[4.353s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/sound_play_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.360s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/sound_play_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.381s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/sound_play_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.466s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/libsound_play__python.so
+[4.471s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/msg/SoundRequest.idl
+[4.473s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/action/SoundRequest.idl
+[4.474s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/msg/SoundRequest.msg
+[4.487s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/action/SoundRequest.action
+[4.514s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play
+[4.517s] -- Installing: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/__init__.py
+[4.519s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/libsoundplay.py
+[5.950s] Listing '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play'...
+[5.952s] Compiling '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/__init__.py'...
+[5.955s] Listing '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/action'...
+[5.956s] Listing '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages/sound_play/msg'...
+[6.033s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/sound_play/is_speaking.py
+[6.044s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/sound_play/playbuiltin.py
+[6.046s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/sound_play/play.py
+[6.048s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/sound_play/say.py
+[6.049s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/sound_play/shutup.py
+[6.052s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/lib/sound_play/soundplay_node.py
+[6.059s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play
+[6.062s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/include/sound_play/sound_play.h
+[6.084s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/launch
+[6.098s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/launch/soundplay_node.launch.xml
+[6.100s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds
+[6.103s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds/NEEDS_PLUGGING_BADLY.ogg
+[6.119s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds/NEEDS_UNPLUGGING_BADLY.ogg
+[6.122s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds/NEEDS_UNPLUGGING.ogg
+[6.159s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds/say-beep.wav
+[6.164s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds/BACKINGUP.ogg
+[6.183s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/sounds/NEEDS_PLUGGING.ogg
+[6.208s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/ament_index/resource_index/package_run_dependencies/sound_play
+[6.225s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/ament_index/resource_index/parent_prefix_path/sound_play
+[6.227s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/ament_prefix_path.sh
+[6.229s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/ament_prefix_path.dsv
+[6.233s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/path.sh
+[6.251s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/environment/path.dsv
+[6.253s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/local_setup.bash
+[6.259s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/local_setup.sh
+[6.261s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/local_setup.zsh
+[6.355s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/local_setup.dsv
+[6.360s] -- Installing: /home/azraa/ros2_ws/install/sound_play/share/sound_play/package.dsv
+[6.388s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/ament_index/resource_index/packages/sound_play
+[6.390s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_generator_cExport.cmake
+[6.392s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_generator_cExport-noconfig.cmake
+[6.471s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_introspection_cExport.cmake
+[6.506s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.515s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_cExport.cmake
+[6.519s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_cExport-noconfig.cmake
+[6.521s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_generator_cppExport.cmake
+[6.547s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_introspection_cppExport.cmake
+[6.558s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.568s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_cppExport.cmake
+[6.573s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_play__rosidl_typesupport_cppExport-noconfig.cmake
+[6.593s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/rosidl_cmake-extras.cmake
+[6.596s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.640s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/ament_cmake_export_libraries-extras.cmake
+[6.642s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/ament_cmake_export_targets-extras.cmake
+[6.646s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.649s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.668s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.671s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_playConfig.cmake
+[6.673s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/cmake/sound_playConfig-version.cmake
+[6.707s] -- Up-to-date: /home/azraa/ros2_ws/install/sound_play/share/sound_play/package.xml
+[6.842s] Invoked command in '/home/azraa/ros2_ws/build/sound_play' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/sound_play

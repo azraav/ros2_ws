@@ -1,0 +1,113 @@
+[0.031s] Invoking command in '/home/azraa/ros2_ws/src/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/image_transport
+[0.111s] -- The C compiler identification is GNU 9.4.0
+[0.185s] -- The CXX compiler identification is GNU 9.4.0
+[0.193s] -- Check for working C compiler: /usr/bin/cc
+[0.279s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.280s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.386s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.488s] -- Detecting CXX compiler ABI info
+[0.586s] -- Detecting CXX compiler ABI info - done
+[0.607s] -- Detecting CXX compile features
+[0.608s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.658s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.658s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.944s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.950s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[1.011s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.071s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.168s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.211s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.419s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.422s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.423s] -- Looking for pthread.h
+[1.517s] -- Looking for pthread.h - found
+[1.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.603s] -- Looking for pthread_create in pthreads
+[1.672s] -- Looking for pthread_create in pthreads - not found
+[1.672s] -- Looking for pthread_create in pthread
+[1.757s] -- Looking for pthread_create in pthread - found
+[1.758s] -- Found Threads: TRUE  
+[2.030s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.261s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.390s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.394s] -- Check if compiler accepts -pthread
+[2.528s] -- Check if compiler accepts -pthread - yes
+[2.561s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.564s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.564s] -- Configured cpplint exclude dirs and/or files: 
+[2.571s] -- Added test 'lint_cmake' to check CMake code style
+[2.576s] -- Added test 'uncrustify' to check C / C++ code style
+[2.576s] -- Configured uncrustify additional arguments: 
+[2.580s] -- Added test 'xmllint' to check XML markup files
+[2.586s] -- Configuring done
+[2.759s] -- Generating done
+[2.776s] -- Build files have been written to: /home/azraa/ros2_ws/src/build/image_transport
+[2.802s] Invoked command in '/home/azraa/ros2_ws/src/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/image_transport
+[2.807s] Invoking command in '/home/azraa/ros2_ws/src/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/image_transport -- -j4 -l4
+[2.964s] [35m[1mScanning dependencies of target gtest_main[0m
+[2.991s] [35m[1mScanning dependencies of target gtest[0m
+[2.991s] [35m[1mScanning dependencies of target image_transport[0m
+[3.022s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.071s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.224s] [  9%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[3.227s] [ 12%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_common.cpp.o[0m
+[4.163s] [ 15%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[5.578s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.760s] [ 18%] Built target gtest_main
+[5.808s] [ 21%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[11.032s] [ 25%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o[0m
+[13.629s] [ 28%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o[0m
+[13.767s] [ 31%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o[0m
+[15.264s] [ 34%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.589s] [ 34%] Built target gtest
+[26.784s] [ 37%] [32m[1mLinking CXX shared library libimage_transport.so[0m
+[27.419s] [ 37%] Built target image_transport
+[27.432s] [35m[1mScanning dependencies of target image_transport-remapping[0m
+[27.432s] [35m[1mScanning dependencies of target republish[0m
+[27.432s] [35m[1mScanning dependencies of target image_transport_plugins[0m
+[27.433s] [35m[1mScanning dependencies of target list_transports[0m
+[27.490s] [ 40%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[27.504s] [ 43%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[27.516s] [ 46%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[27.521s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport-remapping.dir/test/test_remapping.cpp.o[0m
+[30.145s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[30.145s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:65:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[30.145s]    65 |     auto qos_override_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+[30.145s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[30.145s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[30.145s]    67 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+[30.146s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[30.146s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[30.146s]    68 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+[30.146s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[30.146s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[30.146s]    69 |       rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+[30.147s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[30.147s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[30.147s]    72 |     pub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[30.147s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.147s] [01m[K/home/azraa/ros2_ws/src/image_common/image_transport/src/republish.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[30.147s]    83 |     sub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[30.147s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.577s] [ 53%] [32m[1mLinking CXX executable image_transport-remapping[0m
+[32.081s] [ 53%] Built target image_transport-remapping
+[32.096s] [35m[1mScanning dependencies of target image_transport-camera_common[0m
+[32.126s] [ 56%] [32mBuilding CXX object CMakeFiles/image_transport-camera_common.dir/test/test_camera_common.cpp.o[0m
+[32.276s] make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1
+[32.276s] make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2
+[32.277s] make[1]: *** Waiting for unfinished jobs....
+[33.356s] [ 59%] [32m[1mLinking CXX executable image_transport-camera_common[0m
+[33.770s] [ 59%] Built target image_transport-camera_common
+[34.480s] [ 62%] [32m[1mLinking CXX executable list_transports[0m
+[34.854s] [ 62%] Built target list_transports
+[35.101s] [ 65%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[35.465s] [ 65%] Built target image_transport_plugins
+[35.467s] make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,132 @@
+[0.150s] Invoking command in '/home/azraa/ros2_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_common_msgs -- -j4 -l4
+[0.449s] [  2%] Built target audio_common_msgs__cpp
+[0.525s] [ 12%] Built target audio_common_msgs__rosidl_generator_c
+[0.763s] [ 23%] Built target audio_common_msgs__rosidl_typesupport_cpp
+[0.832s] [ 33%] Built target audio_common_msgs__rosidl_typesupport_c
+[0.950s] [ 43%] Built target audio_common_msgs__rosidl_typesupport_introspection_c
+[1.139s] [ 53%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_cpp
+[1.207s] [ 64%] Built target audio_common_msgs__rosidl_typesupport_introspection_cpp
+[1.305s] [ 74%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c
+[1.459s] [ 74%] Built target audio_common_msgs
+[1.759s] [ 76%] Built target audio_common_msgs__py
+[2.204s] [ 84%] Built target audio_common_msgs__python
+[2.364s] [ 89%] Built target audio_common_msgs__rosidl_typesupport_c__pyext
+[2.644s] [ 94%] Built target audio_common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.894s] [100%] Built target audio_common_msgs__rosidl_typesupport_introspection_c__pyext
+[2.965s] Invoked command in '/home/azraa/ros2_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_common_msgs -- -j4 -l4
+[3.434s] Invoking command in '/home/azraa/ros2_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_common_msgs
+[3.561s] -- Install configuration: ""
+[3.563s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_common_msgs
+[3.563s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs
+[3.564s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg
+[3.564s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/audio_data.h
+[3.564s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail
+[3.564s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__type_support.h
+[3.565s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__functions.h
+[3.565s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__struct.h
+[3.565s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__type_support.h
+[3.565s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__functions.c
+[3.566s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__functions.h
+[3.567s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__functions.c
+[3.568s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__struct.h
+[3.568s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.583s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/audio_info.h
+[3.583s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.sh
+[3.583s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/library_path.dsv
+[3.584s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_generator_c.so
+[3.590s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs
+[3.591s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg
+[3.591s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.591s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail
+[3.591s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_c.h
+[3.592s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[3.597s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_c.so
+[3.597s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs
+[3.597s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg
+[3.597s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail
+[3.597s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.598s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.598s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/dds_fastrtps
+[3.598s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.601s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.610s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs
+[3.611s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg
+[3.611s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail
+[3.611s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_c.h
+[3.611s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__type_support.c
+[3.611s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__type_support.c
+[3.611s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[3.612s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.612s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_c.so
+[3.617s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_c.so
+[3.620s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs
+[3.621s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg
+[3.641s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail
+[3.641s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__struct.hpp
+[3.642s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__struct.hpp
+[3.642s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__builder.hpp
+[3.642s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__builder.hpp
+[3.642s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__traits.hpp
+[3.643s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__traits.hpp
+[3.643s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/audio_data.hpp
+[3.643s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/audio_info.hpp
+[3.645s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs
+[3.647s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg
+[3.647s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail
+[3.647s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__type_support.cpp
+[3.649s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[3.649s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_data__type_support.cpp
+[3.649s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/include/audio_common_msgs/msg/detail/audio_info__rosidl_typesupport_introspection_cpp.hpp
+[3.650s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_introspection_cpp.so
+[3.653s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__rosidl_typesupport_cpp.so
+[3.654s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.sh
+[3.654s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/pythonpath.dsv
+[3.654s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/__init__.py
+[4.567s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/msg
+[4.567s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/msg/_audio_info_s.c
+[4.568s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/msg/_audio_info.py
+[4.584s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/msg/_audio_data.py
+[4.584s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/msg/__init__.py
+[4.590s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/msg/_audio_data_s.c
+[4.591s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.593s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.594s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages/audio_common_msgs/audio_common_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.598s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/lib/libaudio_common_msgs__python.so
+[4.600s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.idl
+[4.600s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.idl
+[4.600s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioData.msg
+[4.600s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/msg/AudioInfo.msg
+[4.600s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/ament_index/resource_index/package_run_dependencies/audio_common_msgs
+[4.605s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/ament_index/resource_index/parent_prefix_path/audio_common_msgs
+[4.606s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.sh
+[4.606s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/ament_prefix_path.dsv
+[4.607s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.sh
+[4.607s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/environment/path.dsv
+[4.607s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.bash
+[4.607s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.sh
+[4.607s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.zsh
+[4.607s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/local_setup.dsv
+[4.608s] -- Installing: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv
+[4.612s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/ament_index/resource_index/packages/audio_common_msgs
+[4.617s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_generator_cExport.cmake
+[4.617s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.638s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.668s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.705s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport.cmake
+[4.705s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.743s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_generator_cppExport.cmake
+[4.743s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.743s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.744s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport.cmake
+[4.744s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.744s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake-extras.cmake
+[4.749s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.749s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.750s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.750s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.751s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.751s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.754s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig.cmake
+[4.757s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake/audio_common_msgsConfig-version.cmake
+[4.757s] -- Up-to-date: /home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.xml
+[4.773s] Invoked command in '/home/azraa/ros2_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_common_msgs

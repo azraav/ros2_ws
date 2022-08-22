@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000813] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000843] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000863] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.000911] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.000948] (-) JobUnselected: {'identifier': 'bme280'}
+[0.000979] (-) JobUnselected: {'identifier': 'flir_lepton_capture'}
+[0.001008] (-) JobUnselected: {'identifier': 'flir_lepton_data_processor'}
+[0.001038] (-) JobUnselected: {'identifier': 'flir_lepton_msgs'}
+[0.001067] (-) JobUnselected: {'identifier': 'gscam'}
+[0.001096] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.001125] (-) JobUnselected: {'identifier': 'm2s2_custom_interfaces'}
+[0.001154] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.001183] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001212] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.001241] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001270] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001299] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.001328] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.001359] (flir_lepton_purethermal2) JobQueued: {'identifier': 'flir_lepton_purethermal2', 'dependencies': OrderedDict([('flir_lepton_msgs', '/home/azraa/ros2_ws/install/flir_lepton_msgs')])}
+[0.001395] (flir_lepton_purethermal2) JobStarted: {'identifier': 'flir_lepton_purethermal2'}
+[0.098263] (-) TimerEvent: {}
+[0.198797] (-) TimerEvent: {}
+[0.299189] (-) TimerEvent: {}
+[0.399540] (-) TimerEvent: {}
+[0.500619] (-) TimerEvent: {}
+[0.601030] (-) TimerEvent: {}
+[0.701519] (-) TimerEvent: {}
+[0.802021] (-) TimerEvent: {}
+[0.902295] (-) TimerEvent: {}
+[1.003088] (-) TimerEvent: {}
+[1.103612] (-) TimerEvent: {}
+[1.204050] (-) TimerEvent: {}
+[1.304368] (-) TimerEvent: {}
+[1.404744] (-) TimerEvent: {}
+[1.505288] (-) TimerEvent: {}
+[1.557523] (flir_lepton_purethermal2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/flir_lepton_purethermal2', 'build', '--build-base', '/home/azraa/ros2_ws/build/flir_lepton_purethermal2/build', 'install', '--prefix', '/home/azraa/ros2_ws/install/flir_lepton_purethermal2', '--record', '/home/azraa/ros2_ws/build/flir_lepton_purethermal2/install.log', '--single-version-externally-managed'], 'cwd': '/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_purethermal2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_ZA:en', 'USER': 'azraa', 'SSH_AGENT_PID': '1667', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib', 'HOME': '/home/azraa', 'OLDPWD': '/home/azraa', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1461', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/azraa/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'azraa', 'JOURNAL_STREAM': '8:38920', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'azraa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1724,unix/azraa-VirtualBox:/tmp/.ICE-unix/1724', 'INVOCATION_ID': '0b2dc7eccb254304ba89955957988d4b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/53bc821a_b137_4be8_b2da_ee11f6200e31', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_ZA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.750', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/azraa/ros2_ws/build/flir_lepton_purethermal2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/noetic'}, 'shell': False}
+[1.605465] (-) TimerEvent: {}
+[1.705897] (-) TimerEvent: {}
+[1.806282] (-) TimerEvent: {}
+[1.906595] (-) TimerEvent: {}
+[1.993080] (flir_lepton_purethermal2) StderrLine: {'line': b"/home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.993411] (flir_lepton_purethermal2) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.993658] (flir_lepton_purethermal2) StderrLine: {'line': b"/home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.993739] (flir_lepton_purethermal2) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.006879] (-) TimerEvent: {}
+[2.107283] (-) TimerEvent: {}
+[2.114113] (flir_lepton_purethermal2) StdoutLine: {'line': b'running egg_info\n'}
+[2.115119] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info\n'}
+[2.137293] (flir_lepton_purethermal2) StdoutLine: {'line': b'writing ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/PKG-INFO\n'}
+[2.137771] (flir_lepton_purethermal2) StdoutLine: {'line': b'writing dependency_links to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/dependency_links.txt\n'}
+[2.138369] (flir_lepton_purethermal2) StdoutLine: {'line': b'writing entry points to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/entry_points.txt\n'}
+[2.138513] (flir_lepton_purethermal2) StdoutLine: {'line': b'writing requirements to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/requires.txt\n'}
+[2.138620] (flir_lepton_purethermal2) StdoutLine: {'line': b'writing top-level names to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/top_level.txt\n'}
+[2.140147] (flir_lepton_purethermal2) StdoutLine: {'line': b"writing manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'\n"}
+[2.180201] (flir_lepton_purethermal2) StdoutLine: {'line': b"reading manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'\n"}
+[2.181598] (flir_lepton_purethermal2) StdoutLine: {'line': b"writing manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'\n"}
+[2.181921] (flir_lepton_purethermal2) StdoutLine: {'line': b'running build\n'}
+[2.182011] (flir_lepton_purethermal2) StdoutLine: {'line': b'running build_py\n'}
+[2.182079] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build\n'}
+[2.182213] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib\n'}
+[2.182331] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2\n'}
+[2.182546] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying flir_lepton_purethermal2/__init__.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2\n'}
+[2.182802] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying flir_lepton_purethermal2/purethermal2_node.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2\n'}
+[2.182891] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying flir_lepton_purethermal2/purethermal2_subscriber.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2\n'}
+[2.182942] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules\n'}
+[2.183016] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying flir_lepton_purethermal2/submodules/__init__.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules\n'}
+[2.183078] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying flir_lepton_purethermal2/submodules/uvctypes.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules\n'}
+[2.183496] (flir_lepton_purethermal2) StderrLine: {'line': b'/home/azraa/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.183682] (flir_lepton_purethermal2) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.183769] (flir_lepton_purethermal2) StdoutLine: {'line': b'running install\n'}
+[2.194445] (flir_lepton_purethermal2) StdoutLine: {'line': b'running install_lib\n'}
+[2.207482] (-) TimerEvent: {}
+[2.213065] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2\n'}
+[2.213398] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/__init__.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2\n'}
+[2.213528] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules\n'}
+[2.213628] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules/__init__.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules\n'}
+[2.213768] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules/uvctypes.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules\n'}
+[2.213926] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/purethermal2_node.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2\n'}
+[2.214058] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/purethermal2_subscriber.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2\n'}
+[2.214642] (flir_lepton_purethermal2) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/__init__.py to __init__.cpython-38.pyc\n'}
+[2.214937] (flir_lepton_purethermal2) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules/__init__.py to __init__.cpython-38.pyc\n'}
+[2.215207] (flir_lepton_purethermal2) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules/uvctypes.py to uvctypes.cpython-38.pyc\n'}
+[2.216557] (flir_lepton_purethermal2) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/purethermal2_node.py to purethermal2_node.cpython-38.pyc\n'}
+[2.217547] (flir_lepton_purethermal2) StdoutLine: {'line': b'byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/purethermal2_subscriber.py to purethermal2_subscriber.cpython-38.pyc\n'}
+[2.218220] (flir_lepton_purethermal2) StdoutLine: {'line': b'running install_data\n'}
+[2.237169] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index\n'}
+[2.237580] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index/resource_index\n'}
+[2.237737] (flir_lepton_purethermal2) StdoutLine: {'line': b'creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index/resource_index/packages\n'}
+[2.238049] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying resource/flir_lepton_purethermal2 -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index/resource_index/packages\n'}
+[2.238258] (flir_lepton_purethermal2) StdoutLine: {'line': b'copying package.xml -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/flir_lepton_purethermal2\n'}
+[2.238354] (flir_lepton_purethermal2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.258435] (flir_lepton_purethermal2) StdoutLine: {'line': b'Copying ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2-0.0.0-py3.8.egg-info\n'}
+[2.259304] (flir_lepton_purethermal2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.307736] (-) TimerEvent: {}
+[2.365889] (flir_lepton_purethermal2) StdoutLine: {'line': b'Installing purethermal2_node script to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/flir_lepton_purethermal2\n'}
+[2.366226] (flir_lepton_purethermal2) StdoutLine: {'line': b'Installing purethermal2_subscriber script to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/flir_lepton_purethermal2\n'}
+[2.366627] (flir_lepton_purethermal2) StdoutLine: {'line': b"writing list of installed files to '/home/azraa/ros2_ws/build/flir_lepton_purethermal2/install.log'\n"}
+[2.408179] (-) TimerEvent: {}
+[2.413710] (flir_lepton_purethermal2) CommandEnded: {'returncode': 0}
+[2.435671] (flir_lepton_purethermal2) JobEnded: {'identifier': 'flir_lepton_purethermal2', 'rc': 0}
+[2.437310] (-) EventReactorShutdown: {}

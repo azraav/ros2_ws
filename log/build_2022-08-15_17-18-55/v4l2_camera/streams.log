@@ -1,0 +1,44 @@
+[1.115s] Invoking command in '/home/azraa/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/v4l2_camera -- -j4 -l4
+[1.287s] [ 42%] Built target v4l2_camera
+[1.396s] [ 71%] Built target v4l2_camera_compose_test
+[1.414s] [100%] Built target v4l2_camera_node
+[1.438s] Invoked command in '/home/azraa/ros2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/v4l2_camera -- -j4 -l4
+[1.517s] Invoking command in '/home/azraa/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/v4l2_camera
+[1.547s] -- Install configuration: ""
+[1.548s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include
+[1.550s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera
+[1.550s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[1.550s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[1.550s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[1.551s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[1.551s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[1.551s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[1.551s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[1.552s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[1.552s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[1.552s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[1.553s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[1.554s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[1.554s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[1.554s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[1.555s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[1.556s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[1.556s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[1.556s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[1.556s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[1.556s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[1.557s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[1.557s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[1.557s] -- Installing: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[1.557s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[1.558s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[1.558s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[1.558s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[1.561s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.561s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[1.561s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[1.561s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.562s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[1.562s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[1.562s] -- Up-to-date: /home/azraa/ros2_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[1.603s] Invoked command in '/home/azraa/ros2_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/v4l2_camera

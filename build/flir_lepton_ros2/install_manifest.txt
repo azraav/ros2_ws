@@ -1,0 +1,16 @@
+/home/azraa/ros2_ws/install/flir_lepton_ros2/lib/flir_lepton_ros2/lepton_capture
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/ament_index/resource_index/package_run_dependencies/flir_lepton_ros2
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/ament_index/resource_index/parent_prefix_path/flir_lepton_ros2
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/environment/ament_prefix_path.sh
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/environment/ament_prefix_path.dsv
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/environment/path.sh
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/environment/path.dsv
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/local_setup.bash
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/local_setup.sh
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/local_setup.zsh
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/local_setup.dsv
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/package.dsv
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/ament_index/resource_index/packages/flir_lepton_ros2
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/cmake/flir_lepton_ros2Config.cmake
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/cmake/flir_lepton_ros2Config-version.cmake
+/home/azraa/ros2_ws/install/flir_lepton_ros2/share/flir_lepton_ros2/package.xml

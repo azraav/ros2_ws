@@ -1,0 +1,81 @@
+[0.041s] Invoking command in '/home/azraa/ros2_ws/src/build/bme280': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/bme280 -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/bme280
+[0.129s] -- The C compiler identification is GNU 9.4.0
+[0.219s] -- The CXX compiler identification is GNU 9.4.0
+[0.229s] -- Check for working C compiler: /usr/bin/cc
+[0.362s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.362s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.526s] -- Detecting C compile features
+[0.527s] -- Detecting C compile features - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++
+[0.665s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.666s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.821s] -- Detecting CXX compile features
+[0.823s] -- Detecting CXX compile features - done
+[0.827s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.885s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.885s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.352s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.511s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.782s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.910s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.322s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.363s] -- Looking for pthread.h
+[2.498s] -- Looking for pthread.h - found
+[2.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.685s] -- Looking for pthread_create in pthreads
+[2.834s] -- Looking for pthread_create in pthreads - not found
+[2.834s] -- Looking for pthread_create in pthread
+[3.002s] -- Looking for pthread_create in pthread - found
+[3.002s] -- Found Threads: TRUE  
+[3.634s] -- Found m2s2_custom_interfaces: 0.0.0 (/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake)
+[4.102s] -- Configuring done
+[4.192s] -- Generating done
+[4.193s] -- Build files have been written to: /home/azraa/ros2_ws/src/build/bme280
+[4.215s] Invoked command in '/home/azraa/ros2_ws/src/build/bme280' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/bme280 -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/bme280
+[4.230s] Invoking command in '/home/azraa/ros2_ws/src/build/bme280': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/bme280 -- -j4 -l4
+[4.455s] [35m[1mScanning dependencies of target enviro_subscriber_node[0m
+[4.466s] [35m[1mScanning dependencies of target bme280[0m
+[4.498s] [ 14%] [32mBuilding C object CMakeFiles/bme280.dir/src/driver/bme280_linux.c.o[0m
+[4.544s] [ 28%] [32mBuilding C object CMakeFiles/bme280.dir/src/driver/bme280.c.o[0m
+[4.599s] [01m[K/home/azraa/ros2_ws/src/M2S2/bme280/src/driver/bme280_linux.c:[m[K In function ‘[01m[Kuser_delay_us[m[K’:
+[4.606s] [01m[K/home/azraa/ros2_ws/src/M2S2/bme280/src/driver/bme280_linux.c:73:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kintf_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.606s]    73 | void user_delay_us(uint32_t period, [01;35m[Kvoid *intf_ptr[m[K)
+[4.606s]       |                                     [01;35m[K~~~~~~^~~~~~~~[m[K
+[4.650s] [ 42%] [32mBuilding CXX object CMakeFiles/enviro_subscriber_node.dir/src/enviro_subscriber.cpp.o[0m
+[4.862s] [ 57%] [32m[1mLinking C static library libbme280.a[0m
+[5.031s] [ 57%] Built target bme280
+[5.094s] [35m[1mScanning dependencies of target enviro_node[0m
+[5.287s] [ 71%] [32mBuilding CXX object CMakeFiles/enviro_node.dir/src/enviro_sensor.cpp.o[0m
+[17.333s] [ 85%] [32m[1mLinking CXX executable enviro_node[0m
+[18.146s] [ 85%] Built target enviro_node
+[22.984s] [100%] [32m[1mLinking CXX executable enviro_subscriber_node[0m
+[23.655s] [100%] Built target enviro_subscriber_node
+[23.733s] Invoked command in '/home/azraa/ros2_ws/src/build/bme280' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/bme280 -- -j4 -l4
+[24.048s] Invoking command in '/home/azraa/ros2_ws/src/build/bme280': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/src/build/bme280
+[24.077s] -- Install configuration: ""
+[24.082s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/lib/bme280/enviro_node
+[24.083s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/bme280/lib/bme280/enviro_node" to ""
+[24.084s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/lib/bme280/enviro_subscriber_node
+[24.086s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/bme280/lib/bme280/enviro_subscriber_node" to ""
+[24.094s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/ament_index/resource_index/package_run_dependencies/bme280
+[24.094s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/ament_index/resource_index/parent_prefix_path/bme280
+[24.095s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/ament_prefix_path.sh
+[24.095s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/ament_prefix_path.dsv
+[24.095s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/path.sh
+[24.096s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/environment/path.dsv
+[24.096s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.bash
+[24.096s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.sh
+[24.096s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.zsh
+[24.097s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/local_setup.dsv
+[24.097s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/package.dsv
+[24.097s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/ament_index/resource_index/packages/bme280
+[24.098s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/cmake/bme280Config.cmake
+[24.098s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/cmake/bme280Config-version.cmake
+[24.098s] -- Installing: /home/azraa/ros2_ws/src/install/bme280/share/bme280/package.xml
+[24.118s] Invoked command in '/home/azraa/ros2_ws/src/build/bme280' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/src/build/bme280

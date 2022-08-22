@@ -1,0 +1,7 @@
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Km2s2_custom_interfaces/msg/raw_lepton_data.hpp: No such file or directory
+    8 | #include [01;31m[K"m2s2_custom_interfaces/msg/raw_lepton_data.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

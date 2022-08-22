@@ -1,0 +1,4 @@
+Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+Invoked command in '/home/azraa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_cpp_pkg
+Invoked command in '/home/azraa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,62 @@
+[0.036s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake /home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/flir_lepton_capture
+[0.097s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.744s] -- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+[0.793s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.855s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.258s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.551s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.653s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.031s] -- Configuring done
+[2.039s] CMake Error at /opt/ros/foxy/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:63 (file):
+[2.039s]   Error evaluating generator expression:
+[2.039s] 
+[2.039s]     $<TARGET_FILE_NAME:lepton_publisher>
+[2.039s] 
+[2.039s]   No target "lepton_publisher"
+[2.040s] Call Stack (most recent call first):
+[2.040s]   CMakeLists.txt:32 (rclcpp_components_register_node)
+[2.040s] 
+[2.040s] 
+[2.040s] CMake Error at /opt/ros/foxy/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:63 (file):
+[2.040s]   Error evaluating generator expression:
+[2.041s] 
+[2.041s]     $<TARGET_FILE_NAME:lepton_publisher>
+[2.041s] 
+[2.041s]   No target "lepton_publisher"
+[2.041s] Call Stack (most recent call first):
+[2.041s]   CMakeLists.txt:32 (rclcpp_components_register_node)
+[2.041s] 
+[2.041s] 
+[2.041s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake:93 (file):
+[2.042s]   Error evaluating generator expression:
+[2.042s] 
+[2.042s]     $<TARGET_FILE_NAME:lepton_publisher>
+[2.042s] 
+[2.042s]   No target "lepton_publisher"
+[2.042s] Call Stack (most recent call first):
+[2.042s]   /opt/ros/foxy/share/rclcpp_components/cmake/rclcpp_components_package_hook.cmake:18 (ament_index_register_resource)
+[2.043s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.043s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.043s]   CMakeLists.txt:45 (ament_package)
+[2.043s] 
+[2.043s] 
+[2.043s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake:93 (file):
+[2.043s]   Error evaluating generator expression:
+[2.044s] 
+[2.044s]     $<TARGET_FILE_NAME:lepton_publisher>
+[2.044s] 
+[2.044s]   No target "lepton_publisher"
+[2.044s] Call Stack (most recent call first):
+[2.044s]   /opt/ros/foxy/share/rclcpp_components/cmake/rclcpp_components_package_hook.cmake:18 (ament_index_register_resource)
+[2.044s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.045s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.045s]   CMakeLists.txt:45 (ament_package)
+[2.045s] 
+[2.045s] 
+[2.065s] -- Generating done
+[2.068s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.080s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_capture' returned '1': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake /home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/flir_lepton_capture

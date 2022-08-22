@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target audio_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktime.hpp: No such file or directory
+    5 | #include [01;31m[K<time.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/audio_capture.dir/build.make:63: CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/audio_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

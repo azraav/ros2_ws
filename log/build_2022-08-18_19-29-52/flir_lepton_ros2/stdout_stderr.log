@@ -1,0 +1,36 @@
+[35m[1mScanning dependencies of target lepton_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:75:18:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   75 |     ~videoCapture[01;31m[K([m[K) {
+      |                  [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   87 |     void publish( const [01;31m[Ksensor_msgs[m[K::CompressedImage &msg )
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   87 |     void publish( const sensor_msgs::CompressedImage [01;31m[K&[m[Kmsg )
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   87 |     void publish[34m[K([m[K const sensor_msgs::CompressedImage[01;31m[K [m[K[32m[K&[m[Kmsg )
+      |                 [34m[K~[m[K                                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                     [32m[K)[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   87 |     void publish( const sensor_msgs::CompressedImage [01;31m[K&[m[Kmsg )
+      |                                                      [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   87 |     void publish( const sensor_msgs::CompressedImage &[01;31m[Kmsg[m[K )
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic GstFlowReturn lepton_capture::LeptonGstCapture::onNewBuffer(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:113:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  113 |         msg[01;31m[K->[m[Kraw_values.layout.data_offset = 0;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:124:32:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’ without object
+  124 |         msg.header.stamp = now([01;31m[K)[m[K;
+      |                                [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:130:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  130 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

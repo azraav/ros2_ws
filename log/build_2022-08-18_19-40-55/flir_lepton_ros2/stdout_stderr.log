@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target lepton_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid lepton_capture::LeptonGstCapture::publish(const Int16MultiArray&)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:92:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+   92 |         _pub.[01;31m[Kpublish[m[K(msg);
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:149:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  149 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

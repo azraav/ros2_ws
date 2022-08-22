@@ -1,0 +1,2 @@
+source;share/flir_lepton_capture/environment/ament_prefix_path.sh
+source;share/flir_lepton_capture/environment/path.sh

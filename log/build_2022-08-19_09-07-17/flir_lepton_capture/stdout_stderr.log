@@ -1,0 +1,147 @@
+[35m[1mScanning dependencies of target flir_lepton_capture[0m
+[ 50%] Built target lepton_node
+[ 75%] [32mBuilding CXX object CMakeFiles/flir_lepton_capture.dir/src/flir_lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In constructor ‘[01m[Klepton::FlirLepton::FlirLepton(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:39:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Klepton::FlirLepton[m[K’ does not have any field named ‘[01m[Kcamera_info_manager_[m[K’
+   39 |   [01;31m[Kcamera_info_manager_[m[K(this),
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kbool lepton::FlirLepton::configure()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:99:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_encodings[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+   99 | declare_parameter("image_encoding", std::string(sensor_msgs::[01;31m[Kimage_encodings[m[K::RGB8));
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:100:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::image_encodings[m[K’ has not been declared
+  100 |   if (image_encoding_ != sensor_msgs::[01;31m[Kimage_encodings[m[K::RGB8 &&
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:101:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::image_encodings[m[K’ has not been declared
+  101 |     image_encoding_ != sensor_msgs::[01;31m[Kimage_encodings[m[K::MONO16 &&
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:102:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::image_encodings[m[K’ has not been declared
+  102 |     image_encoding_ != sensor_msgs::[01;31m[Kimage_encodings[m[K::YUV422 &&
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kbool lepton::FlirLepton::init_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:116:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+  116 | lisher<example_interfaces::msg::Int16MultiArray>("raw_data", [01;31m[Kqos[m[K);
+      |                                                              [01;31m[K^~~[m[K
+      |                                                              [32m[Kcos[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:139:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::image_encodings[m[K’ has not been declared
+  139 |   if (image_encoding_ == sensor_msgs::[01;31m[Kimage_encodings[m[K::RGB8) {
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:144:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::image_encodings[m[K’ has not been declared
+  144 |   } else if (image_encoding_ == sensor_msgs::[01;31m[Kimage_encodings[m[K::MONO16) {
+      |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:149:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::image_encodings[m[K’ has not been declared
+  149 |   } else if (image_encoding_ == sensor_msgs::[01;31m[Kimage_encodings[m[K::YUV422) {
+      |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid lepton::FlirLepton::publish_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:312:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  312 |     msg.[01;31m[Klayout[m[K.dim[0].label = "height";
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:313:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  313 |     msg.[01;31m[Klayout[m[K.dim[0].size = 120;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:314:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  314 |     msg.[01;31m[Klayout[m[K.dim[0].stride = 120*160;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:318:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  318 |     msg.[01;31m[Klayout[m[K.dim[1].label = "width";
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:319:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  319 |     msg.[01;31m[Klayout[m[K.dim[1].size = 160;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:320:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  320 |     msg.[01;31m[Klayout[m[K.dim[1].stride = 160;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:322:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Klayout[m[K’
+  322 |     msg.[01;31m[Klayout[m[K.data_offset = 0;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:337:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >::publish(example_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr&)[m[K’
+  337 |     pub_->publish(msg[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:26[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >][m[K’
+  185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::unique_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > > >[m[K’
+  185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst example_interfaces::msg::Int16MultiArray_<std::allocator<void> >&[m[K’
+  209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+  226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+  226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+  246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:341:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuf[m[K’ was not declared in this scope
+  341 |     if ([01;31m[Kbuf[m[K) {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:342:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmemory[m[K’ was not declared in this scope; did you mean ‘[01m[Kmemcpy[m[K’?
+  342 |       gst_memory_unmap([01;31m[Kmemory[m[K, &info);
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [32m[Kmemcpy[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:342:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ was not declared in this scope
+  342 |       gst_memory_unmap(memory, &[01;31m[Kinfo[m[K);
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:344:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksample[m[K’ was not declared in this scope; did you mean ‘[01m[KGstSample[m[K’?
+  344 |       gst_sample_unref([01;31m[Ksample[m[K);
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [32m[KGstSample[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:405[m[K:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K At global scope:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:407:33:[m[K [01;31m[Kerror: [m[K‘[01m[KFlirLepton[m[K’ was not declared in this scope; did you mean ‘[01m[Klepton::FlirLepton[m[K’?
+  407 | RCLCPP_COMPONENTS_REGISTER_NODE([01;31m[KFlirLepton[m[K::FlirLepton)
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:40:7:[m[K [01;36m[Knote: [m[K‘[01m[Klepton::FlirLepton[m[K’ declared here
+   40 | class [01;36m[KFlirLepton[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:405[m[K:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:407:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  407 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(FlirLepton::FlirLepton)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:405[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kint*[m[K
+make[2]: *** [CMakeFiles/flir_lepton_capture.dir/build.make:63: CMakeFiles/flir_lepton_capture.dir/src/flir_lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/flir_lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

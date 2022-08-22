@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target lepton_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7[m[K:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+  169 |         RCLCPP_ERROR_STREAM([01;31m[Kthis[m[K->get_logger(), "gstreamer: " << err->message);
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(this->get_logger(), "gstreamer: " << err->message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(this->get_logger(), "gstreamer: " << err->message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(this->get_logger(), "gstreamer: " << err->message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7[m[K:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+  169 |         RCLCPP_ERROR_STREAM([01;31m[Kthis[m[K->get_logger(), "gstreamer: " << err->message);
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ is unavailable for static member functions
+  169 |         RCLCPP_ERROR_STREAM([01;31m[Kthis[m[K->get_logger(), "gstreamer: " << err->message);
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:162:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  162 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,14 @@
+[0.038s] Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.164s] [ 14%] Built target add_two_ints_client_no_oop
+[0.175s] [ 28%] Built target add_two_ints_server
+[0.175s] [ 42%] Built target cpp_node
+[0.193s] [ 57%] Built target smartphone
+[0.216s] [35m[1mScanning dependencies of target robot_news_station[0m
+[0.217s] [35m[1mScanning dependencies of target hw_status_publisher[0m
+[0.246s] [ 71%] Built target add_two_ints_client
+[0.259s] [ 78%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[0.265s] [ 85%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[4.166s] [ 92%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[4.214s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[4.395s] [100%] Built target hw_status_publisher
+[4.431s] [100%] Built target robot_news_station

@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.002497] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.002549] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.002568] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.002589] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.002608] (-) JobUnselected: {'identifier': 'bme280'}
+[0.002626] (-) JobUnselected: {'identifier': 'gscam'}
+[0.002643] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.002660] (-) JobUnselected: {'identifier': 'm2s2_custom_interfaces'}
+[0.002677] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.002695] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.002708] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.002726] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.003848] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.003878] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.003893] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.003906] (-) JobUnselected: {'identifier': 'ximea_ros2_cam'}
+[0.003921] (flir_lepton_ros2) JobQueued: {'identifier': 'flir_lepton_ros2', 'dependencies': OrderedDict()}
+[0.003944] (flir_lepton_ros2) JobStarted: {'identifier': 'flir_lepton_ros2'}
+[0.023634] (flir_lepton_ros2) JobProgress: {'identifier': 'flir_lepton_ros2', 'progress': 'cmake'}
+[0.025506] (flir_lepton_ros2) JobProgress: {'identifier': 'flir_lepton_ros2', 'progress': 'build'}
+[0.025543] (flir_lepton_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/build/flir_lepton_ros2', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/build/flir_lepton_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1640'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1433'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:39110'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1695,unix/azraa-VirtualBox:/tmp/.ICE-unix/1695'), ('INVOCATION_ID', '3f4211ff439144dea124f38b2443f09d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f0239090_219c_4204_a45a_1c8cf812b740'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.579'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/flir_lepton_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.085912] (flir_lepton_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lepton_capture\x1b[0m\n'}
+[0.099971] (-) TimerEvent: {}
+[0.131933] (flir_lepton_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o\x1b[0m\n'}
+[0.200169] (-) TimerEvent: {}
+[0.300569] (-) TimerEvent: {}
+[0.400958] (-) TimerEvent: {}
+[0.501329] (-) TimerEvent: {}
+[0.601750] (-) TimerEvent: {}
+[0.702390] (-) TimerEvent: {}
+[0.802898] (-) TimerEvent: {}
+[0.903294] (-) TimerEvent: {}
+[1.003718] (-) TimerEvent: {}
+[1.104172] (-) TimerEvent: {}
+[1.204621] (-) TimerEvent: {}
+[1.305037] (-) TimerEvent: {}
+[1.405422] (-) TimerEvent: {}
+[1.505932] (-) TimerEvent: {}
+[1.606299] (-) TimerEvent: {}
+[1.706769] (-) TimerEvent: {}
+[1.807171] (-) TimerEvent: {}
+[1.907830] (-) TimerEvent: {}
+[2.008275] (-) TimerEvent: {}
+[2.108700] (-) TimerEvent: {}
+[2.209085] (-) TimerEvent: {}
+[2.309464] (-) TimerEvent: {}
+[2.409899] (-) TimerEvent: {}
+[2.510335] (-) TimerEvent: {}
+[2.610692] (-) TimerEvent: {}
+[2.711172] (-) TimerEvent: {}
+[2.811598] (-) TimerEvent: {}
+[2.912009] (-) TimerEvent: {}
+[3.012422] (-) TimerEvent: {}
+[3.112839] (-) TimerEvent: {}
+[3.132183] (flir_lepton_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[3.132417] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[3.132505] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[3.132586] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[3.132666] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7\x1b[m\x1b[K:\n'}
+[3.132746] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.132829] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[3.132912] (flir_lepton_ros2) StderrLine: {'line': b'  169 |         RCLCPP_ERROR_STREAM(get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "gstreamer: " << err->message);\n'}
+[3.132990] (flir_lepton_ros2) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.133069] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[3.133171] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.133254] (flir_lepton_ros2) StderrLine: {'line': b'  169 |         \x1b[01;31m\x1b[KRCLCPP_ERROR_STREAM\x1b[m\x1b[K(get_logger(), "gstreamer: " << err->message);\n'}
+[3.133332] (flir_lepton_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.133416] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.133495] (flir_lepton_ros2) StderrLine: {'line': b'  169 |         \x1b[01;31m\x1b[KRCLCPP_ERROR_STREAM\x1b[m\x1b[K(get_logger(), "gstreamer: " << err->message);\n'}
+[3.133573] (flir_lepton_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.133651] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.133729] (flir_lepton_ros2) StderrLine: {'line': b'  169 |         \x1b[01;31m\x1b[KRCLCPP_ERROR_STREAM\x1b[m\x1b[K(get_logger(), "gstreamer: " << err->message);\n'}
+[3.133843] (flir_lepton_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.135002] (flir_lepton_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.135337] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.135411] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[3.135461] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[3.135506] (flir_lepton_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7\x1b[m\x1b[K:\n'}
+[3.135551] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[3.135603] (flir_lepton_ros2) StderrLine: {'line': b'  169 |         RCLCPP_ERROR_STREAM(get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "gstreamer: " << err->message);\n'}
+[3.135649] (flir_lepton_ros2) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.135693] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot call member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Logger rclcpp::Node::get_logger() const\x1b[m\x1b[K\xe2\x80\x99 without object\n'}
+[3.135738] (flir_lepton_ros2) StderrLine: {'line': b'  169 |         RCLCPP_ERROR_STREAM(get_logger(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, "gstreamer: " << err->message);\n'}
+[3.135782] (flir_lepton_ros2) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.135825] (flir_lepton_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:162:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.135875] (flir_lepton_ros2) StderrLine: {'line': b'  162 |     static gboolean onMessage (\x1b[01;35m\x1b[KGstBus *bus\x1b[m\x1b[K, GstMessage *message, gpointer userData)\n'}
+[3.135919] (flir_lepton_ros2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.213470] (-) TimerEvent: {}
+[3.314046] (-) TimerEvent: {}
+[3.414689] (-) TimerEvent: {}
+[3.515322] (-) TimerEvent: {}
+[3.615885] (-) TimerEvent: {}
+[3.716359] (-) TimerEvent: {}
+[3.816831] (-) TimerEvent: {}
+[3.917348] (-) TimerEvent: {}
+[4.017901] (-) TimerEvent: {}
+[4.118414] (-) TimerEvent: {}
+[4.219066] (-) TimerEvent: {}
+[4.239762] (flir_lepton_ros2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1\n'}
+[4.240371] (flir_lepton_ros2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2\n'}
+[4.240508] (flir_lepton_ros2) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.242595] (flir_lepton_ros2) CommandEnded: {'returncode': 2}
+[4.298592] (flir_lepton_ros2) JobEnded: {'identifier': 'flir_lepton_ros2', 'rc': 2}
+[4.310829] (-) EventReactorShutdown: {}

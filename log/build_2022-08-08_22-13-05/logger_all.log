@@ -1,0 +1,910 @@
+[0.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdb1666a2e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdb1666a2e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdb1666a820>)
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.293s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/azraa/ros2_ws'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2video) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_capture) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_capture' with type 'ros.ament_cmake' and name 'audio_capture'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_common' with type 'ros.ament_cmake' and name 'audio_common'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_common_msgs) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_common_msgs' with type 'ros.ament_cmake' and name 'audio_common_msgs'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/audio_play) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/audio_play' with type 'ros.ament_cmake' and name 'audio_play'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/audio_common/sound_play) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/audio_common/sound_play' with type 'ros.ament_cmake' and name 'sound_play'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bags/test_enviro) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/bme280) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/bme280' with type 'ros.ament_cmake' and name 'bme280'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_bringup) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/m2s2_bringup' with type 'ros.ament_cmake' and name 'm2s2_bringup'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/M2S2/m2s2_custom_interfaces) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M2S2/m2s2_custom_interfaces' with type 'ros.ament_cmake' and name 'm2s2_custom_interfaces'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_cpp_pkg) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/my_py_pkg': Error(s) in package 'src/my_py_pkg/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 14, column 20
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'python'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/my_py_pkg' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'python_setup_py'
+[0.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'python' and name 'my_py_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.821s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/azraa/ros2_ws/install
+[0.825s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 260 installed packages in /opt/ros/foxy
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.952s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_target' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.953s] Level 5:colcon.colcon_core.verb:set package 'audio_common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.953s] DEBUG:colcon.colcon_core.verb:Building package 'audio_common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/audio_common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/audio_common_msgs', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_common_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'm2s2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.955s] DEBUG:colcon.colcon_core.verb:Building package 'm2s2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/m2s2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/m2s2_bringup', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/m2s2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'm2s2_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.957s] DEBUG:colcon.colcon_core.verb:Building package 'm2s2_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/m2s2_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/m2s2_custom_interfaces', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.960s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.962s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_target' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_clean_first' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'cmake_force_configure' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'ament_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'audio_capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.964s] DEBUG:colcon.colcon_core.verb:Building package 'audio_capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/audio_capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/audio_capture', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture', 'symlink_install': False, 'test_result_base': None}
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_target' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_clean_cache' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_clean_first' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'cmake_force_configure' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'ament_cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'catkin_cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'audio_play' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.966s] DEBUG:colcon.colcon_core.verb:Building package 'audio_play' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/audio_play', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/audio_play', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play', 'symlink_install': False, 'test_result_base': None}
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'cmake_target' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'cmake_clean_cache' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'cmake_clean_first' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'bme280' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'bme280' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/bme280', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/bme280', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/bme280', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/my_cpp_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'sound_play' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.973s] DEBUG:colcon.colcon_core.verb:Building package 'sound_play' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/sound_play', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/sound_play', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/audio_common/sound_play', 'symlink_install': False, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_target' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'audio_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.975s] DEBUG:colcon.colcon_core.verb:Building package 'audio_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/audio_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/audio_common', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_common', 'symlink_install': False, 'test_result_base': None}
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.977s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azraa/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azraa/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/azraa/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.979s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.987s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_common_msgs' with build type 'ament_cmake'
+[0.987s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_common_msgs'
+[0.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[1.008s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/my_robot_interfaces'
+[1.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces' with build type 'ament_cmake'
+[1.028s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces'
+[1.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/azraa/ros2_ws/src/my_py_pkg'
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_common_msgs -- -j4 -l4
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_custom_interfaces -- -j4 -l4
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_common_msgs -- -j4 -l4
+[1.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_custom_interfaces -- -j4 -l4
+[1.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[1.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_custom_interfaces
+[1.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/audio_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_common_msgs
+[1.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_interfaces
+[2.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2s2_custom_interfaces)
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_custom_interfaces
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake module files
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake config files
+[2.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'cmake_prefix_path')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.ps1'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.dsv'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.sh'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib'
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'ld_library_path_lib')
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.ps1'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.dsv'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.sh'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/pkgconfig/m2s2_custom_interfaces.pc'
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages'
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'pythonpath')
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.sh'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.dsv'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.sh'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.bash'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.zsh'
+[2.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/colcon-core/packages/m2s2_custom_interfaces)
+[2.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_common_msgs)
+[2.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/audio_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_common_msgs
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs' for CMake module files
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs' for CMake config files
+[2.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'cmake_prefix_path')
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.sh'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/lib'
+[2.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'ld_library_path_lib')
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.dsv'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.sh'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/bin'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/lib/pkgconfig/audio_common_msgs.pc'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages'
+[2.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'pythonpath')
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.dsv'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.sh'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/bin'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.ps1'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.sh'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.bash'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.zsh'
+[2.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/audio_common_msgs/share/colcon-core/packages/audio_common_msgs)
+[2.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces' for CMake module files
+[2.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_interfaces
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces' for CMake config files
+[2.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/lib'
+[2.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[2.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[2.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/bin'
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[2.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/bin'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[2.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[2.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[2.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2s2_custom_interfaces)
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake module files
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces' for CMake config files
+[2.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'cmake_prefix_path')
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/cmake_prefix_path.sh'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib'
+[2.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'ld_library_path_lib')
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.ps1'
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/ld_library_path_lib.sh'
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/pkgconfig/m2s2_custom_interfaces.pc'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages'
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_custom_interfaces', 'pythonpath')
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.dsv'
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/hook/pythonpath.sh'
+[2.266s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/bin'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.ps1'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.dsv'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.sh'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.bash'
+[2.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.zsh'
+[2.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/colcon-core/packages/m2s2_custom_interfaces)
+[2.277s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/m2s2_bringup' with build type 'ament_cmake'
+[2.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/m2s2_bringup'
+[2.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_common_msgs)
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs' for CMake module files
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs' for CMake config files
+[2.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'cmake_prefix_path')
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.ps1'
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.dsv'
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/cmake_prefix_path.sh'
+[2.330s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/lib'
+[2.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'ld_library_path_lib')
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.dsv'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/ld_library_path_lib.sh'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/bin'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/lib/pkgconfig/audio_common_msgs.pc'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages'
+[2.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_common_msgs', 'pythonpath')
+[2.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.ps1'
+[2.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.dsv'
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/hook/pythonpath.sh'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_common_msgs/bin'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.ps1'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.sh'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.bash'
+[2.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/package.zsh'
+[2.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/audio_common_msgs/share/colcon-core/packages/audio_common_msgs)
+[2.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture' with build type 'ament_cmake'
+[2.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture'
+[2.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/m2s2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_bringup -- -j4 -l4
+[2.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/audio_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_capture -- -j4 -l4
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/m2s2_bringup -- -j4 -l4
+[2.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces' for CMake module files
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces' for CMake config files
+[2.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[2.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[2.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[2.488s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/lib'
+[2.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/bin'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages'
+[2.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'pythonpath')
+[2.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.dsv'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/pythonpath.sh'
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_interfaces/bin'
+[2.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[2.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[2.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[2.510s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play' with build type 'ament_cmake'
+[2.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play'
+[2.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/m2s2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_bringup
+[2.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/audio_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_play -- -j4 -l4
+[2.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2s2_bringup)
+[2.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/m2s2_bringup
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup' for CMake module files
+[2.586s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup' for CMake config files
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_bringup', 'cmake_prefix_path')
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/hook/cmake_prefix_path.ps1'
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/hook/cmake_prefix_path.dsv'
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/hook/cmake_prefix_path.sh'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/bin'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/lib/pkgconfig/m2s2_bringup.pc'
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/lib/python3.8/site-packages'
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/bin'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.ps1'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.dsv'
+[2.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.sh'
+[2.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.bash'
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.zsh'
+[2.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/m2s2_bringup/share/colcon-core/packages/m2s2_bringup)
+[2.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build
+[2.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m2s2_bringup)
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup' for CMake module files
+[2.667s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup' for CMake config files
+[2.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('m2s2_bringup', 'cmake_prefix_path')
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/hook/cmake_prefix_path.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/hook/cmake_prefix_path.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/hook/cmake_prefix_path.sh'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/bin'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/lib/pkgconfig/m2s2_bringup.pc'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/lib/python3.8/site-packages'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/m2s2_bringup/bin'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.dsv'
+[2.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.sh'
+[2.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.bash'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/m2s2_bringup/share/m2s2_bringup/package.zsh'
+[2.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/m2s2_bringup/share/colcon-core/packages/m2s2_bringup)
+[2.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[2.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/my_cpp_pkg'
+[2.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/audio_play' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_play -- -j4 -l4
+[2.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[2.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/audio_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_play
+[2.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_play)
+[2.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/audio_play' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_play
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play' for CMake module files
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play' for CMake config files
+[2.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_play', 'cmake_prefix_path')
+[2.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_play/share/audio_play/hook/cmake_prefix_path.ps1'
+[2.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_play/share/audio_play/hook/cmake_prefix_path.dsv'
+[2.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_play/share/audio_play/hook/cmake_prefix_path.sh'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/lib'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/bin'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/lib/pkgconfig/audio_play.pc'
+[2.830s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/lib/python3.8/site-packages'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/bin'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.dsv'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.sh'
+[2.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.bash'
+[2.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.zsh'
+[2.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/audio_play/share/colcon-core/packages/audio_play)
+[2.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_play)
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play' for CMake module files
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play' for CMake config files
+[2.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_play', 'cmake_prefix_path')
+[2.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_play/share/audio_play/hook/cmake_prefix_path.ps1'
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_play/share/audio_play/hook/cmake_prefix_path.dsv'
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_play/share/audio_play/hook/cmake_prefix_path.sh'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/lib'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/bin'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/lib/pkgconfig/audio_play.pc'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/lib/python3.8/site-packages'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_play/bin'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.ps1'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.dsv'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.sh'
+[2.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.bash'
+[2.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_play/share/audio_play/package.zsh'
+[2.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/audio_play/share/colcon-core/packages/audio_play)
+[2.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/audio_common/sound_play' with build type 'ament_cmake'
+[2.992s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/audio_common/sound_play'
+[2.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/sound_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/sound_play -- -j4 -l4
+[3.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[3.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_cpp_pkg
+[3.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[3.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_cpp_pkg
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg' for CMake module files
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg' for CMake config files
+[3.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[3.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[3.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[3.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[3.229s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/lib'
+[3.229s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/bin'
+[3.229s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/lib/python3.8/site-packages'
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/bin'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[3.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[3.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[3.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[3.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[3.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_cpp_pkg)
+[3.358s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg' for CMake module files
+[3.359s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg' for CMake config files
+[3.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_cpp_pkg', 'cmake_prefix_path')
+[3.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.ps1'
+[3.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.dsv'
+[3.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/hook/cmake_prefix_path.sh'
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/lib'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/bin'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/lib/pkgconfig/my_cpp_pkg.pc'
+[3.366s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/lib/python3.8/site-packages'
+[3.367s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_cpp_pkg/bin'
+[3.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.ps1'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv'
+[3.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.sh'
+[3.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.bash'
+[3.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.zsh'
+[3.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_cpp_pkg/share/colcon-core/packages/my_cpp_pkg)
+[3.376s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/M2S2/bme280' with build type 'ament_cmake'
+[3.376s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/M2S2/bme280'
+[3.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/bme280': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/bme280 -- -j4 -l4
+[3.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build
+[3.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/azraa/ros2_ws/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/install/my_py_pkg --record /home/azraa/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[3.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/sound_play' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/sound_play -- -j4 -l4
+[3.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/bme280' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/bme280 -- -j4 -l4
+[3.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/bme280': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/bme280
+[3.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme280)
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280' for CMake module files
+[3.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/bme280' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/bme280
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280' for CMake config files
+[3.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme280', 'cmake_prefix_path')
+[3.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/bme280/share/bme280/hook/cmake_prefix_path.ps1'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/bme280/share/bme280/hook/cmake_prefix_path.dsv'
+[3.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/bme280/share/bme280/hook/cmake_prefix_path.sh'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/lib'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/bin'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/lib/pkgconfig/bme280.pc'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/lib/python3.8/site-packages'
+[3.761s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/bin'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.ps1'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/bme280/share/bme280/package.dsv'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.sh'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.bash'
+[3.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.zsh'
+[3.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/bme280/share/colcon-core/packages/bme280)
+[3.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/sound_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/sound_play
+[3.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bme280)
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280' for CMake module files
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280' for CMake config files
+[3.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('bme280', 'cmake_prefix_path')
+[3.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/bme280/share/bme280/hook/cmake_prefix_path.ps1'
+[3.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/bme280/share/bme280/hook/cmake_prefix_path.dsv'
+[3.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/bme280/share/bme280/hook/cmake_prefix_path.sh'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/lib'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/bin'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/lib/pkgconfig/bme280.pc'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/lib/python3.8/site-packages'
+[3.870s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/bme280/bin'
+[3.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.ps1'
+[3.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/bme280/share/bme280/package.dsv'
+[3.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.sh'
+[3.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.bash'
+[3.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/bme280/share/bme280/package.zsh'
+[3.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/bme280/share/colcon-core/packages/bme280)
+[3.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sound_play)
+[3.990s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play' for CMake module files
+[3.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/sound_play' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/sound_play
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play' for CMake config files
+[3.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('sound_play', 'cmake_prefix_path')
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/cmake_prefix_path.ps1'
+[3.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/cmake_prefix_path.dsv'
+[3.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/cmake_prefix_path.sh'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/lib'
+[4.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('sound_play', 'ld_library_path_lib')
+[4.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/ld_library_path_lib.ps1'
+[4.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/ld_library_path_lib.dsv'
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/ld_library_path_lib.sh'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/bin'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/lib/pkgconfig/sound_play.pc'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages'
+[4.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('sound_play', 'pythonpath')
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/pythonpath.ps1'
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/pythonpath.dsv'
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/pythonpath.sh'
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/bin'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.ps1'
+[4.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.dsv'
+[4.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.sh'
+[4.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.bash'
+[4.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.zsh'
+[4.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/sound_play/share/colcon-core/packages/sound_play)
+[4.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sound_play)
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play' for CMake module files
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play' for CMake config files
+[4.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('sound_play', 'cmake_prefix_path')
+[4.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/cmake_prefix_path.ps1'
+[4.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/cmake_prefix_path.dsv'
+[4.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/cmake_prefix_path.sh'
+[4.168s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/lib'
+[4.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('sound_play', 'ld_library_path_lib')
+[4.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/ld_library_path_lib.ps1'
+[4.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/ld_library_path_lib.dsv'
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/ld_library_path_lib.sh'
+[4.174s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/bin'
+[4.175s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/lib/pkgconfig/sound_play.pc'
+[4.175s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages'
+[4.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('sound_play', 'pythonpath')
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/pythonpath.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/pythonpath.dsv'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/sound_play/share/sound_play/hook/pythonpath.sh'
+[4.180s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/sound_play/bin'
+[4.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.ps1'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.dsv'
+[4.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.sh'
+[4.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.bash'
+[4.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/sound_play/share/sound_play/package.zsh'
+[4.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/sound_play/share/colcon-core/packages/sound_play)
+[4.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/azraa/ros2_ws/build/my_py_pkg/build install --prefix /home/azraa/ros2_ws/install/my_py_pkg --record /home/azraa/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[4.261s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg' for CMake module files
+[4.263s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg' for CMake config files
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg/lib'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg/bin'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages'
+[4.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[4.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[4.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_py_pkg/bin'
+[4.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[4.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[4.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[4.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[4.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[4.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[4.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azraa/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[4.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azraa/ros2_ws/src/my_robot_bringup'
+[4.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[4.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[4.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_bringup
+[4.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[4.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_bringup
+[4.724s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup' for CMake module files
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup' for CMake config files
+[4.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[4.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[4.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[4.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/bin'
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/lib/python3.8/site-packages'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/bin'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[4.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[4.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[4.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[4.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[4.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup' for CMake module files
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup' for CMake config files
+[4.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[4.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[4.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[4.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/bin'
+[4.869s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[4.870s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/lib/python3.8/site-packages'
+[4.871s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/my_robot_bringup/bin'
+[4.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[4.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[4.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[4.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[4.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[9.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azraa/ros2_ws/build/audio_capture' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_capture -- -j4 -l4
+[9.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_capture)
+[9.701s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture' for CMake module files
+[9.702s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture' for CMake config files
+[9.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_capture', 'cmake_prefix_path')
+[9.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/hook/cmake_prefix_path.ps1'
+[9.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/hook/cmake_prefix_path.dsv'
+[9.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/hook/cmake_prefix_path.sh'
+[9.708s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture/lib'
+[9.709s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture/bin'
+[9.709s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture/lib/pkgconfig/audio_capture.pc'
+[9.709s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture/lib/python3.8/site-packages'
+[9.710s] Level 1:colcon.colcon_core.environment:checking '/home/azraa/ros2_ws/install/audio_capture/bin'
+[9.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.ps1'
+[9.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.dsv'
+[9.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.sh'
+[9.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.bash'
+[9.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.zsh'
+[9.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azraa/ros2_ws/install/audio_capture/share/colcon-core/packages/audio_capture)
+[9.727s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[9.728s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.741s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.767s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.ps1'
+[9.772s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azraa/ros2_ws/install/_local_setup_util_ps1.py'
+[9.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.ps1'
+[9.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.sh'
+[9.780s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azraa/ros2_ws/install/_local_setup_util_sh.py'
+[9.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.sh'
+[9.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.bash'
+[9.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.bash'
+[9.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azraa/ros2_ws/install/local_setup.zsh'
+[9.792s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azraa/ros2_ws/install/setup.zsh'

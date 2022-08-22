@@ -1,0 +1,16 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azraa/ros2_ws/build/my_robot_bringup
+-- Install configuration: ""
+-- Execute custom install script
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:20 (message):
+  ament_cmake_symlink_install_directory() called with unused/unsupported
+  arguments: /my_robot_bringup
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+

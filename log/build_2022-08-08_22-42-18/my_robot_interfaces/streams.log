@@ -1,0 +1,140 @@
+[0.088s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.230s] [  1%] Built target my_robot_interfaces__cpp
+[0.269s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.361s] [ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[0.384s] [ 34%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.389s] [ 45%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.390s] [ 56%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.451s] [ 67%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.472s] [ 78%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.529s] [ 78%] Built target my_robot_interfaces
+[0.563s] [ 80%] Built target my_robot_interfaces__py
+[0.611s] [ 89%] Built target my_robot_interfaces__python
+[0.704s] [ 92%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.721s] [ 98%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.722s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[0.845s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[1.093s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_interfaces
+[1.124s] -- Install configuration: ""
+[1.125s] -- Execute custom install script
+[1.126s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[1.128s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[1.128s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[1.130s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[1.130s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__functions.h
+[1.130s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.h
+[1.130s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__type_support.h
+[1.131s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h
+[1.133s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.h
+[1.133s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.133s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h
+[1.134s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[1.136s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[1.137s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[1.137s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.h
+[1.137s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.h
+[1.137s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.h
+[1.138s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.h
+[1.139s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[1.139s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[1.140s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[1.141s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_c.h
+[1.142s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.142s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[1.143s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[1.149s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.150s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.150s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_fastrtps_cpp.hpp
+[1.151s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.151s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[1.151s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[1.152s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.154s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[1.154s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_c.h
+[1.155s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.156s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[1.156s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[1.159s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[1.161s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[1.162s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[1.162s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__builder.hpp
+[1.168s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__struct.hpp
+[1.168s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__traits.hpp
+[1.168s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp
+[1.168s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_states.hpp
+[1.169s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[1.169s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[1.169s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[1.169s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[1.169s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__builder.hpp
+[1.170s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.hpp
+[1.170s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__traits.hpp
+[1.170s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.hpp
+[1.170s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[1.170s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_states__rosidl_typesupport_introspection_cpp.hpp
+[1.171s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[1.173s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[1.173s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[1.174s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[1.182s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py
+[1.182s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py
+[1.182s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[1.183s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_states.py
+[1.183s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py
+[1.183s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[1.184s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led.py
+[1.193s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.205s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.206s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.206s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so
+[1.206s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[1.211s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.idl
+[1.211s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[1.211s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl
+[1.211s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStates.msg
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg
+[1.212s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[1.213s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[1.214s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[1.214s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[1.214s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[1.227s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[1.228s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.228s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.228s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.229s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.229s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.230s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.230s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.231s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[1.231s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[1.232s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[1.232s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[1.233s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[1.234s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[1.235s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.236s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[1.313s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake
+[1.313s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.314s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.314s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.314s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[1.315s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.315s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake
+[1.315s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.315s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.315s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[1.315s] -- Up-to-date: /home/azraa/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.325s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_interfaces

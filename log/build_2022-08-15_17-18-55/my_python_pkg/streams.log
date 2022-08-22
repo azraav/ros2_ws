@@ -1,0 +1,39 @@
+[4.055s] Invoking command in '/home/azraa/ros2_ws/src/my_python_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/azraa/ros2_ws/build/my_python_pkg/build install --prefix /home/azraa/ros2_ws/install/my_python_pkg --record /home/azraa/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed
+[4.914s] /home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.914s]   warnings.warn(
+[4.915s] /home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[4.915s]   warnings.warn(
+[5.227s] running egg_info
+[5.273s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[5.273s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[5.295s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[5.295s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[5.295s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[5.381s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[5.387s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[5.387s] running build
+[5.387s] running build_py
+[5.390s] running install
+[5.391s] /home/azraa/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.391s]   warnings.warn(
+[5.435s] running install_lib
+[5.474s] running install_data
+[5.509s] running install_egg_info
+[5.552s] removing '/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.553s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg-0.0.0-py3.8.egg-info
+[5.563s] running install_scripts
+[5.749s] Installing add_two_ints_client script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.749s] Installing add_two_ints_client_no_oop script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.749s] Installing add_two_ints_server script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.750s] Installing battery script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.750s] Installing hw_status_publisher script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.750s] Installing image_subscriber script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.751s] Installing image_subscriber_rt script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.751s] Installing led_panel script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.752s] Installing number_counter script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.753s] Installing number_publisher script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.753s] Installing py_node script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.753s] Installing robot_news_station script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.753s] Installing smartphone script to /home/azraa/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[5.753s] writing list of installed files to '/home/azraa/ros2_ws/build/my_python_pkg/install.log'
+[5.847s] Invoked command in '/home/azraa/ros2_ws/src/my_python_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/azraa/ros2_ws/build/my_python_pkg/build install --prefix /home/azraa/ros2_ws/install/my_python_pkg --record /home/azraa/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed

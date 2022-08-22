@@ -1,0 +1,26 @@
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:54:[m[K [01;31m[Kerror: [m[K‘[01m[KLeptonRawData[m[K’ in namespace ‘[01m[Km2s2_custom_interfaces::msg[m[K’ does not name a type
+   87 |     void publish( const m2s2_custom_interfaces::msg::[01;31m[KLeptonRawData[m[K &msg )
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid lepton_capture::LeptonGstCapture::publish(const int&)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:89:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheader[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   89 |         msg.[01;31m[Kheader[m[K.stamp = now();
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:90:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<m2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<m2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+   90 |         _pub.[01;31m[Kpublish[m[K(msg);
+      |              [01;31m[K^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic GstFlowReturn lepton_capture::LeptonGstCapture::onNewBuffer(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:126:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’} to ‘[01m[Kconst int&[m[K’
+  126 |         server->publish([01;31m[Kmsg[m[K);
+      |                         [01;31m[K^~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Km2s2_custom_interfaces::msg::RawLeptonData {aka m2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >}[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:87:69:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid lepton_capture::LeptonGstCapture::publish(const int&)[m[K’
+   87 |     void publish( [01;36m[Kconst m2s2_custom_interfaces::msg::LeptonRawData &msg[m[K )
+      |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:131:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,34 @@
+[0.032s] Invoking command in '/home/azraa/ros2_ws/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/gscam -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/gscam
+[0.061s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.096s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.372s] -- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+[0.399s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.452s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.705s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.706s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.313s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.430s] CMake Error at CMakeLists.txt:17 (find_package):
+[1.430s]   By not providing "Findcamera_calibration_parsers.cmake" in
+[1.430s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.430s]   configuration file provided by "camera_calibration_parsers", but CMake did
+[1.430s]   not find one.
+[1.430s] 
+[1.430s]   Could not find a package configuration file provided by
+[1.430s]   "camera_calibration_parsers" with any of the following names:
+[1.430s] 
+[1.430s]     camera_calibration_parsersConfig.cmake
+[1.431s]     camera_calibration_parsers-config.cmake
+[1.431s] 
+[1.431s]   Add the installation prefix of "camera_calibration_parsers" to
+[1.431s]   CMAKE_PREFIX_PATH or set "camera_calibration_parsers_DIR" to a directory
+[1.431s]   containing one of the above files.  If "camera_calibration_parsers"
+[1.431s]   provides a separate development package or SDK, be sure it has been
+[1.431s]   installed.
+[1.432s] 
+[1.432s] 
+[1.432s] -- Configuring incomplete, errors occurred!
+[1.432s] See also "/home/azraa/ros2_ws/build/gscam/CMakeFiles/CMakeOutput.log".
+[1.432s] See also "/home/azraa/ros2_ws/build/gscam/CMakeFiles/CMakeError.log".
+[1.441s] Invoked command in '/home/azraa/ros2_ws/build/gscam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/gscam -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/gscam

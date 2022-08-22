@@ -1,0 +1,27 @@
+[1.421s] Invoking command in '/home/azraa/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/azraa/ros2_ws/install/my_py_pkg
+[1.963s] running develop
+[2.200s] running egg_info
+[2.200s] writing my_py_pkg.egg-info/PKG-INFO
+[2.201s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.202s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.202s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.203s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.274s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.276s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.355s] running build_ext
+[2.356s] Creating /home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[2.358s] Installing add_two_ints_client script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.359s] Installing add_two_ints_client_no_oop script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.359s] Installing add_two_ints_server script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.360s] Installing battery script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.360s] Installing hw_status_publisher script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.360s] Installing led_panel script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.361s] Installing number_counter script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.361s] Installing number_publisher script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.362s] Installing py_node script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.362s] Installing robot_news_station script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.363s] Installing smartphone script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.363s] 
+[2.363s] Installed /home/azraa/ros2_ws/build/my_py_pkg
+[2.363s] running install_data
+[2.409s] Invoked command in '/home/azraa/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/build/my_py_pkg:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/azraa/ros2_ws/install/my_py_pkg

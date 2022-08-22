@@ -1,0 +1,66 @@
+[0.040s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_capture -- -j4 -l4
+[0.124s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.556s] -- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+[0.598s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.686s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.963s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.477s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.566s] -- Found flir_lepton_msgs: 0.0.0 (/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake)
+[2.015s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.208s] -- Configuring done
+[2.320s] -- Generating done
+[2.323s] -- Build files have been written to: /home/azraa/ros2_ws/build/flir_lepton_capture
+[2.364s] [35m[1mScanning dependencies of target flir_lepton_publisher[0m
+[2.420s] [ 50%] [32mBuilding CXX object CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o[0m
+[2.849s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:68:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.849s]   263 | data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>([01;35m[K'lepton_raw'[m[K,qos);
+[2.850s]       |                                                              [01;35m[K^~~~~~~~~~~~[m[K
+[2.850s] 
+[5.345s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kbool flir_lepton::FlirLeptonNode::init_stream()[m[K’:
+[5.345s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kflir_lepton::FlirLeptonNode::create_publisher<flir_lepton_msgs::msg::RawData>(int, const rclcpp::QoS&)[m[K’
+[5.345s]   263 | te_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos[01;31m[K)[m[K;
+[5.345s]       |                                                              [01;31m[K^[m[K
+[5.345s] 
+[5.345s] In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[5.345s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[5.346s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.346s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[5.346s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.346s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.346s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:68:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K1601331575[m[K’ (type ‘[01m[Kint[m[K’) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[5.346s]   263 | data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>([01;36m[K'lepton_raw'[m[K,qos);
+[5.346s]       |                                                              [01;36m[K^~~~~~~~~~~~[m[K
+[5.346s] 
+[5.359s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid flir_lepton::FlirLeptonNode::publish_stream()[m[K’:
+[5.359s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:449:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<flir_lepton_msgs::msg::RawData_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<flir_lepton_msgs::msg::RawData_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[5.359s]   449 |       raw_data_pub_.[01;31m[Kpublish[m[K(raw_data);
+[5.359s]       |                     [01;31m[K^~~~~~~[m[K
+[5.363s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[Kvoid flir_lepton::gst_eos_cb(GstAppSink*, gpointer)[m[K’:
+[5.363s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.363s]   506 | void gst_eos_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+[5.364s]       |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[5.364s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.364s]   506 | void gst_eos_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+[5.364s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[5.364s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_preroll_cb(GstAppSink*, gpointer)[m[K’:
+[5.364s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.364s]   509 | GstFlowReturn gst_new_preroll_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+[5.364s]       |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[5.365s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.365s]   509 | GstFlowReturn gst_new_preroll_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+[5.365s]       |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[5.365s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_asample_cb(GstAppSink*, gpointer)[m[K’:
+[5.365s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.365s]   513 | GstFlowReturn gst_new_asample_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+[5.365s]       |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[5.365s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.365s]   513 | GstFlowReturn gst_new_asample_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+[5.365s]       |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[6.199s] make[2]: *** [CMakeFiles/flir_lepton_publisher.dir/build.make:63: CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o] Error 1
+[6.200s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flir_lepton_publisher.dir/all] Error 2
+[6.200s] make: *** [Makefile:141: all] Error 2
+[6.203s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_capture' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_capture -- -j4 -l4

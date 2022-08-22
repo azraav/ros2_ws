@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target audio_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o[0m
+[100%] [32m[1mLinking CXX executable audio_capture[0m
+[100%] Built target audio_capture
+-- Install configuration: ""
+-- Installing: /home/azraa/ros2_ws/install/audio_capture/lib/audio_capture/audio_capture
+-- Set runtime path of "/home/azraa/ros2_ws/install/audio_capture/lib/audio_capture/audio_capture" to ""
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch/capture.launch.xml
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/ament_index/resource_index/package_run_dependencies/audio_capture
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/ament_index/resource_index/parent_prefix_path/audio_capture
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/path.sh
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/path.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.bash
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.sh
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.zsh
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.dsv
+-- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.dsv
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/ament_index/resource_index/packages/audio_capture
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig-version.cmake
+-- Up-to-date: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.xml

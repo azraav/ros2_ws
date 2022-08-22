@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.000203] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.000226] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.000244] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.000262] (-) JobUnselected: {'identifier': 'bme280'}
+[0.000279] (-) JobUnselected: {'identifier': 'flir_lepton_capture'}
+[0.000296] (-) JobUnselected: {'identifier': 'flir_lepton_msgs'}
+[0.000324] (-) JobUnselected: {'identifier': 'gscam'}
+[0.000339] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.000354] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.000369] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000383] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.000398] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000413] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000427] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.000442] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.000459] (m2s2_custom_interfaces) JobQueued: {'identifier': 'm2s2_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000482] (m2s2_custom_interfaces) JobStarted: {'identifier': 'm2s2_custom_interfaces'}
+[0.021242] (m2s2_custom_interfaces) JobProgress: {'identifier': 'm2s2_custom_interfaces', 'progress': 'cmake'}
+[0.027635] (m2s2_custom_interfaces) JobProgress: {'identifier': 'm2s2_custom_interfaces', 'progress': 'build'}
+[0.027945] (m2s2_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/build/m2s2_custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/build/m2s2_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1667'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:38920'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1724,unix/azraa-VirtualBox:/tmp/.ICE-unix/1724'), ('INVOCATION_ID', '0b2dc7eccb254304ba89955957988d4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7232a2f7_db9a_460c_b853_4e676b8625f7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/m2s2_custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.060976] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.096667] (-) TimerEvent: {}
+[0.101213] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.196984] (-) TimerEvent: {}
+[0.298037] (-) TimerEvent: {}
+[0.398711] (-) TimerEvent: {}
+[0.491944] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.498852] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499064] (-) TimerEvent: {}
+[0.504097] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.599199] (-) TimerEvent: {}
+[0.697548] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699388] (-) TimerEvent: {}
+[0.733797] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.785405] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[0.799917] (-) TimerEvent: {}
+[0.900341] (-) TimerEvent: {}
+[1.000911] (-) TimerEvent: {}
+[1.001631] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.101153] (-) TimerEvent: {}
+[1.201615] (-) TimerEvent: {}
+[1.302133] (-) TimerEvent: {}
+[1.328909] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.402578] (-) TimerEvent: {}
+[1.502944] (-) TimerEvent: {}
+[1.603323] (-) TimerEvent: {}
+[1.703805] (-) TimerEvent: {}
+[1.804408] (-) TimerEvent: {}
+[1.804700] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.905256] (-) TimerEvent: {}
+[2.005616] (-) TimerEvent: {}
+[2.042132] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.095362] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.096655] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.106019] (-) TimerEvent: {}
+[2.140159] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.140455] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.140572] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.206914] (-) TimerEvent: {}
+[2.283054] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.307154] (-) TimerEvent: {}
+[2.407830] (-) TimerEvent: {}
+[2.425069] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.432571] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/build/m2s2_custom_interfaces\n'}
+[2.463511] (m2s2_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.463778] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__cpp\x1b[0m\n'}
+[2.477294] (m2s2_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.507972] (-) TimerEvent: {}
+[2.608365] (-) TimerEvent: {}
+[2.708750] (-) TimerEvent: {}
+[2.809152] (-) TimerEvent: {}
+[2.909482] (-) TimerEvent: {}
+[2.973953] (m2s2_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target m2s2_custom_interfaces__cpp\n'}
+[2.997599] (m2s2_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.997957] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.007161] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.008145] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.009595] (-) TimerEvent: {}
+[3.027896] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m2s2_custom_interfaces/msg/detail/enviro_data__functions.c.o\x1b[0m\n'}
+[3.109858] (-) TimerEvent: {}
+[3.172428] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m2s2_custom_interfaces/msg/detail/raw_ir_data__functions.c.o\x1b[0m\n'}
+[3.209975] (-) TimerEvent: {}
+[3.232098] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libm2s2_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.310135] (-) TimerEvent: {}
+[3.312787] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target m2s2_custom_interfaces__rosidl_generator_c\n'}
+[3.328717] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.410249] (-) TimerEvent: {}
+[3.463602] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.482662] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/m2s2_custom_interfaces/msg/enviro_data__type_support.cpp.o\x1b[0m\n'}
+[3.510386] (-) TimerEvent: {}
+[3.548117] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.557862] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.571829] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.cpp.o\x1b[0m\n'}
+[3.582383] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/m2s2_custom_interfaces/msg/detail/dds_fastrtps/enviro_data__type_support.cpp.o\x1b[0m\n'}
+[3.610561] (-) TimerEvent: {}
+[3.710987] (-) TimerEvent: {}
+[3.811963] (-) TimerEvent: {}
+[3.904543] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.912108] (-) TimerEvent: {}
+[3.932061] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/m2s2_custom_interfaces/msg/enviro_data__type_support.cpp.o\x1b[0m\n'}
+[4.012289] (-) TimerEvent: {}
+[4.023666] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/m2s2_custom_interfaces/msg/raw_ir_data__type_support.cpp.o\x1b[0m\n'}
+[4.028286] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/m2s2_custom_interfaces/msg/raw_ir_data__type_support.cpp.o\x1b[0m\n'}
+[4.090321] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.112471] (-) TimerEvent: {}
+[4.156227] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/m2s2_custom_interfaces/msg/detail/raw_ir_data__type_support.cpp.o\x1b[0m\n'}
+[4.187824] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 43%] Built target m2s2_custom_interfaces__rosidl_typesupport_c\n'}
+[4.209312] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.212628] (-) TimerEvent: {}
+[4.313091] (-) TimerEvent: {}
+[4.413544] (-) TimerEvent: {}
+[4.442589] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/m2s2_custom_interfaces/msg/detail/dds_fastrtps/raw_ir_data__type_support.cpp.o\x1b[0m\n'}
+[4.513702] (-) TimerEvent: {}
+[4.581190] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.613854] (-) TimerEvent: {}
+[4.649846] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target m2s2_custom_interfaces__rosidl_typesupport_cpp\n'}
+[4.713984] (-) TimerEvent: {}
+[4.716347] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.814120] (-) TimerEvent: {}
+[4.833732] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.883489] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.907779] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/m2s2_custom_interfaces/msg/detail/raw_ir_data__type_support.c.o\x1b[0m\n'}
+[4.908245] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.c.o\x1b[0m\n'}
+[4.914315] (-) TimerEvent: {}
+[4.976789] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libm2s2_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.015684] (-) TimerEvent: {}
+[5.056996] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target m2s2_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.115889] (-) TimerEvent: {}
+[5.116211] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.216069] (-) TimerEvent: {}
+[5.249524] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.264403] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.316318] (-) TimerEvent: {}
+[5.416720] (-) TimerEvent: {}
+[5.517650] (-) TimerEvent: {}
+[5.618322] (-) TimerEvent: {}
+[5.718885] (-) TimerEvent: {}
+[5.786831] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.815669] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/m2s2_custom_interfaces/msg/detail/enviro_data__type_support_c.cpp.o\x1b[0m\n'}
+[5.819045] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/m2s2_custom_interfaces/msg/detail/raw_ir_data__type_support_c.cpp.o\x1b[0m\n'}
+[5.819507] (-) TimerEvent: {}
+[5.919982] (-) TimerEvent: {}
+[6.020430] (-) TimerEvent: {}
+[6.121037] (-) TimerEvent: {}
+[6.221511] (-) TimerEvent: {}
+[6.299080] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.322013] (-) TimerEvent: {}
+[6.415153] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.422089] (-) TimerEvent: {}
+[6.440781] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target m2s2_custom_interfaces\n'}
+[6.453619] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__py\x1b[0m\n'}
+[6.467990] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.522349] (-) TimerEvent: {}
+[6.622954] (-) TimerEvent: {}
+[6.723665] (-) TimerEvent: {}
+[6.824186] (-) TimerEvent: {}
+[6.924641] (-) TimerEvent: {}
+[7.025162] (-) TimerEvent: {}
+[7.125557] (-) TimerEvent: {}
+[7.226143] (-) TimerEvent: {}
+[7.326747] (-) TimerEvent: {}
+[7.427494] (-) TimerEvent: {}
+[7.456149] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target m2s2_custom_interfaces__py\n'}
+[7.473107] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__python\x1b[0m\n'}
+[7.503883] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__python.dir/rosidl_generator_py/m2s2_custom_interfaces/msg/_enviro_data_s.c.o\x1b[0m\n'}
+[7.504179] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__python.dir/rosidl_generator_py/m2s2_custom_interfaces/msg/_raw_ir_data_s.c.o\x1b[0m\n'}
+[7.527615] (-) TimerEvent: {}
+[7.628074] (-) TimerEvent: {}
+[7.729255] (-) TimerEvent: {}
+[7.732071] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/m2s2_custom_interfaces/libm2s2_custom_interfaces__python.so\x1b[0m\n'}
+[7.829782] (-) TimerEvent: {}
+[7.840102] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target m2s2_custom_interfaces__python\n'}
+[7.859798] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.861521] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.863596] (m2s2_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.890045] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/m2s2_custom_interfaces/_m2s2_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.898053] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/m2s2_custom_interfaces/_m2s2_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.911156] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/m2s2_custom_interfaces/_m2s2_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.929993] (-) TimerEvent: {}
+[8.030642] (-) TimerEvent: {}
+[8.079732] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.085873] (m2s2_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.115867] (m2s2_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.130849] (-) TimerEvent: {}
+[8.155133] (m2s2_custom_interfaces) StdoutLine: {'line': b'[100%] Built target m2s2_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.156758] (m2s2_custom_interfaces) StdoutLine: {'line': b'[100%] Built target m2s2_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.229401] (m2s2_custom_interfaces) StdoutLine: {'line': b'[100%] Built target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.231032] (-) TimerEvent: {}
+[8.243906] (m2s2_custom_interfaces) CommandEnded: {'returncode': 0}
+[8.330055] (m2s2_custom_interfaces) JobProgress: {'identifier': 'm2s2_custom_interfaces', 'progress': 'install'}
+[8.331510] (-) TimerEvent: {}
+[8.343310] (m2s2_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azraa/ros2_ws/build/m2s2_custom_interfaces'], 'cwd': '/home/azraa/ros2_ws/build/m2s2_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1667'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:38920'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1724,unix/azraa-VirtualBox:/tmp/.ICE-unix/1724'), ('INVOCATION_ID', '0b2dc7eccb254304ba89955957988d4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7232a2f7_db9a_460c_b853_4e676b8625f7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.247'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/m2s2_custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[8.353765] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.354417] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/m2s2_custom_interfaces\n'}
+[8.354807] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces\n'}
+[8.355081] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg\n'}
+[8.355256] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/raw_ir_data.h\n'}
+[8.355472] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail\n'}
+[8.355643] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__struct.h\n'}
+[8.355917] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__functions.h\n'}
+[8.356001] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__functions.h\n'}
+[8.356058] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__struct.h\n'}
+[8.356136] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__functions.c\n'}
+[8.356213] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.h\n'}
+[8.356263] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__type_support.h\n'}
+[8.356313] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__functions.c\n'}
+[8.356362] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/enviro_data.h\n'}
+[8.356425] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.356476] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/library_path.sh\n'}
+[8.356526] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/library_path.dsv\n'}
+[8.356849] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_generator_c.so\n'}
+[8.357390] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.358263] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces\n'}
+[8.358382] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg\n'}
+[8.358505] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.358611] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail\n'}
+[8.359394] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_fastrtps_c.h\n'}
+[8.359539] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__rosidl_typesupport_fastrtps_c.h\n'}
+[8.360980] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.361089] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.361187] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces\n'}
+[8.361277] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg\n'}
+[8.361364] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail\n'}
+[8.361451] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.361538] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.361625] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/dds_fastrtps\n'}
+[8.361727] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.362331] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.363187] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.363470] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces\n'}
+[8.363694] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg\n'}
+[8.363908] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail\n'}
+[8.364162] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__type_support.c\n'}
+[8.364441] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__rosidl_typesupport_introspection_c.h\n'}
+[8.364719] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.c\n'}
+[8.365020] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_introspection_c.h\n'}
+[8.365309] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.366236] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.366869] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.368024] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_c.so\n'}
+[8.368595] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.368880] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces\n'}
+[8.369136] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg\n'}
+[8.369311] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail\n'}
+[8.369554] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__builder.hpp\n'}
+[8.369715] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__struct.hpp\n'}
+[8.369812] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__struct.hpp\n'}
+[8.369901] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__builder.hpp\n'}
+[8.369988] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__traits.hpp\n'}
+[8.370178] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__traits.hpp\n'}
+[8.370351] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/raw_ir_data.hpp\n'}
+[8.370470] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/enviro_data.hpp\n'}
+[8.370720] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces\n'}
+[8.370870] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg\n'}
+[8.371084] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail\n'}
+[8.371176] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__type_support.cpp\n'}
+[8.371262] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.cpp\n'}
+[8.371354] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.371440] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/raw_ir_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.372195] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.372611] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.373667] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.373984] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.374174] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/pythonpath.sh\n'}
+[8.374334] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/pythonpath.dsv\n'}
+[8.374455] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/__init__.py\n'}
+[8.425949] (m2s2_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/__init__.py'...\n"}
+[8.431434] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg\n'}
+[8.431674] (-) TimerEvent: {}
+[8.431926] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/_raw_ir_data_s.c\n'}
+[8.432111] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/_enviro_data.py\n'}
+[8.432205] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/_enviro_data_s.c\n'}
+[8.432293] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/__init__.py\n'}
+[8.432383] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/_raw_ir_data.py\n'}
+[8.433373] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.433830] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.434687] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.435297] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.436458] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.437045] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[8.437862] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__python.so\n'}
+[8.438313] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__python.so" to ""\n'}
+[8.438454] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/msg/EnviroData.idl\n'}
+[8.438615] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/msg/RawIrData.idl\n'}
+[8.438823] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/msg/EnviroData.msg\n'}
+[8.439041] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/msg/RawIrData.msg\n'}
+[8.439172] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/m2s2_custom_interfaces\n'}
+[8.439299] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/m2s2_custom_interfaces\n'}
+[8.439505] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[8.439645] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.439797] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/path.sh\n'}
+[8.440009] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/path.dsv\n'}
+[8.440188] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.bash\n'}
+[8.440340] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.sh\n'}
+[8.440490] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.zsh\n'}
+[8.440586] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.dsv\n'}
+[8.440676] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.dsv\n'}
+[8.440875] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/ament_index/resource_index/packages/m2s2_custom_interfaces\n'}
+[8.441026] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[8.441151] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.441239] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.441449] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[8.441615] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.441774] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.442168] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[8.442338] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.442584] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.443016] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.443513] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[8.443601] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.443722] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.444170] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[8.444265] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.444392] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.444557] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.444717] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.444896] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.445123] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.445346] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.445472] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.445564] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.445654] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfacesConfig.cmake\n'}
+[8.445743] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfacesConfig-version.cmake\n'}
+[8.445923] (m2s2_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.xml\n'}
+[8.449359] (m2s2_custom_interfaces) CommandEnded: {'returncode': 0}
+[8.531875] (-) TimerEvent: {}
+[8.609655] (m2s2_custom_interfaces) JobEnded: {'identifier': 'm2s2_custom_interfaces', 'rc': 0}
+[8.610764] (-) EventReactorShutdown: {}

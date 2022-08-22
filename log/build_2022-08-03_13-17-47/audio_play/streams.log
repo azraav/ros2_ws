@@ -1,0 +1,76 @@
+[0.307s] Invoking command in '/home/azraa/ros2_ws/build/audio_play': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/audio_play
+[0.740s] -- The C compiler identification is GNU 9.4.0
+[1.353s] -- The CXX compiler identification is GNU 9.4.0
+[1.455s] -- Check for working C compiler: /usr/bin/cc
+[1.921s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.926s] -- Detecting C compiler ABI info
+[2.387s] -- Detecting C compiler ABI info - done
+[2.466s] -- Detecting C compile features
+[2.466s] -- Detecting C compile features - done
+[2.489s] -- Check for working CXX compiler: /usr/bin/c++
+[2.916s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.916s] -- Detecting CXX compiler ABI info
+[3.288s] -- Detecting CXX compiler ABI info - done
+[3.359s] -- Detecting CXX compile features
+[3.361s] -- Detecting CXX compile features - done
+[3.376s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.277s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.872s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.882s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.436s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.108s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.132s] -- Looking for pthread.h
+[8.662s] -- Looking for pthread.h - found
+[8.663s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.111s] -- Looking for pthread_create in pthreads
+[9.732s] -- Looking for pthread_create in pthreads - not found
+[9.732s] -- Looking for pthread_create in pthread
+[10.173s] -- Looking for pthread_create in pthread - found
+[10.180s] -- Found Threads: TRUE  
+[12.477s] -- Found audio_common_msgs: 0.3.12 (/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[12.617s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[12.626s] -- Checking for module 'gstreamer-1.0'
+[12.744s] --   Found gstreamer-1.0, version 1.16.2
+[13.194s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[13.643s] -- Configuring done
+[13.690s] -- Generating done
+[13.701s] -- Build files have been written to: /home/azraa/ros2_ws/build/audio_play
+[13.730s] Invoked command in '/home/azraa/ros2_ws/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/audio_common/audio_play -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/audio_play
+[13.737s] Invoking command in '/home/azraa/ros2_ws/build/audio_play': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_play -- -j4 -l4
+[14.136s] [35m[1mScanning dependencies of target audio_play[0m
+[15.121s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play.cpp.o[0m
+[39.004s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play/src/audio_play.cpp:[m[K In static member function ‘[01m[Kstatic void audio_transport::RosGstPlay::cb_newpad(GstElement*, GstPad*, gpointer)[m[K’:
+[39.005s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play/src/audio_play.cpp:154:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdecodebin[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[39.005s]   154 |      static void cb_newpad ([01;35m[KGstElement *decodebin[m[K, GstPad *pad,
+[39.005s]       |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[64.235s] [100%] [32m[1mLinking CXX executable audio_play[0m
+[65.219s] [100%] Built target audio_play
+[65.276s] Invoked command in '/home/azraa/ros2_ws/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_play -- -j4 -l4
+[65.410s] Invoking command in '/home/azraa/ros2_ws/build/audio_play': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_play
+[65.510s] -- Install configuration: ""
+[65.518s] -- Installing: /home/azraa/ros2_ws/install/audio_play/lib/audio_play/audio_play
+[65.527s] -- Set runtime path of "/home/azraa/ros2_ws/install/audio_play/lib/audio_play/audio_play" to ""
+[65.555s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/launch
+[65.556s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/launch/play.launch.xml
+[65.565s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/ament_index/resource_index/package_run_dependencies/audio_play
+[65.566s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/ament_index/resource_index/parent_prefix_path/audio_play
+[65.570s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/environment/ament_prefix_path.sh
+[65.570s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/environment/ament_prefix_path.dsv
+[65.596s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/environment/path.sh
+[65.597s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/environment/path.dsv
+[65.597s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/local_setup.bash
+[65.597s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/local_setup.sh
+[65.597s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/local_setup.zsh
+[65.600s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/local_setup.dsv
+[65.600s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/package.dsv
+[65.601s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/ament_index/resource_index/packages/audio_play
+[65.601s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/cmake/audio_playConfig.cmake
+[65.601s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/cmake/audio_playConfig-version.cmake
+[65.601s] -- Installing: /home/azraa/ros2_ws/install/audio_play/share/audio_play/package.xml
+[65.620s] Invoked command in '/home/azraa/ros2_ws/build/audio_play' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_play

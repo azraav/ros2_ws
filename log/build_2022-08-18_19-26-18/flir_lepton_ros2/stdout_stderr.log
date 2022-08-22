@@ -1,0 +1,117 @@
+[35m[1mScanning dependencies of target lepton_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:35:41:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   35 |             caps = gst_caps_from_string([01;35m[K"[m[Kvideo/x-raw, width=(int)160, height=(int)120, format=GRAY16_LE
+      |                                         [01;35m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:35:41:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   35 |             caps = gst_caps_from_string([01;31m[K"video/x-raw, width=(int)160, height=(int)120, format=GRAY16_LE[m[K
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   36 |             framerate=(fraction)9/1[01;35m[K"[m[K);
+      |                                    [01;35m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:36:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   36 |             framerate=(fraction)9/1[01;31m[K");[m[K
+      |                                    [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:59:71:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_ERROR_STREAM" requires 2 arguments, but only 1 given
+   59 |             RCLCPP_ERROR_STREAM("Not all elements could be created.\n"[01;31m[K)[m[K;
+      |                                                                       [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:1620:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_ERROR_STREAM" defined here
+ 1620 | #define RCLCPP_ERROR_STREAM(logger, stream_arg) \
+      | 
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:66:60:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_ERROR_STREAM" requires 2 arguments, but only 1 given
+   66 |             RCLCPP_ERROR_STREAM("Elements can't be linked."[01;31m[K)[m[K;
+      |                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:1620:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_ERROR_STREAM" defined here
+ 1620 | #define RCLCPP_ERROR_STREAM(logger, stream_arg) \
+      | 
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:76:18:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   76 |     ~videoCapture[01;31m[K([m[K) {
+      |                  [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   88 |     void publish( const [01;31m[Ksensor_msgs[m[K::CompressedImage &msg )
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   88 |     void publish( const sensor_msgs::CompressedImage [01;31m[K&[m[Kmsg )
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   88 |     void publish[34m[K([m[K const sensor_msgs::CompressedImage[01;31m[K [m[K[32m[K&[m[Kmsg )
+      |                 [34m[K~[m[K                                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                     [32m[K)[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   88 |     void publish( const sensor_msgs::CompressedImage [01;31m[K&[m[Kmsg )
+      |                                                      [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   88 |     void publish( const sensor_msgs::CompressedImage &[01;31m[Kmsg[m[K )
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In constructor ‘[01m[Klepton_capture::LeptonGstCapture::LeptonGstCapture()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kframerate[m[K’ was not declared in this scope
+   36 |             [01;31m[Kframerate[m[K=(fraction)9/1");
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kfraction[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+   36 |             framerate=([01;31m[Kfraction[m[K)9/1");
+      |                        [01;31m[K^~~~~~~~[m[K
+      |                        [32m[Ksigaction[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR_STREAM[m[K’ was not declared in this scope
+   59 |             [01;31m[KRCLCPP_ERROR_STREAM[m[K("Not all elements could be created.\n");
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:66:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR_STREAM[m[K’ was not declared in this scope
+   66 |             [01;31m[KRCLCPP_ERROR_STREAM[m[K("Elements can't be linked.");
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic GstFlowReturn lepton_capture::LeptonGstCapture::onNewBuffer(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:105:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  105 |         msg[01;31m[K->[m[Kraw_values.layout.dim[0].label = "height";
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:106:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  106 |         msg[01;31m[K->[m[Kraw_values.layout.dim[0].size = 120;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:107:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  107 |         msg[01;31m[K->[m[Kraw_values.layout.dim[0].stride = 120*160;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:110:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  110 |         msg[01;31m[K->[m[Kraw_values.layout.dim[1].label = "width";
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:111:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  111 |         msg[01;31m[K->[m[Kraw_values.layout.dim[1].size = 160;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:112:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  112 |         msg[01;31m[K->[m[Kraw_values.layout.dim[1].stride = 160;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:114:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  114 |         msg[01;31m[K->[m[Kraw_values.layout.data_offset = 0;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:120:21:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  120 |         memcpy( &msg[01;31m[K->[m[Kraw_values.data[0], map.data, map.size );
+      |                     [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:125:42:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+  125 |         msg.header.stamp = rclcpp::Time::[01;31m[Know[m[K();
+      |                                          [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:131:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

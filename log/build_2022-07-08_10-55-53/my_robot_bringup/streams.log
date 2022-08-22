@@ -1,0 +1,59 @@
+[0.052s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[0.080s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.365s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.478s] -- Configuring done
+[0.482s] -- Generating done
+[0.484s] -- Build files have been written to: /home/azraa/ros2_ws/build/my_robot_bringup
+[0.508s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/my_robot_bringup -- -j4 -l4
+[0.544s] Invoking command in '/home/azraa/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_bringup
+[0.555s] -- Install configuration: ""
+[0.556s] -- Execute custom install script
+[0.556s] CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.556s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.557s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.557s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.557s] Call Stack (most recent call first):
+[0.557s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.557s]   cmake_install.cmake:41 (include)
+[0.557s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.557s] 
+[0.557s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/build/.built_by
+[0.567s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/build/COLCON_IGNORE
+[0.577s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/.colcon_install_layout
+[0.587s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/COLCON_IGNORE
+[0.597s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/_local_setup_util_ps1.py
+[0.607s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/_local_setup_util_sh.py
+[0.616s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/local_setup.bash
+[0.626s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/local_setup.ps1
+[0.636s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/local_setup.sh
+[0.647s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/local_setup.zsh
+[0.657s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/setup.bash
+[0.667s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/setup.ps1
+[0.676s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/setup.sh
+[0.686s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/install/setup.zsh
+[0.696s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/COLCON_IGNORE
+[0.705s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/build_2022-07-08_10-54-06/events.log
+[0.716s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/build_2022-07-08_10-54-06/logger_all.log
+[0.727s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/latest/events.log
+[0.738s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/latest/logger_all.log
+[0.750s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/latest_build/events.log
+[0.762s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/log/latest_build/logger_all.log
+[0.773s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+[0.774s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/robot_news_station.launch.py
+[0.784s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.785s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.785s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.785s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.786s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.786s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.787s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.787s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.788s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.788s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.788s] -- Symlinking: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.801s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.802s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.802s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.803s] -- Up-to-date symlink: /home/azraa/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.808s] Invoked command in '/home/azraa/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/build/my_robot_bringup

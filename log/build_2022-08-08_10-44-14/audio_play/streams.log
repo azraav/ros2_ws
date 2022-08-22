@@ -1,0 +1,21 @@
+[0.121s] Invoking command in '/home/azraa/ros2_ws/build/audio_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_play -- -j4 -l4
+[0.239s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.770s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.874s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.597s] -- Found audio_common_msgs: 0.3.12 (/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[1.852s] -- Configuring done
+[1.876s] -- Generating done
+[1.880s] -- Build files have been written to: /home/azraa/ros2_ws/build/audio_play
+[1.929s] [35m[1mScanning dependencies of target audio_play[0m
+[2.000s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_play.dir/src/audio_play.cpp.o[0m
+[8.295s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play/src/audio_play.cpp:[m[K In static member function ‘[01m[Kstatic void audio_transport::RosGstPlay::cb_newpad(GstElement*, GstPad*, gpointer)[m[K’:
+[8.296s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_play/src/audio_play.cpp:154:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdecodebin[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.296s]   154 |      static void cb_newpad ([01;35m[KGstElement *decodebin[m[K, GstPad *pad,
+[8.296s]       |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[16.483s] [100%] [32m[1mLinking CXX executable audio_play[0m
+[17.255s] [100%] Built target audio_play

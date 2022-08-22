@@ -1,0 +1,1 @@
+/home/azraa/ros2_ws/build/my_robot_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

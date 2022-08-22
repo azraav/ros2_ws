@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target gscam[0m
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target gscam_node
+[ 70%] [32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K In member function ‘[01m[Kvoid gscam::GSCam::publish_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:326:33:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kguint16*&[m[K’ {aka ‘[01m[Kshort unsigned int*&[m[K’} from expression of type ‘[01m[Kguint8*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’}
+  326 |     guint16 * & buf_data = [01;31m[Kinfo.data[m[K;
+      |                            [01;31m[K~~~~~^~~~[m[K
+make[2]: *** [CMakeFiles/gscam.dir/build.make:63: CMakeFiles/gscam.dir/src/gscam.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: CMakeFiles/gscam.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

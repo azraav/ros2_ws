@@ -1,0 +1,12 @@
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/install/strip.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/install/local.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/install.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/list_install_components.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/rebuild_cache.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/edit_cache.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/test.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/enviro_node.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/bme280.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/bme280_uninstall.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/enviro_subscriber_node.dir
+/home/azraa/ros2_ws/src/build/bme280/CMakeFiles/uninstall.dir

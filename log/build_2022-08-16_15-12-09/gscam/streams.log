@@ -1,0 +1,82 @@
+[0.047s] Invoking command in '/home/azraa/ros2_ws/build/gscam': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/gscam -- -j4 -l4
+[0.112s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.755s] -- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+[0.797s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.118s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.240s] -- Found camera_calibration_parsers: 2.3.0 (/opt/ros/foxy/share/camera_calibration_parsers/cmake)
+[2.285s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.291s] -- Found camera_info_manager: 2.3.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[2.566s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.723s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.750s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.755s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.756s] -- Configured cppcheck include dirs: /home/azraa/ros2_ws/src/gscam/include
+[2.756s] -- Configured cppcheck exclude dirs and/or files: 
+[2.760s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.760s] -- Configured cpplint exclude dirs and/or files: 
+[2.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.763s] -- Added test 'lint_cmake' to check CMake code style
+[2.764s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.769s] -- Added test 'uncrustify' to check C / C++ code style
+[2.769s] -- Configured uncrustify additional arguments: 
+[2.770s] -- Added test 'xmllint' to check XML markup files
+[2.783s] -- Configuring done
+[2.935s] -- Generating done
+[2.941s] -- Build files have been written to: /home/azraa/ros2_ws/build/gscam
+[2.988s] [35m[1mScanning dependencies of target gscam[0m
+[3.004s] [ 20%] Built target gtest_main
+[3.016s] [ 40%] Built target gtest
+[3.047s] [ 60%] Built target gscam_node
+[3.062s] [ 70%] [32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o[0m
+[9.920s] [ 80%] [32m[1mLinking CXX shared library libgscam.so[0m
+[10.661s] [ 80%] Built target gscam
+[10.697s] [35m[1mScanning dependencies of target smoke_test[0m
+[10.784s] [ 90%] [32mBuilding CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o[0m
+[19.430s] [100%] [32m[1mLinking CXX executable smoke_test[0m
+[20.338s] [100%] Built target smoke_test
+[20.366s] Invoked command in '/home/azraa/ros2_ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/gscam -- -j4 -l4
+[20.447s] Invoking command in '/home/azraa/ros2_ws/build/gscam': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/gscam
+[20.471s] -- Install configuration: ""
+[20.472s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/lib/gscam/gscam_node
+[20.472s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/library_path.sh
+[20.473s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/library_path.dsv
+[20.474s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam
+[20.474s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam
+[20.475s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.sh
+[20.475s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv
+[20.476s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/path.sh
+[20.476s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/environment/path.dsv
+[20.477s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.bash
+[20.477s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.sh
+[20.478s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.zsh
+[20.478s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/local_setup.dsv
+[20.479s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/package.dsv
+[20.479s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/packages/gscam
+[20.480s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam
+[20.480s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+[20.481s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+[20.481s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.482s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.482s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake
+[20.483s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake
+[20.483s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig.cmake
+[20.483s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake
+[20.484s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/package.xml
+[20.485s] -- Installing: /home/azraa/ros2_ws/install/gscam/lib/libgscam.so
+[20.490s] -- Set runtime path of "/home/azraa/ros2_ws/install/gscam/lib/libgscam.so" to ""
+[20.491s] -- Up-to-date: /home/azraa/ros2_ws/install/gscam/share/gscam/examples
+[20.491s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/videofile.launch.xml
+[20.492s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/minoru.launch.xml
+[20.492s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/decklink.launch.xml
+[20.492s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/v4l.launch.xml
+[20.493s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/osx.launch.xml
+[20.493s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml
+[20.494s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/component_pipeline_launch.py
+[20.494s] -- Installing: /home/azraa/ros2_ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini
+[20.503s] Invoked command in '/home/azraa/ros2_ws/build/gscam' returned '0': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/azraa/ros2_ws/build/gscam

@@ -1,0 +1,4 @@
+msg/TemperatureMsg.idl
+msg/TemperatureMsg.msg
+msg/TemperatureRaw.idl
+msg/TemperatureRaw.msg

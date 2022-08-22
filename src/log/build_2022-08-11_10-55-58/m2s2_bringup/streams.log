@@ -1,0 +1,45 @@
+[0.046s] Invoking command in '/home/azraa/ros2_ws/src/build/m2s2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/m2s2_bringup -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/m2s2_bringup
+[0.197s] -- The C compiler identification is GNU 9.4.0
+[0.310s] -- The CXX compiler identification is GNU 9.4.0
+[0.320s] -- Check for working C compiler: /usr/bin/cc
+[0.568s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.570s] -- Detecting C compiler ABI info
+[0.825s] -- Detecting C compiler ABI info - done
+[0.846s] -- Detecting C compile features
+[0.847s] -- Detecting C compile features - done
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++
+[0.977s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.977s] -- Detecting CXX compiler ABI info
+[1.206s] -- Detecting CXX compiler ABI info - done
+[1.253s] -- Detecting CXX compile features
+[1.265s] -- Detecting CXX compile features - done
+[1.282s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.382s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.382s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.901s] -- Configuring done
+[1.917s] -- Generating done
+[1.917s] -- Build files have been written to: /home/azraa/ros2_ws/src/build/m2s2_bringup
+[1.926s] Invoked command in '/home/azraa/ros2_ws/src/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/m2s2_bringup -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/m2s2_bringup
+[1.927s] Invoking command in '/home/azraa/ros2_ws/src/build/m2s2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/m2s2_bringup -- -j4 -l4
+[2.008s] Invoked command in '/home/azraa/ros2_ws/src/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/m2s2_bringup -- -j4 -l4
+[2.056s] Invoking command in '/home/azraa/ros2_ws/src/build/m2s2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/src/build/m2s2_bringup
+[2.087s] -- Install configuration: ""
+[2.087s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/launch
+[2.089s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/launch/m2s2.launch.py
+[2.090s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/launch/enviro_sensor.launch.xml
+[2.090s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/ament_index/resource_index/package_run_dependencies/m2s2_bringup
+[2.090s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/ament_index/resource_index/parent_prefix_path/m2s2_bringup
+[2.090s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/environment/ament_prefix_path.sh
+[2.091s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/environment/ament_prefix_path.dsv
+[2.091s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/environment/path.sh
+[2.091s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/environment/path.dsv
+[2.091s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/local_setup.bash
+[2.095s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/local_setup.sh
+[2.095s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/local_setup.zsh
+[2.096s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/local_setup.dsv
+[2.097s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/package.dsv
+[2.097s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/ament_index/resource_index/packages/m2s2_bringup
+[2.099s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/cmake/m2s2_bringupConfig.cmake
+[2.099s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/cmake/m2s2_bringupConfig-version.cmake
+[2.100s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_bringup/share/m2s2_bringup/package.xml
+[2.108s] Invoked command in '/home/azraa/ros2_ws/src/build/m2s2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/src/build/m2s2_bringup

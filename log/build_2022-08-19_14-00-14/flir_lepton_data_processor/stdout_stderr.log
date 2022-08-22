@@ -1,0 +1,45 @@
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info
+writing ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/PKG-INFO
+writing dependency_links to ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/dependency_links.txt
+writing entry points to ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/entry_points.txt
+writing requirements to ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/requires.txt
+writing top-level names to ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/top_level.txt
+writing manifest file '../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/SOURCES.txt'
+reading manifest file '../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/SOURCES.txt'
+writing manifest file '../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/azraa/ros2_ws/build/flir_lepton_data_processor/build
+creating /home/azraa/ros2_ws/build/flir_lepton_data_processor/build/lib
+creating /home/azraa/ros2_ws/build/flir_lepton_data_processor/build/lib/flir_lepton_data_processor
+copying flir_lepton_data_processor/__init__.py -> /home/azraa/ros2_ws/build/flir_lepton_data_processor/build/lib/flir_lepton_data_processor
+copying flir_lepton_data_processor/thermal_image_processor_node.py -> /home/azraa/ros2_ws/build/flir_lepton_data_processor/build/lib/flir_lepton_data_processor
+running install
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/python3.8/site-packages/flir_lepton_data_processor
+copying /home/azraa/ros2_ws/build/flir_lepton_data_processor/build/lib/flir_lepton_data_processor/__init__.py -> /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/python3.8/site-packages/flir_lepton_data_processor
+copying /home/azraa/ros2_ws/build/flir_lepton_data_processor/build/lib/flir_lepton_data_processor/thermal_image_processor_node.py -> /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/python3.8/site-packages/flir_lepton_data_processor
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/python3.8/site-packages/flir_lepton_data_processor/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/python3.8/site-packages/flir_lepton_data_processor/thermal_image_processor_node.py to thermal_image_processor_node.cpython-38.pyc
+running install_data
+creating /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/ament_index
+creating /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/ament_index/resource_index
+creating /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/ament_index/resource_index/packages
+copying resource/flir_lepton_data_processor -> /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/ament_index/resource_index/packages
+copying package.xml -> /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/flir_lepton_data_processor
+creating /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/flir_lepton_data_processor/launch
+copying launch/test.launch.py -> /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/flir_lepton_data_processor/launch
+creating /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/flir_lepton_data_processor/config
+copying config/params.yaml -> /home/azraa/ros2_ws/install/flir_lepton_data_processor/share/flir_lepton_data_processor/config
+running install_egg_info
+Copying ../../../build/flir_lepton_data_processor/flir_lepton_data_processor.egg-info to /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/python3.8/site-packages/flir_lepton_data_processor-0.0.0-py3.8.egg-info
+running install_scripts
+Installing thermal_image_processor_node script to /home/azraa/ros2_ws/install/flir_lepton_data_processor/lib/flir_lepton_data_processor
+writing list of installed files to '/home/azraa/ros2_ws/build/flir_lepton_data_processor/install.log'

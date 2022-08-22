@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target audio_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o[0m
+[100%] [32m[1mLinking CXX executable audio_capture[0m
+[100%] Built target audio_capture

@@ -1,0 +1,32 @@
+[0.072s] Invoking command in '/home/azraa/ros2_ws/build/audio_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_capture -- -j4 -l4
+[0.148s] [35m[1mScanning dependencies of target audio_capture[0m
+[0.212s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o[0m
+[3.967s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In member function ‘[01m[Kvoid audio_transport::RosGstCapture::publish(const AudioData&)[m[K’:
+[3.968s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:175:28:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst _stamp_type[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[3.968s]   175 |         msg.header.stamp = [01;31m[Ktimestamp[m[K;
+[3.968s]       |                            [01;31m[K^~~~~~~~~[m[K
+[3.968s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/time.hpp:7[m[K,
+[3.968s]                  from [01m[K/opt/ros/foxy/include/rclcpp/time.hpp:18[m[K,
+[3.968s]                  from [01m[K/opt/ros/foxy/include/rclcpp/clock.hpp:23[m[K,
+[3.968s]                  from [01m[K/opt/ros/foxy/include/rclcpp/timer.hpp:27[m[K,
+[3.968s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:27[m[K,
+[3.968s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[3.968s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[3.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[3.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.969s]                  from [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:6[m[K:
+[3.969s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconstexpr builtin_interfaces::msg::Time_<std::allocator<void> >& builtin_interfaces::msg::Time_<std::allocator<void> >::operator=(builtin_interfaces::msg::Time_<std::allocator<void> >&&)[m[K’
+[3.969s]    31 | struct [01;36m[KTime_[m[K
+[3.969s]       |        [01;36m[K^~~~~[m[K
+[3.977s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean audio_transport::RosGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[3.977s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:204:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.977s]   204 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[3.977s]       |                                  [01;35m[K~~~~~~~~^~~[m[K
+[5.299s] make[2]: *** [CMakeFiles/audio_capture.dir/build.make:63: CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o] Error 1
+[5.300s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/audio_capture.dir/all] Error 2
+[5.300s] make: *** [Makefile:141: all] Error 2
+[5.302s] Invoked command in '/home/azraa/ros2_ws/build/audio_capture' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_capture -- -j4 -l4

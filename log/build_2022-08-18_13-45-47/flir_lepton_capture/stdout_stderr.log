@@ -1,0 +1,63 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid flir_lepton::FlirLeptonNode::publish_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:460:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >::publish(example_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr&)[m[K’
+  460 |       raw_data_pub_->publish(raw_data[01;31m[K)[m[K;
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp:29[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >][m[K’
+  185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::unique_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > > >[m[K’
+  185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst example_interfaces::msg::Int16MultiArray_<std::allocator<void> >&[m[K’
+  209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+  226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+  226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+  246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[Kvoid flir_lepton::gst_eos_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:517:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  517 | void gst_eos_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:517:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  517 | void gst_eos_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_preroll_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:520:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  520 | GstFlowReturn gst_new_preroll_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:520:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  520 | GstFlowReturn gst_new_preroll_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_asample_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:524:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  524 | GstFlowReturn gst_new_asample_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:524:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  524 | GstFlowReturn gst_new_asample_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/flir_lepton_publisher.dir/build.make:63: CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flir_lepton_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,25 @@
+running egg_info
+writing ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/dependency_links.txt
+writing entry points to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/entry_points.txt
+writing requirements to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/requires.txt
+writing top-level names to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/top_level.txt
+reading manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying flir_lepton_purethermal2/purethermal2_node.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2
+running install
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/purethermal2_node.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/purethermal2_node.py to purethermal2_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing purethermal2_node script to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/flir_lepton_purethermal2
+Installing purethermal2_subscriber script to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/flir_lepton_purethermal2
+writing list of installed files to '/home/azraa/ros2_ws/build/flir_lepton_purethermal2/install.log'

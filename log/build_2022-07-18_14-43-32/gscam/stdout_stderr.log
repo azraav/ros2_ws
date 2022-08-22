@@ -1,0 +1,32 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+CMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "Findcamera_calibration_parsers.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "camera_calibration_parsers", but CMake did
+  not find one.
+
+  Could not find a package configuration file provided by
+  "camera_calibration_parsers" with any of the following names:
+
+    camera_calibration_parsersConfig.cmake
+    camera_calibration_parsers-config.cmake
+
+  Add the installation prefix of "camera_calibration_parsers" to
+  CMAKE_PREFIX_PATH or set "camera_calibration_parsers_DIR" to a directory
+  containing one of the above files.  If "camera_calibration_parsers"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/azraa/ros2_ws/build/gscam/CMakeFiles/CMakeOutput.log".
+See also "/home/azraa/ros2_ws/build/gscam/CMakeFiles/CMakeError.log".

@@ -1,0 +1,210 @@
+[0.053s] Invoking command in '/home/azraa/ros2_ws/src/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces
+[0.280s] -- The C compiler identification is GNU 9.4.0
+[0.477s] -- The CXX compiler identification is GNU 9.4.0
+[0.488s] -- Check for working C compiler: /usr/bin/cc
+[0.597s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.604s] -- Detecting C compiler ABI info
+[0.782s] -- Detecting C compiler ABI info - done
+[0.810s] -- Detecting C compile features
+[0.810s] -- Detecting C compile features - done
+[0.814s] -- Check for working CXX compiler: /usr/bin/c++
+[0.938s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.939s] -- Detecting CXX compiler ABI info
+[1.081s] -- Detecting CXX compiler ABI info - done
+[1.106s] -- Detecting CXX compile features
+[1.107s] -- Detecting CXX compile features - done
+[1.112s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.164s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.164s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.626s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.650s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.843s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.945s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.264s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.459s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.917s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.663s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.668s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.731s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.731s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.731s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.778s] -- Found PythonExtra: .so  
+[3.925s] -- Configuring done
+[4.016s] -- Generating done
+[4.021s] -- Build files have been written to: /home/azraa/ros2_ws/src/build/m2s2_custom_interfaces
+[4.034s] Invoked command in '/home/azraa/ros2_ws/src/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/m2s2_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces
+[4.034s] Invoking command in '/home/azraa/ros2_ws/src/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/m2s2_custom_interfaces -- -j4 -l4
+[4.099s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.103s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__cpp[0m
+[4.131s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.751s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_generator_c[0m
+[4.791s] [  9%] [32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/m2s2_custom_interfaces/msg/detail/enviro_data__functions.c.o[0m
+[4.856s] [ 12%] [32m[1mLinking C shared library libm2s2_custom_interfaces__rosidl_generator_c.so[0m
+[4.926s] [ 12%] Built target m2s2_custom_interfaces__rosidl_generator_c
+[4.968s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.987s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.027s] [ 19%] Built target m2s2_custom_interfaces__cpp
+[5.099s] [ 22%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.108s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.960s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_c[0m
+[6.010s] [ 29%] [32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/m2s2_custom_interfaces/msg/enviro_data__type_support.cpp.o[0m
+[6.199s] [ 32%] [32m[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_c.so[0m
+[6.289s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[6.366s] [ 35%] [32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.cpp.o[0m
+[6.398s] [ 35%] Built target m2s2_custom_interfaces__rosidl_typesupport_c
+[6.431s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_introspection_c[0m
+[6.440s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.495s] [ 41%] [32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.c.o[0m
+[6.520s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[6.602s] [ 45%] [32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/m2s2_custom_interfaces/msg/detail/dds_fastrtps/enviro_data__type_support.cpp.o[0m
+[6.684s] [ 48%] [32m[1mLinking C shared library libm2s2_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.898s] [ 48%] Built target m2s2_custom_interfaces__rosidl_typesupport_introspection_c
+[7.600s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_cpp[0m
+[7.670s] [ 51%] [32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/m2s2_custom_interfaces/msg/enviro_data__type_support.cpp.o[0m
+[7.939s] [ 54%] [32m[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.335s] [ 58%] [32m[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[8.355s] [ 58%] Built target m2s2_custom_interfaces__rosidl_typesupport_introspection_cpp
+[8.438s] [ 58%] Built target m2s2_custom_interfaces__rosidl_typesupport_cpp
+[8.608s] [ 61%] [32m[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.934s] [ 61%] Built target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.994s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.874s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[9.905s] [ 67%] [32mBuilding CXX object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/m2s2_custom_interfaces/msg/detail/enviro_data__type_support_c.cpp.o[0m
+[10.621s] [ 70%] [32m[1mLinking CXX shared library libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.775s] [ 70%] Built target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c
+[10.790s] [35m[1mScanning dependencies of target m2s2_custom_interfaces[0m
+[10.809s] [ 70%] Built target m2s2_custom_interfaces
+[10.826s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__py[0m
+[10.843s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.800s] [ 74%] Built target m2s2_custom_interfaces__py
+[11.815s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__python[0m
+[11.891s] [ 77%] [32mBuilding C object CMakeFiles/m2s2_custom_interfaces__python.dir/rosidl_generator_py/m2s2_custom_interfaces/msg/_enviro_data_s.c.o[0m
+[12.068s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/m2s2_custom_interfaces/libm2s2_custom_interfaces__python.so[0m
+[12.135s] [ 80%] Built target m2s2_custom_interfaces__python
+[12.149s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[12.150s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_c__pyext[0m
+[12.156s] [35m[1mScanning dependencies of target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[12.192s] [ 83%] [32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/m2s2_custom_interfaces/_m2s2_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.214s] [ 87%] [32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/m2s2_custom_interfaces/_m2s2_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.219s] [ 90%] [32mBuilding C object CMakeFiles/m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/m2s2_custom_interfaces/_m2s2_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.367s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[12.431s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[12.437s] [100%] [32m[1mLinking C shared library rosidl_generator_py/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[12.506s] [100%] Built target m2s2_custom_interfaces__rosidl_typesupport_c__pyext
+[12.520s] [100%] Built target m2s2_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.530s] [100%] Built target m2s2_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.548s] Invoked command in '/home/azraa/ros2_ws/src/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/src/build/m2s2_custom_interfaces -- -j4 -l4
+[12.632s] Invoking command in '/home/azraa/ros2_ws/src/build/m2s2_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/src/build/m2s2_custom_interfaces
+[12.649s] -- Install configuration: ""
+[12.650s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/m2s2_custom_interfaces
+[12.650s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces
+[12.650s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg
+[12.650s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail
+[12.651s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__functions.h
+[12.651s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__struct.h
+[12.651s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.h
+[12.651s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__functions.c
+[12.652s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/enviro_data.h
+[12.652s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.652s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/library_path.sh
+[12.653s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/library_path.dsv
+[12.653s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_generator_c.so
+[12.654s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_generator_c.so" to ""
+[12.654s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces
+[12.655s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg
+[12.655s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.655s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail
+[12.655s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_fastrtps_c.h
+[12.656s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.656s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.657s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces
+[12.657s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg
+[12.657s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail
+[12.657s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_fastrtps_cpp.hpp
+[12.658s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/dds_fastrtps
+[12.658s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.658s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.659s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.659s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces
+[12.660s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg
+[12.660s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail
+[12.660s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.c
+[12.660s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_introspection_c.h
+[12.660s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.661s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_c.so
+[12.661s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.662s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_c.so
+[12.663s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_c.so" to ""
+[12.663s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces
+[12.663s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg
+[12.663s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail
+[12.664s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__struct.hpp
+[12.664s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__builder.hpp
+[12.664s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__traits.hpp
+[12.664s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/enviro_data.hpp
+[12.665s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces
+[12.665s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg
+[12.665s] -- Up-to-date: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail
+[12.665s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__type_support.cpp
+[12.665s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/include/m2s2_custom_interfaces/msg/detail/enviro_data__rosidl_typesupport_introspection_cpp.hpp
+[12.666s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.667s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.667s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_cpp.so
+[12.668s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.668s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/pythonpath.sh
+[12.669s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/pythonpath.dsv
+[12.669s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/__init__.py
+[12.726s] Compiling '/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/__init__.py'...
+[12.733s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg
+[12.733s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/_enviro_data.py
+[12.733s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/_enviro_data_s.c
+[12.734s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/msg/__init__.py
+[12.734s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.735s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.735s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.736s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.736s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.737s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/python3.8/site-packages/m2s2_custom_interfaces/m2s2_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.737s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__python.so
+[12.738s] -- Set runtime path of "/home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/lib/libm2s2_custom_interfaces__python.so" to ""
+[12.738s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/msg/EnviroData.idl
+[12.738s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/msg/EnviroData.msg
+[12.739s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/m2s2_custom_interfaces
+[12.739s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/m2s2_custom_interfaces
+[12.740s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/ament_prefix_path.sh
+[12.740s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/ament_prefix_path.dsv
+[12.741s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/path.sh
+[12.741s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/environment/path.dsv
+[12.741s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.bash
+[12.741s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.sh
+[12.742s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.zsh
+[12.742s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/local_setup.dsv
+[12.742s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.dsv
+[12.742s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/ament_index/resource_index/packages/m2s2_custom_interfaces
+[12.743s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cExport.cmake
+[12.743s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.744s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.744s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.744s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cExport.cmake
+[12.744s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.745s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_generator_cppExport.cmake
+[12.745s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.745s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.746s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[12.746s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.746s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.747s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.747s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.747s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.747s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.748s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.748s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.748s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfacesConfig.cmake
+[12.748s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake/m2s2_custom_interfacesConfig-version.cmake
+[12.749s] -- Installing: /home/azraa/ros2_ws/src/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/package.xml
+[12.756s] Invoked command in '/home/azraa/ros2_ws/src/build/m2s2_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/azraa/ros2_ws/src/build/m2s2_custom_interfaces

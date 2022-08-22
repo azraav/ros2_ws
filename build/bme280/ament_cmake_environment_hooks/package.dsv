@@ -1,0 +1,4 @@
+source;share/bme280/local_setup.bash
+source;share/bme280/local_setup.dsv
+source;share/bme280/local_setup.sh
+source;share/bme280/local_setup.zsh

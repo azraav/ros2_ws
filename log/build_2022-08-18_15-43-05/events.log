@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.001520] (-) JobUnselected: {'identifier': 'audio_capture'}
+[0.001597] (-) JobUnselected: {'identifier': 'audio_common'}
+[0.001651] (-) JobUnselected: {'identifier': 'audio_common_msgs'}
+[0.001689] (-) JobUnselected: {'identifier': 'audio_play'}
+[0.001721] (-) JobUnselected: {'identifier': 'bme280'}
+[0.001752] (-) JobUnselected: {'identifier': 'flir_lepton_capture'}
+[0.001795] (-) JobUnselected: {'identifier': 'flir_lepton_data_processor'}
+[0.001823] (-) JobUnselected: {'identifier': 'flir_lepton_purethermal2'}
+[0.001851] (-) JobUnselected: {'identifier': 'gscam'}
+[0.001879] (-) JobUnselected: {'identifier': 'm2s2_bringup'}
+[0.001908] (-) JobUnselected: {'identifier': 'm2s2_custom_interfaces'}
+[0.001936] (-) JobUnselected: {'identifier': 'm2s2_test_python'}
+[0.001964] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001993] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.002021] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.002049] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.002077] (-) JobUnselected: {'identifier': 'sound_play'}
+[0.002105] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.002136] (flir_lepton_msgs) JobQueued: {'identifier': 'flir_lepton_msgs', 'dependencies': OrderedDict()}
+[0.002168] (flir_lepton_msgs) JobStarted: {'identifier': 'flir_lepton_msgs'}
+[0.022115] (flir_lepton_msgs) JobProgress: {'identifier': 'flir_lepton_msgs', 'progress': 'cmake'}
+[0.025052] (flir_lepton_msgs) JobProgress: {'identifier': 'flir_lepton_msgs', 'progress': 'build'}
+[0.025098] (flir_lepton_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azraa/ros2_ws/build/flir_lepton_msgs', '--', '-j4', '-l4'], 'cwd': '/home/azraa/ros2_ws/build/flir_lepton_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1667'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:38920'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1724,unix/azraa-VirtualBox:/tmp/.ICE-unix/1724'), ('INVOCATION_ID', '0b2dc7eccb254304ba89955957988d4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/53bc821a_b137_4be8_b2da_ee11f6200e31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.750'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/flir_lepton_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[0.080275] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098018] (-) TimerEvent: {}
+[0.124480] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.124676] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198221] (-) TimerEvent: {}
+[0.298604] (-) TimerEvent: {}
+[0.398973] (-) TimerEvent: {}
+[0.499287] (-) TimerEvent: {}
+[0.504210] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.512987] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.523516] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.599571] (-) TimerEvent: {}
+[0.700126] (-) TimerEvent: {}
+[0.754160] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.792012] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.800324] (-) TimerEvent: {}
+[0.894793] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.900451] (-) TimerEvent: {}
+[1.000892] (-) TimerEvent: {}
+[1.101280] (-) TimerEvent: {}
+[1.172054] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.201576] (-) TimerEvent: {}
+[1.302254] (-) TimerEvent: {}
+[1.402735] (-) TimerEvent: {}
+[1.476900] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503042] (-) TimerEvent: {}
+[1.595298] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603200] (-) TimerEvent: {}
+[1.644923] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.645854] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.690783] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.690954] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.691009] (flir_lepton_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.703444] (-) TimerEvent: {}
+[1.771368] (flir_lepton_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.799982] (flir_lepton_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.802198] (flir_lepton_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.803481] (flir_lepton_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.803600] (-) TimerEvent: {}
+[1.811563] (flir_lepton_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.903845] (-) TimerEvent: {}
+[1.921578] (flir_lepton_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.929925] (flir_lepton_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/azraa/ros2_ws/build/flir_lepton_msgs\n'}
+[1.969729] (flir_lepton_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.971124] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__cpp\x1b[0m\n'}
+[1.984304] (flir_lepton_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.003992] (-) TimerEvent: {}
+[2.104324] (-) TimerEvent: {}
+[2.204673] (-) TimerEvent: {}
+[2.304990] (-) TimerEvent: {}
+[2.405333] (-) TimerEvent: {}
+[2.505671] (-) TimerEvent: {}
+[2.518663] (flir_lepton_msgs) StdoutLine: {'line': b'[  5%] Built target flir_lepton_msgs__cpp\n'}
+[2.533964] (flir_lepton_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.538784] (flir_lepton_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.543795] (flir_lepton_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.545620] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.573814] (flir_lepton_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_generator_c.dir/rosidl_generator_c/flir_lepton_msgs/msg/detail/temperature_msg__functions.c.o\x1b[0m\n'}
+[2.605852] (-) TimerEvent: {}
+[2.646809] (flir_lepton_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_generator_c.dir/rosidl_generator_c/flir_lepton_msgs/msg/detail/temperature_raw__functions.c.o\x1b[0m\n'}
+[2.706135] (-) TimerEvent: {}
+[2.718826] (flir_lepton_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libflir_lepton_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.776388] (flir_lepton_msgs) StdoutLine: {'line': b'[ 20%] Built target flir_lepton_msgs__rosidl_generator_c\n'}
+[2.792258] (flir_lepton_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.806270] (-) TimerEvent: {}
+[2.906617] (-) TimerEvent: {}
+[3.006961] (-) TimerEvent: {}
+[3.107391] (-) TimerEvent: {}
+[3.132021] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.140844] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.152363] (flir_lepton_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flir_lepton_msgs/msg/temperature_msg__type_support.cpp.o\x1b[0m\n'}
+[3.159064] (flir_lepton_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flir_lepton_msgs/msg/detail/temperature_msg__type_support.cpp.o\x1b[0m\n'}
+[3.207541] (-) TimerEvent: {}
+[3.228576] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.248382] (flir_lepton_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flir_lepton_msgs/msg/detail/dds_fastrtps/temperature_msg__type_support.cpp.o\x1b[0m\n'}
+[3.307673] (-) TimerEvent: {}
+[3.408045] (-) TimerEvent: {}
+[3.413127] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.432833] (flir_lepton_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flir_lepton_msgs/msg/detail/temperature_msg__type_support.c.o\x1b[0m\n'}
+[3.488668] (flir_lepton_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flir_lepton_msgs/msg/detail/temperature_raw__type_support.c.o\x1b[0m\n'}
+[3.508202] (-) TimerEvent: {}
+[3.544920] (flir_lepton_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libflir_lepton_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.593056] (flir_lepton_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flir_lepton_msgs/msg/temperature_raw__type_support.cpp.o\x1b[0m\n'}
+[3.593276] (flir_lepton_msgs) StdoutLine: {'line': b'[ 41%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_c\n'}
+[3.607775] (flir_lepton_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.608310] (-) TimerEvent: {}
+[3.647031] (flir_lepton_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flir_lepton_msgs/msg/detail/temperature_raw__type_support.cpp.o\x1b[0m\n'}
+[3.708457] (-) TimerEvent: {}
+[3.808848] (-) TimerEvent: {}
+[3.909196] (-) TimerEvent: {}
+[4.004102] (flir_lepton_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flir_lepton_msgs/msg/detail/dds_fastrtps/temperature_raw__type_support.cpp.o\x1b[0m\n'}
+[4.009341] (-) TimerEvent: {}
+[4.098886] (flir_lepton_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.109495] (-) TimerEvent: {}
+[4.160557] (flir_lepton_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.160832] (flir_lepton_msgs) StdoutLine: {'line': b'[ 53%] Built target flir_lepton_msgs__rosidl_typesupport_cpp\n'}
+[4.172332] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.189459] (flir_lepton_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flir_lepton_msgs/msg/temperature_msg__type_support.cpp.o\x1b[0m\n'}
+[4.189982] (flir_lepton_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flir_lepton_msgs/msg/temperature_raw__type_support.cpp.o\x1b[0m\n'}
+[4.209647] (-) TimerEvent: {}
+[4.239023] (flir_lepton_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.266025] (flir_lepton_msgs) StdoutLine: {'line': b'[ 61%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.293452] (flir_lepton_msgs) StdoutLine: {'line': b'[ 61%] Built target flir_lepton_msgs__rosidl_typesupport_c\n'}
+[4.309821] (-) TimerEvent: {}
+[4.410256] (-) TimerEvent: {}
+[4.510701] (-) TimerEvent: {}
+[4.571585] (flir_lepton_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.610982] (-) TimerEvent: {}
+[4.687144] (flir_lepton_msgs) StdoutLine: {'line': b'[ 64%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.700283] (flir_lepton_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.711232] (-) TimerEvent: {}
+[4.812676] (-) TimerEvent: {}
+[4.913487] (-) TimerEvent: {}
+[5.013972] (-) TimerEvent: {}
+[5.114437] (-) TimerEvent: {}
+[5.203027] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.214728] (-) TimerEvent: {}
+[5.225959] (flir_lepton_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flir_lepton_msgs/msg/detail/temperature_raw__type_support_c.cpp.o\x1b[0m\n'}
+[5.226292] (flir_lepton_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flir_lepton_msgs/msg/detail/temperature_msg__type_support_c.cpp.o\x1b[0m\n'}
+[5.314936] (-) TimerEvent: {}
+[5.415419] (-) TimerEvent: {}
+[5.516054] (-) TimerEvent: {}
+[5.616475] (-) TimerEvent: {}
+[5.663543] (flir_lepton_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libflir_lepton_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.716756] (-) TimerEvent: {}
+[5.774672] (flir_lepton_msgs) StdoutLine: {'line': b'[ 74%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.803437] (flir_lepton_msgs) StdoutLine: {'line': b'[ 74%] Built target flir_lepton_msgs\n'}
+[5.816955] (-) TimerEvent: {}
+[5.818784] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__py\x1b[0m\n'}
+[5.833432] (flir_lepton_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.917396] (-) TimerEvent: {}
+[6.018081] (-) TimerEvent: {}
+[6.118540] (-) TimerEvent: {}
+[6.219202] (-) TimerEvent: {}
+[6.319910] (-) TimerEvent: {}
+[6.420530] (-) TimerEvent: {}
+[6.521172] (-) TimerEvent: {}
+[6.621596] (-) TimerEvent: {}
+[6.722112] (-) TimerEvent: {}
+[6.807508] (flir_lepton_msgs) StdoutLine: {'line': b'[ 76%] Built target flir_lepton_msgs__py\n'}
+[6.822628] (-) TimerEvent: {}
+[6.823196] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__python\x1b[0m\n'}
+[6.846316] (flir_lepton_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__python.dir/rosidl_generator_py/flir_lepton_msgs/msg/_temperature_raw_s.c.o\x1b[0m\n'}
+[6.848193] (flir_lepton_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__python.dir/rosidl_generator_py/flir_lepton_msgs/msg/_temperature_msg_s.c.o\x1b[0m\n'}
+[6.923007] (-) TimerEvent: {}
+[7.015152] (flir_lepton_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_lepton_msgs/libflir_lepton_msgs__python.so\x1b[0m\n'}
+[7.023259] (-) TimerEvent: {}
+[7.067338] (flir_lepton_msgs) StdoutLine: {'line': b'[ 84%] Built target flir_lepton_msgs__python\n'}
+[7.082716] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.083016] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.083138] (flir_lepton_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.104381] (flir_lepton_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flir_lepton_msgs/_flir_lepton_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.110059] (flir_lepton_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flir_lepton_msgs/_flir_lepton_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.113070] (flir_lepton_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flir_lepton_msgs/_flir_lepton_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.123549] (-) TimerEvent: {}
+[7.214251] (flir_lepton_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.219657] (flir_lepton_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.223672] (-) TimerEvent: {}
+[7.224721] (flir_lepton_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.265014] (flir_lepton_msgs) StdoutLine: {'line': b'[100%] Built target flir_lepton_msgs__rosidl_typesupport_c__pyext\n'}
+[7.267766] (flir_lepton_msgs) StdoutLine: {'line': b'[100%] Built target flir_lepton_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.316205] (flir_lepton_msgs) StdoutLine: {'line': b'[100%] Built target flir_lepton_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.323862] (-) TimerEvent: {}
+[7.330164] (flir_lepton_msgs) CommandEnded: {'returncode': 0}
+[7.418315] (flir_lepton_msgs) JobProgress: {'identifier': 'flir_lepton_msgs', 'progress': 'install'}
+[7.425077] (-) TimerEvent: {}
+[7.432407] (flir_lepton_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azraa/ros2_ws/build/flir_lepton_msgs'], 'cwd': '/home/azraa/ros2_ws/build/flir_lepton_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'azraa'), ('SSH_AGENT_PID', '1667'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib'), ('HOME', '/home/azraa'), ('OLDPWD', '/home/azraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1461'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/azraa/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'azraa'), ('JOURNAL_STREAM', '8:38920'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/ros/noetic/bin:/home/azraa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/azraa-VirtualBox:@/tmp/.ICE-unix/1724,unix/azraa-VirtualBox:/tmp/.ICE-unix/1724'), ('INVOCATION_ID', '0b2dc7eccb254304ba89955957988d4b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/53bc821a_b137_4be8_b2da_ee11f6200e31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_ZA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.750'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azraa/ros2_ws/build/flir_lepton_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic')]), 'shell': False}
+[7.442964] (flir_lepton_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.443163] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/rosidl_interfaces/flir_lepton_msgs\n'}
+[7.444684] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs\n'}
+[7.445394] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg\n'}
+[7.445922] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/temperature_raw.h\n'}
+[7.446137] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/temperature_msg.h\n'}
+[7.446247] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail\n'}
+[7.446608] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__type_support.h\n'}
+[7.446794] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__functions.c\n'}
+[7.446970] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__functions.h\n'}
+[7.447220] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__functions.h\n'}
+[7.447486] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__struct.h\n'}
+[7.447587] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__functions.h\n'}
+[7.447734] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__type_support.h\n'}
+[7.447922] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__functions.c\n'}
+[7.448005] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__struct.h\n'}
+[7.448134] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__functions.c\n'}
+[7.448230] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__struct.h\n'}
+[7.448309] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__type_support.h\n'}
+[7.448454] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/raw_data.h\n'}
+[7.448589] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.448685] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/library_path.sh\n'}
+[7.448764] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/library_path.dsv\n'}
+[7.449123] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_generator_c.so\n'}
+[7.449504] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_generator_c.so" to ""\n'}
+[7.449740] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs\n'}
+[7.449893] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg\n'}
+[7.449978] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.450135] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail\n'}
+[7.450244] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[7.450363] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_fastrtps_c.h\n'}
+[7.450492] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__rosidl_typesupport_fastrtps_c.h\n'}
+[7.451711] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.452393] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.452663] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs\n'}
+[7.452762] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg\n'}
+[7.452845] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail\n'}
+[7.453104] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/dds_fastrtps\n'}
+[7.453352] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.453616] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.453711] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.453977] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.455266] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.456109] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.456386] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs\n'}
+[7.456484] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg\n'}
+[7.456567] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail\n'}
+[7.456816] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__type_support.c\n'}
+[7.456925] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__rosidl_typesupport_introspection_c.h\n'}
+[7.457254] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__type_support.c\n'}
+[7.457512] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_introspection_c.h\n'}
+[7.457614] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__rosidl_typesupport_introspection_c.h\n'}
+[7.457877] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__type_support.c\n'}
+[7.458160] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.459598] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.460222] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.461546] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_c.so\n'}
+[7.462094] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.462431] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs\n'}
+[7.462718] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg\n'}
+[7.463020] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail\n'}
+[7.463344] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__traits.hpp\n'}
+[7.463700] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__struct.hpp\n'}
+[7.464069] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__builder.hpp\n'}
+[7.464184] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__builder.hpp\n'}
+[7.465115] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__struct.hpp\n'}
+[7.465425] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__traits.hpp\n'}
+[7.465762] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__struct.hpp\n'}
+[7.466025] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__builder.hpp\n'}
+[7.466279] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__traits.hpp\n'}
+[7.466492] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/temperature_raw.hpp\n'}
+[7.466595] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/temperature_msg.hpp\n'}
+[7.466682] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/raw_data.hpp\n'}
+[7.466828] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs\n'}
+[7.466944] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg\n'}
+[7.467071] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail\n'}
+[7.467166] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__type_support.cpp\n'}
+[7.467245] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__type_support.cpp\n'}
+[7.467323] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_raw__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.467488] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.467584] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/temperature_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.467678] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/include/flir_lepton_msgs/msg/detail/raw_data__type_support.cpp\n'}
+[7.467853] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.468283] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.469357] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_cpp.so\n'}
+[7.469658] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.469892] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/pythonpath.sh\n'}
+[7.470095] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/pythonpath.dsv\n'}
+[7.470188] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/__init__.py\n'}
+[7.515922] (flir_lepton_msgs) StdoutLine: {'line': b"Compiling '/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/__init__.py'...\n"}
+[7.521350] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg\n'}
+[7.521569] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_temperature_msg.py\n'}
+[7.521738] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_temperature_raw_s.c\n'}
+[7.521913] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_temperature_raw.py\n'}
+[7.522274] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_raw_data.py\n'}
+[7.522403] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_temperature_msg_s.c\n'}
+[7.522600] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/__init__.py\n'}
+[7.522891] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/msg/_raw_data_s.c\n'}
+[7.524344] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.525226] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.525379] (-) TimerEvent: {}
+[7.526656] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.527514] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.528696] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.529324] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages/flir_lepton_msgs/flir_lepton_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.530969] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__python.so\n'}
+[7.531299] (flir_lepton_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/libflir_lepton_msgs__python.so" to ""\n'}
+[7.531832] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/msg/TemperatureMsg.idl\n'}
+[7.532138] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/msg/TemperatureRaw.idl\n'}
+[7.532338] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/msg/TemperatureMsg.msg\n'}
+[7.532490] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/msg/TemperatureRaw.msg\n'}
+[7.532579] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/package_run_dependencies/flir_lepton_msgs\n'}
+[7.532977] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/parent_prefix_path/flir_lepton_msgs\n'}
+[7.533158] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/ament_prefix_path.sh\n'}
+[7.533443] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/ament_prefix_path.dsv\n'}
+[7.533771] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/path.sh\n'}
+[7.533926] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/environment/path.dsv\n'}
+[7.534096] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.bash\n'}
+[7.534258] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.sh\n'}
+[7.534361] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.zsh\n'}
+[7.534473] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/local_setup.dsv\n'}
+[7.534559] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/package.dsv\n'}
+[7.534675] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/ament_index/resource_index/packages/flir_lepton_msgs\n'}
+[7.534846] (flir_lepton_msgs) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cExport-noconfig.cmake].\n'}
+[7.535025] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cExport.cmake\n'}
+[7.535183] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.535585] (flir_lepton_msgs) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[7.535766] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.536067] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.536222] (flir_lepton_msgs) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[7.536408] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.536599] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.536891] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.537301] (flir_lepton_msgs) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[7.537565] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.537669] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.537976] (flir_lepton_msgs) StdoutLine: {'line': b'-- Old export file "/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[7.538199] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.538350] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.538499] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.538620] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.538895] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.539157] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.539316] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.539413] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.539527] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.539622] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgsConfig.cmake\n'}
+[7.539710] (flir_lepton_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/cmake/flir_lepton_msgsConfig-version.cmake\n'}
+[7.539796] (flir_lepton_msgs) StdoutLine: {'line': b'-- Installing: /home/azraa/ros2_ws/install/flir_lepton_msgs/share/flir_lepton_msgs/package.xml\n'}
+[7.543552] (flir_lepton_msgs) CommandEnded: {'returncode': 0}
+[7.625552] (-) TimerEvent: {}
+[7.690414] (flir_lepton_msgs) JobEnded: {'identifier': 'flir_lepton_msgs', 'rc': 0}
+[7.691535] (-) EventReactorShutdown: {}

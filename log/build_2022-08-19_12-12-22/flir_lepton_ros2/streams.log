@@ -1,0 +1,39 @@
+[0.036s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_ros2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_ros2 -- -j4 -l4
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o[0m
+[3.626s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.626s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.626s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.626s]                  from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7[m[K:
+[3.626s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[3.626s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+[3.626s]   169 |         RCLCPP_ERROR_STREAM(get_logger([01;31m[K)[m[K, "gstreamer: " << err->message);
+[3.626s]       |                                        [01;31m[K^[m[K
+[3.627s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+[3.627s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.627s]   169 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(get_logger(), "gstreamer: " << err->message);
+[3.627s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.627s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.627s]   169 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(get_logger(), "gstreamer: " << err->message);
+[3.627s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.628s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.628s]   169 |         [01;31m[KRCLCPP_ERROR_STREAM[m[K(get_logger(), "gstreamer: " << err->message);
+[3.628s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.628s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[3.628s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[3.628s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.628s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.628s]                  from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7[m[K:
+[3.628s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+[3.628s]   169 |         RCLCPP_ERROR_STREAM(get_logger([01;31m[K)[m[K, "gstreamer: " << err->message);
+[3.628s]       |                                        [01;31m[K^[m[K
+[3.628s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:169:40:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ without object
+[3.628s]   169 |         RCLCPP_ERROR_STREAM(get_logger([01;31m[K)[m[K, "gstreamer: " << err->message);
+[3.628s]       |                                        [01;31m[K^[m[K
+[3.628s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:162:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.629s]   162 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[3.629s]       |                                [01;35m[K~~~~~~~~^~~[m[K
+[4.786s] make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+[4.786s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+[4.786s] make: *** [Makefile:141: all] Error 2
+[4.788s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_ros2' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_ros2 -- -j4 -l4

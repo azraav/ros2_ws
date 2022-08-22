@@ -1,0 +1,288 @@
+[0.026s] Invoking command in '/home/azraa/ros2_ws/build/gscam': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/gscam -- -j4 -l4
+[0.093s] [35m[1mScanning dependencies of target gscam[0m
+[0.095s] [ 20%] Built target gtest_main
+[0.095s] [ 40%] Built target gtest
+[0.112s] [ 60%] Built target gscam_node
+[0.146s] [ 70%] [32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o[0m
+[1.892s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K In member function ‘[01m[Kvoid gscam::GSCam::publish_stream()[m[K’:
+[1.892s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:421:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<short int, std::allocator<short int> >[m[K’ {aka ‘[01m[Kclass std::vector<short int, std::allocator<short int> >[m[K’} has no member named ‘[01m[Kdim[m[K’
+[1.892s]   421 |       msg->data.[01;31m[Kdim[m[K[1].label = "width";
+[1.892s]       |                 [01;31m[K^~~[m[K
+[1.892s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:423:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<short int, std::allocator<short int> >[m[K’ {aka ‘[01m[Kclass std::vector<short int, std::allocator<short int> >[m[K’} has no member named ‘[01m[Kdim[m[K’
+[1.892s]   423 |       msg->data.[01;31m[Kdim[m[K[1].stride = 160;
+[1.892s]       |                 [01;31m[K^~~[m[K
+[1.892s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:433:36:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+[1.892s]   433 |       img->data = uint8_t(msg->data[01;31m[K)[m[K;
+[1.893s]       |                                    [01;31m[K^[m[K
+[1.900s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:437:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >::publish(example_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr&)[m[K’
+[1.900s]   437 |       raw_data_pub_->publish(msg[01;31m[K)[m[K;
+[1.900s]       |                                 [01;31m[K^[m[K
+[1.900s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_topics_interface.hpp:29[m[K,
+[1.900s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:55[m[K,
+[1.900s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.900s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.900s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >][m[K’
+[1.901s]   185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+[1.901s]       |   [01;36m[K^~~~~~~[m[K
+[1.901s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::unique_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::default_delete<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > > >[m[K’
+[1.901s]   185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+[1.901s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.901s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.901s]   209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+[1.901s]       |   [01;36m[K^~~~~~~[m[K
+[1.901s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst example_interfaces::msg::Int16MultiArray_<std::allocator<void> >&[m[K’
+[1.901s]   209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+[1.902s]       |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+[1.902s]   226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[1.902s]       |   [01;36m[K^~~~~~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+[1.902s]   226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[1.902s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.902s]   232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[1.902s]       |   [01;36m[K^~~~~~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[1.902s]   232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[1.902s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.903s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = example_interfaces::msg::Int16MultiArray_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.903s]   246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+[1.903s]       |   [01;36m[K^~~~~~~[m[K
+[1.903s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<example_interfaces::msg::Int16MultiArray_<std::allocator<void> > >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<example_interfaces::msg::Int16MultiArray_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[1.903s]   246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+[1.903s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.911s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:442:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuf[m[K’ was not declared in this scope
+[1.911s]   442 |     if ([01;31m[Kbuf[m[K) {
+[1.911s]       |         [01;31m[K^~~[m[K
+[1.913s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:443:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmemory[m[K’ was not declared in this scope; did you mean ‘[01m[Kmemcpy[m[K’?
+[1.914s]   443 |       gst_memory_unmap([01;31m[Kmemory[m[K, &info);
+[1.914s]       |                        [01;31m[K^~~~~~[m[K
+[1.914s]       |                        [32m[Kmemcpy[m[K
+[1.916s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:443:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo[m[K’ was not declared in this scope
+[1.916s]   443 |       gst_memory_unmap(memory, &[01;31m[Kinfo[m[K);
+[1.916s]       |                                 [01;31m[K^~~~[m[K
+[1.919s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:445:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksample[m[K’ was not declared in this scope; did you mean ‘[01m[KGstSample[m[K’?
+[1.919s]   445 |       gst_sample_unref([01;31m[Ksample[m[K);
+[1.919s]       |                        [01;31m[K^~~~~~[m[K
+[1.919s]       |                        [32m[KGstSample[m[K
+[1.920s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K At global scope:
+[1.920s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:450:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGSCam[m[K’ has not been declared
+[1.920s]   450 | void [01;31m[KGSCam[m[K::cleanup_stream()
+[1.920s]       |      [01;31m[K^~~~~[m[K
+[1.921s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.921s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.921s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.921s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.921s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.921s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K In function ‘[01m[Kvoid cleanup_stream()[m[K’:
+[1.922s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.922s]   453 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Stopping gstreamer pipeline...");
+[1.922s]       |               [01;31m[K^~~~~~~~~~[m[K
+[1.922s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.922s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.922s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.922s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.922s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.922s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.922s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.922s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.922s]       |                 [01;36m[K^~~~~~[m[K
+[1.922s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.922s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.923s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.923s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.923s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.923s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.923s]   453 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Stopping gstreamer pipeline...");
+[1.923s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.923s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.923s]   453 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Stopping gstreamer pipeline...");
+[1.923s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.923s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:453:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.923s]   453 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Stopping gstreamer pipeline...");
+[1.923s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.925s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:454:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpipeline_[m[K’ was not declared in this scope
+[1.925s]   454 |   if ([01;31m[Kpipeline_[m[K) {
+[1.925s]       |       [01;31m[K^~~~~~~~~[m[K
+[1.925s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K At global scope:
+[1.925s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:461:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGSCam[m[K’ has not been declared
+[1.925s]   461 | void [01;31m[KGSCam[m[K::run()
+[1.925s]       |      [01;31m[K^~~~~[m[K
+[1.925s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K In function ‘[01m[Kvoid run()[m[K’:
+[1.925s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:463:8:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.926s]   463 |   if (![01;31m[Kthis[m[K->configure()) {
+[1.926s]       |        [01;31m[K^~~~[m[K
+[1.926s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.926s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.926s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.926s]   464 |     RCLCPP_FATAL([01;31m[Kget_logger[m[K(), "Failed to configure gscam!");
+[1.926s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[1.926s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.926s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.927s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.927s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.927s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.927s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.927s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.927s]       |                 [01;36m[K^~~~~~[m[K
+[1.927s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.927s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.927s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.927s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.927s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.927s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.927s]   464 |     [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to configure gscam!");
+[1.928s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.928s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.928s]   464 |     [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to configure gscam!");
+[1.928s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.928s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:464:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.928s]   464 |     [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to configure gscam!");
+[1.928s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.930s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:468:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_signal_[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrsignal[m[K’?
+[1.930s]   468 |   while (![01;31m[Kstop_signal_[m[K && rclcpp::ok()) {
+[1.930s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[1.930s]       |           [32m[Kstrsignal[m[K
+[1.930s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:469:10:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.930s]   469 |     if (![01;31m[Kthis[m[K->init_stream()) {
+[1.930s]       |          [01;31m[K^~~~[m[K
+[1.931s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.931s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.931s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.931s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.932s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.932s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.932s]   470 |       RCLCPP_FATAL([01;31m[Kget_logger[m[K(), "Failed to initialize gscam stream!");
+[1.932s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[1.932s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.932s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.932s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.932s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.933s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.933s]       |                 [01;36m[K^~~~~~[m[K
+[1.933s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.933s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.933s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.933s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.933s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.933s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.933s]   470 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to initialize gscam stream!");
+[1.933s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[1.933s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.934s]   470 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to initialize gscam stream!");
+[1.934s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[1.934s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:470:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.934s]   470 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to initialize gscam stream!");
+[1.934s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[1.934s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:475:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.934s]   475 |     [01;31m[Kthis[m[K->publish_stream();
+[1.934s]       |     [01;31m[K^~~~[m[K
+[1.934s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:477:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.934s]   477 |     [01;31m[Kthis[m[K->cleanup_stream();
+[1.934s]       |     [01;31m[K^~~~[m[K
+[1.935s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.935s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.935s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.935s]   479 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "GStreamer stream stopped!");
+[1.935s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[1.935s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.936s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.936s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.936s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.936s]       |                 [01;36m[K^~~~~~[m[K
+[1.936s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.936s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.936s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.937s]   479 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "GStreamer stream stopped!");
+[1.937s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.937s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.937s]   479 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "GStreamer stream stopped!");
+[1.937s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.937s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:479:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.937s]   479 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "GStreamer stream stopped!");
+[1.937s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.939s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:481:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreopen_on_eof_[m[K’ was not declared in this scope
+[1.940s]   481 |     if ([01;31m[Kreopen_on_eof_[m[K) {
+[1.940s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.941s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.941s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.941s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.941s]   482 |       RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Reopening stream...");
+[1.941s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[1.941s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.941s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.942s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.942s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.942s]       |                 [01;36m[K^~~~~~[m[K
+[1.942s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.942s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.942s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.943s]   482 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Reopening stream...");
+[1.943s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.943s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.943s]   482 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Reopening stream...");
+[1.943s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.943s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:482:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.943s]   482 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Reopening stream...");
+[1.943s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.944s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.944s]   484 |       RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Cleaning up stream and exiting...");
+[1.944s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[1.944s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.944s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.944s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.944s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.945s]       |                 [01;36m[K^~~~~~[m[K
+[1.945s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[1.945s]                  from [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:27[m[K:
+[1.945s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.945s]   484 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Cleaning up stream and exiting...");
+[1.945s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.945s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.945s]   484 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Cleaning up stream and exiting...");
+[1.946s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.946s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:484:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.946s]   484 |       [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Cleaning up stream and exiting...");
+[1.946s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.946s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K At global scope:
+[1.946s] [01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:504:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.946s]   504 | [01;31m[K}[m[K  // namespace gscam
+[1.946s]       | [01;31m[K^[m[K
+[3.293s] make[2]: *** [CMakeFiles/gscam.dir/build.make:63: CMakeFiles/gscam.dir/src/gscam.cpp.o] Error 1
+[3.293s] make[1]: *** [CMakeFiles/Makefile2:132: CMakeFiles/gscam.dir/all] Error 2
+[3.293s] make: *** [Makefile:141: all] Error 2
+[3.298s] Invoked command in '/home/azraa/ros2_ws/build/gscam' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/gscam -- -j4 -l4

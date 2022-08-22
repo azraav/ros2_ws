@@ -1,0 +1,53 @@
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info
+writing ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/dependency_links.txt
+writing entry points to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/entry_points.txt
+writing requirements to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/requires.txt
+writing top-level names to ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/top_level.txt
+writing manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build
+creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib
+creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2
+copying flir_lepton_purethermal2/__init__.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2
+copying flir_lepton_purethermal2/purethermal2_node.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2
+copying flir_lepton_purethermal2/purethermal2_subscriber.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2
+creating /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules
+copying flir_lepton_purethermal2/submodules/__init__.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules
+copying flir_lepton_purethermal2/submodules/uvctypes.py -> /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules
+/home/azraa/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2
+copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/__init__.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2
+creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules
+copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules/__init__.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules
+copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/submodules/uvctypes.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules
+copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/purethermal2_node.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2
+copying /home/azraa/ros2_ws/build/flir_lepton_purethermal2/build/lib/flir_lepton_purethermal2/purethermal2_subscriber.py -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/submodules/uvctypes.py to uvctypes.cpython-38.pyc
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/purethermal2_node.py to purethermal2_node.cpython-38.pyc
+byte-compiling /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2/purethermal2_subscriber.py to purethermal2_subscriber.cpython-38.pyc
+running install_data
+creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index
+creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index/resource_index
+creating /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index/resource_index/packages
+copying resource/flir_lepton_purethermal2 -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/ament_index/resource_index/packages
+copying package.xml -> /home/azraa/ros2_ws/install/flir_lepton_purethermal2/share/flir_lepton_purethermal2
+running install_egg_info
+Copying ../../../build/flir_lepton_purethermal2/flir_lepton_purethermal2.egg-info to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/python3.8/site-packages/flir_lepton_purethermal2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing purethermal2_node script to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/flir_lepton_purethermal2
+Installing purethermal2_subscriber script to /home/azraa/ros2_ws/install/flir_lepton_purethermal2/lib/flir_lepton_purethermal2
+writing list of installed files to '/home/azraa/ros2_ws/build/flir_lepton_purethermal2/install.log'

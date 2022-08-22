@@ -1,0 +1,28 @@
+[2.220s] Invoking command in '/home/azraa/ros2_ws/src/build/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/src/install/my_py_pkg --editable --build-directory /home/azraa/ros2_ws/src/build/my_py_pkg/build --no-deps install_data --install-dir /home/azraa/ros2_ws/src/install/my_py_pkg
+[2.873s] running develop
+[3.173s] running egg_info
+[3.174s] creating my_py_pkg.egg-info
+[3.174s] writing my_py_pkg.egg-info/PKG-INFO
+[3.174s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.174s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.175s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.175s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.183s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.406s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.409s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.506s] running build_ext
+[3.507s] Creating /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/site.py
+[3.512s] Creating /home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[3.513s] Installing number_publisher script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.514s] Installing py_node script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.514s] Installing robot_news_station script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.514s] Installing smartphone script to /home/azraa/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[3.515s] 
+[3.515s] Installed /home/azraa/ros2_ws/src/build/my_py_pkg
+[3.515s] running install_data
+[3.515s] creating /home/azraa/ros2_ws/src/install/my_py_pkg/share/ament_index
+[3.516s] creating /home/azraa/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index
+[3.516s] creating /home/azraa/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.516s] copying resource/my_py_pkg -> /home/azraa/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.516s] copying package.xml -> /home/azraa/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[3.598s] Invoked command in '/home/azraa/ros2_ws/src/build/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/src/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/src/install/my_py_pkg --editable --build-directory /home/azraa/ros2_ws/src/build/my_py_pkg/build --no-deps install_data --install-dir /home/azraa/ros2_ws/src/install/my_py_pkg

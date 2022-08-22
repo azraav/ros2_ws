@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target audio_capture[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In member function ‘[01m[Kvoid audio_transport::RosGstCapture::publish(const AudioData&)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:185:31:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst _frame_id_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  185 |         msg.header.frame_id = [01;31m[K"1"[m[K;
+      |                               [01;31m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:4[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:708:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  708 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean audio_transport::RosGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:214:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  214 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                  [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/audio_capture.dir/build.make:63: CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/audio_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

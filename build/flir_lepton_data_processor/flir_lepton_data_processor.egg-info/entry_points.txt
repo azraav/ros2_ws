@@ -1,0 +1,2 @@
+[console_scripts]
+thermal_image_processor_node = flir_lepton_data_processor.thermal_image_processor_node:main

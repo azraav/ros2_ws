@@ -1,0 +1,25 @@
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid lepton_capture::LeptonGstCapture::publish_message(const Image&)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:100:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::CameraPublisher::publish(const Image&)[m[K’
+  100 |         _pub.publish(msg[01;31m[K)[m[K;
+      |                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:45[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:106:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::CameraPublisher::publish(const Image&, const CameraInfo&) const[m[K’
+  106 |   void [01;36m[Kpublish[m[K(
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:106:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:114:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::CameraPublisher::publish(const ConstSharedPtr&, const ConstSharedPtr&) const[m[K’
+  114 |   void [01;36m[Kpublish[m[K(
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:114:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:126:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::CameraPublisher::publish(sensor_msgs::msg::Image&, sensor_msgs::msg::CameraInfo&, rclcpp::Time) const[m[K’
+  126 |   void [01;36m[Kpublish[m[K(
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:126:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:160:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  160 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,499 @@
+[0.051s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_capture': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_capture -- -j4 -l4
+[0.122s] [35m[1mScanning dependencies of target flir_lepton_publisher[0m
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o[0m
+[0.631s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:264:68:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.631s]   264 | ub_ = create_publisher<flir_lepton_msgs::msg::RawData>([01;35m[K'lepton_raw'[m[K,qos);
+[0.631s]       |                                                        [01;35m[K^~~~~~~~~~~~[m[K
+[0.632s] 
+[3.400s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In constructor ‘[01m[Kflir_lepton::FlirLeptonNode::FlirLeptonNode(const rclcpp::NodeOptions&)[m[K’:
+[3.400s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:54:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kflir_lepton::FlirLeptonNode[m[K’ does not have any field named ‘[01m[Kcamera_info_manager_[m[K’
+[3.400s]    54 |   [01;31m[Kcamera_info_manager_[m[K(this),
+[3.400s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.418s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K At global scope:
+[3.418s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:150:6:[m[K [01;31m[Kerror: [m[K‘[01m[KGSCam[m[K’ has not been declared
+[3.418s]   150 | bool [01;31m[KGSCam[m[K::init_stream()
+[3.418s]       |      [01;31m[K^~~~~[m[K
+[3.420s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.420s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.420s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.420s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[Kbool flir_lepton::init_stream()[m[K’:
+[3.420s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:154:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.420s]   154 |     RCLCPP_DEBUG_STREAM([01;31m[Kget_logger[m[K(), "Initializing gstreamer...");
+[3.421s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[3.421s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.421s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.421s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.421s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.422s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.422s]       |                 [01;36m[K^~~~~~[m[K
+[3.422s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.422s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.422s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.422s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:154:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.423s]   154 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Initializing gstreamer...");
+[3.423s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.423s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:154:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.423s]   154 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Initializing gstreamer...");
+[3.423s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.423s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:154:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.423s]   154 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Initializing gstreamer...");
+[3.423s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.423s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:158:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.423s]   158 |   RCLCPP_DEBUG_STREAM([01;31m[Kget_logger[m[K(), "Gstreamer Version: " << gst_version_string() );
+[3.423s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[3.424s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.424s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.424s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.424s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.424s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.424s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.424s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.424s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.424s]       |                 [01;36m[K^~~~~~[m[K
+[3.424s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.424s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.425s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.425s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.425s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.425s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:158:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.425s]   158 |   [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Gstreamer Version: " << gst_version_string() );
+[3.425s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.425s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:158:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.425s]   158 |   [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Gstreamer Version: " << gst_version_string() );
+[3.425s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.425s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:158:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.425s]   158 |   [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Gstreamer Version: " << gst_version_string() );
+[3.426s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.427s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpipeline_[m[K’ was not declared in this scope
+[3.427s]   162 |   [01;31m[Kpipeline_[m[K = gst_parse_launch(gsconfig_.c_str(), &error);
+[3.428s]       |   [01;31m[K^~~~~~~~~[m[K
+[3.432s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:162:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kgsconfig_[m[K’ was not declared in this scope
+[3.432s]   162 |   pipeline_ = gst_parse_launch([01;31m[Kgsconfig_[m[K.c_str(), &error);
+[3.432s]       |                                [01;31m[K^~~~~~~~~[m[K
+[3.433s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.434s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.434s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.434s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:164:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.434s]   164 |     RCLCPP_FATAL_STREAM([01;31m[Kget_logger[m[K(), error->message);
+[3.434s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[3.434s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.434s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.435s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.435s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.435s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.435s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.435s]       |                 [01;36m[K^~~~~~[m[K
+[3.435s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.435s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.435s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.435s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.436s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:164:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.436s]   164 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(get_logger(), error->message);
+[3.436s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.436s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:164:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.436s]   164 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(get_logger(), error->message);
+[3.436s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.436s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:164:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.436s]   164 |     [01;31m[KRCLCPP_FATAL_STREAM[m[K(get_logger(), error->message);
+[3.436s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.437s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:169:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksink_[m[K’ was not declared in this scope
+[3.437s]   169 |   [01;31m[Ksink_[m[K = gst_element_factory_make("appsink", NULL);
+[3.437s]       |   [01;31m[K^~~~~[m[K
+[3.447s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:173:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_encoding_[m[K’ was not declared in this scope
+[3.447s]   173 |   if ([01;31m[Kimage_encoding_[m[K == sensor_msgs::image_encodings::RGB8) {
+[3.448s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.453s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:200:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ksync_sink_[m[K’ was not declared in this scope
+[3.453s]   200 |     ([01;31m[Ksync_sink_[m[K) ? TRUE : FALSE);
+[3.453s]       |      [01;31m[K^~~~~~~~~~[m[K
+[3.454s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.454s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.455s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.455s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.455s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.455s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:211:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.455s]   211 |       RCLCPP_FATAL([01;31m[Kget_logger[m[K(), "gst_bin_add() failed");
+[3.455s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[3.455s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.455s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.455s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.456s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.456s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.456s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.456s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.456s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.456s]       |                 [01;36m[K^~~~~~[m[K
+[3.456s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.456s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.456s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.457s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.457s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.457s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:211:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.457s]   211 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "gst_bin_add() failed");
+[3.457s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:211:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.457s]   211 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "gst_bin_add() failed");
+[3.457s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:211:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.458s]   211 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "gst_bin_add() failed");
+[3.458s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.458s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:219:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.458s]   219 |         [01;31m[Kget_logger[m[K(), "GStreamer: cannot link outelement(\"%s\") -> sink\n",
+[3.458s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.458s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.458s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.458s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.459s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.459s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.459s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.459s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.459s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.459s]       |                 [01;36m[K^~~~~~[m[K
+[3.459s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.459s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.459s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.459s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.459s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.460s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:218:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.460s]   218 |       [01;31m[KRCLCPP_FATAL[m[K(
+[3.460s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.460s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:218:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.460s]   218 |       [01;31m[KRCLCPP_FATAL[m[K(
+[3.460s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.460s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:218:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.460s]   218 |       [01;31m[KRCLCPP_FATAL[m[K(
+[3.460s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.460s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:237:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.461s]   237 |       RCLCPP_FATAL([01;31m[Kget_logger[m[K(), "GStreamer: cannot link launchpipe -> sink");
+[3.461s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[3.461s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.461s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.461s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.461s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.461s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.461s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.461s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.461s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.461s]       |                 [01;36m[K^~~~~~[m[K
+[3.462s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.462s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.462s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.462s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:237:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.462s]   237 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "GStreamer: cannot link launchpipe -> sink");
+[3.462s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.462s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:237:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.462s]   237 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "GStreamer: cannot link launchpipe -> sink");
+[3.463s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.463s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:237:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.463s]   237 |       [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "GStreamer: cannot link launchpipe -> sink");
+[3.463s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.464s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:247:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_offset_[m[K’ was not declared in this scope
+[3.465s]   247 |   [01;31m[Ktime_offset_[m[K = now().nanoseconds() - GST_TIME_AS_NSECONDS(ct);
+[3.465s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[3.468s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:247:18:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ was not declared in this scope; did you mean ‘[01m[Kpow[m[K’?
+[3.468s]   247 |   time_offset_ = [01;31m[Know[m[K().nanoseconds() - GST_TIME_AS_NSECONDS(ct);
+[3.468s]       |                  [01;31m[K^~~[m[K
+[3.468s]       |                  [32m[Kpow[m[K
+[3.469s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.469s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.470s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.470s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.470s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:248:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.470s]   248 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Time offset: %.6f", rclcpp::Time(time_offset_).seconds());
+[3.470s]       |               [01;31m[K^~~~~~~~~~[m[K
+[3.470s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.470s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.470s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.470s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.470s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.470s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.471s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.471s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.471s]       |                 [01;36m[K^~~~~~[m[K
+[3.471s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.471s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.471s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.471s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.472s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.472s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:248:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.472s]   248 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Time offset: %.6f", rclcpp::Time(time_offset_).seconds());
+[3.472s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.472s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:248:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.472s]   248 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Time offset: %.6f", rclcpp::Time(time_offset_).seconds());
+[3.472s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.472s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:248:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.472s]   248 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Time offset: %.6f", rclcpp::Time(time_offset_).seconds());
+[3.473s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.473s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:253:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.473s]   253 |     RCLCPP_FATAL([01;31m[Kget_logger[m[K(), "Failed to PAUSE stream, check your gstreamer configuration.");
+[3.473s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[3.473s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.473s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.473s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.473s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.473s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.473s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.473s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.474s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.474s]       |                 [01;36m[K^~~~~~[m[K
+[3.474s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.474s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.474s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.474s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.474s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:253:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.474s]   253 |     [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to PAUSE stream, check your gstreamer configuration.");
+[3.474s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.474s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:253:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.474s]   253 |     [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to PAUSE stream, check your gstreamer configuration.");
+[3.475s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.475s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:253:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.475s]   253 |     [01;31m[KRCLCPP_FATAL[m[K(get_logger(), "Failed to PAUSE stream, check your gstreamer configuration.");
+[3.475s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[3.475s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:256:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.475s]   256 |     RCLCPP_DEBUG_STREAM([01;31m[Kget_logger[m[K(), "Stream is PAUSED.");
+[3.475s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[3.475s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[3.475s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.475s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.476s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.476s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.476s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.476s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.476s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.476s]       |                 [01;36m[K^~~~~~[m[K
+[3.476s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[3.476s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[3.476s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:39[m[K,
+[3.476s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.476s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.477s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:256:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.477s]   256 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Stream is PAUSED.");
+[3.477s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.477s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:256:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.477s]   256 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Stream is PAUSED.");
+[3.477s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.477s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:256:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.477s]   256 |     [01;31m[KRCLCPP_DEBUG_STREAM[m[K(get_logger(), "Stream is PAUSED.");
+[3.477s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.489s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:261:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kuse_sensor_data_qos_[m[K’ was not declared in this scope
+[3.490s]   261 |   const auto qos = [01;31m[Kuse_sensor_data_qos_[m[K ? rclcpp::SensorDataQoS() : rclcpp::QoS{1};
+[3.490s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.498s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:264:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_data_pub_[m[K’ was not declared in this scope
+[3.498s]   264 |   [01;31m[Kraw_data_pub_[m[K = create_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos);
+[3.498s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.500s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:264:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_publisher[m[K’ was not declared in this scope
+[3.500s]   264 |   raw_data_pub_ = [01;31m[Kcreate_publisher[m[K<flir_lepton_msgs::msg::RawData>('lepton_raw',qos);
+[3.500s]       |                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.500s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:264:19:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.500s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:39[m[K,
+[3.500s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[3.500s]                  from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+[3.500s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.501s] [01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:43:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::create_publisher[m[K’
+[3.501s]    43 | [01;36m[Kcreate_publisher[m[K(
+[3.501s]       | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.501s] In file included from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[3.501s] [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:59:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kimage_transport::create_publisher[m[K’
+[3.501s]    59 | Publisher [01;36m[Kcreate_publisher[m[K(
+[3.501s]       |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.501s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:264:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.501s]   264 | _pub_ = create_publisher<flir_lepton_msgs::msg::RawData[01;31m[K>[m[K('lepton_raw',qos);
+[3.501s]       |                                                        [01;31m[K^[m[K
+[3.501s] 
+[3.510s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:267:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgray_image_pub_[m[K’ was not declared in this scope
+[3.510s]   267 |   [01;31m[Kgray_image_pub_[m[K = image_transport::create_camera_publisher(
+[3.510s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.510s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:268:7:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[3.510s]   268 |       [01;31m[Kthis[m[K, "camera/image_raw", qos.get_rmw_qos_profile());
+[3.510s]       |       [01;31m[K^~~~[m[K
+[3.521s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid flir_lepton::FlirLeptonNode::publish_stream()[m[K’:
+[3.521s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:373:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimestamp_[m[K’?
+[3.521s]   373 |       [01;31m[Ktimestamp[m[K = now();
+[3.521s]       |       [01;31m[K^~~~~~~~~[m[K
+[3.522s]       |       [32m[Ktimestamp_[m[K
+[3.534s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:401:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimestamp_[m[K’?
+[3.534s]   401 |       raw_data->header.stamp = [01;31m[Ktimestamp[m[K;
+[3.535s]       |                                [01;31m[K^~~~~~~~~[m[K
+[3.535s]       |                                [32m[Ktimestamp_[m[K
+[3.535s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:407:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _layout_type = struct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[3.535s]   407 |       raw_data->raw_values.layout.[01;31m[Kpush_back[m[K(std_msgs::MultiArrayDimension());
+[3.535s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[3.535s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:407:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMultiArrayDimension[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’?
+[3.536s]   407 |       raw_data->raw_values.layout.push_back(std_msgs::[01;31m[KMultiArrayDimension[m[K());
+[3.536s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.536s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/multi_array_dimension.hpp:7[m[K,
+[3.536s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:33[m[K:
+[3.536s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/multi_array_dimension__struct.hpp:149:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’ declared here
+[3.536s]   149 | using [01;36m[KMultiArrayDimension[m[K =
+[3.536s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.536s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:412:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _layout_type = struct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::msg::MultiArrayLayout_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+[3.536s]   412 |       raw_data->raw_values.layout.[01;31m[Kpush_back[m[K(std_msgs::MultiArrayDimension());
+[3.537s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[3.537s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:412:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMultiArrayDimension[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’; did you mean ‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’?
+[3.537s]   412 |       raw_data->raw_values.layout.push_back(std_msgs::[01;31m[KMultiArrayDimension[m[K());
+[3.537s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.537s] In file included from [01m[K/opt/ros/foxy/include/example_interfaces/msg/multi_array_dimension.hpp:7[m[K,
+[3.537s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:33[m[K:
+[3.537s] [01m[K/opt/ros/foxy/include/example_interfaces/msg/detail/multi_array_dimension__struct.hpp:149:7:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::msg::MultiArrayDimension[m[K’ declared here
+[3.537s]   149 | using [01;36m[KMultiArrayDimension[m[K =
+[3.537s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.538s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:432:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’})
+[3.538s]   432 |       data = raw_data->raw_values.[01;31m[Kdata[m[K;
+[3.538s]       |                                   [01;31m[K^~~~[m[K
+[3.538s] In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3724[m[K,
+[3.538s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[3.538s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:743:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(const cv::Mat&)[m[K’
+[3.539s]   743 | Mat& [01;36m[KMat[m[K::operator = (const Mat& m)
+[3.539s]       |      [01;36m[K^~~[m[K
+[3.539s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:743:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kconst cv::Mat&[m[K’
+[3.540s]   743 | Mat& Mat::operator = ([01;36m[Kconst Mat& m[m[K)
+[3.540s]       |                       [01;36m[K~~~~~~~~~~~^[m[K
+[3.540s] In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3724[m[K,
+[3.540s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[3.540s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:3356:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(const cv::MatExpr&)[m[K’
+[3.540s]  3356 | Mat& [01;36m[KMat[m[K::operator = (const MatExpr& e)
+[3.540s]       |      [01;36m[K^~~[m[K
+[3.540s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:3356:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kconst cv::MatExpr&[m[K’
+[3.540s]  3356 | Mat& Mat::operator = ([01;36m[Kconst MatExpr& e[m[K)
+[3.540s]       |                       [01;36m[K~~~~~~~~~~~~~~~^[m[K
+[3.540s] In file included from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[3.541s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1241:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(const Scalar&)[m[K’
+[3.541s]  1241 |     Mat& [01;36m[Koperator[m[K = (const Scalar& s);
+[3.541s]       |          [01;36m[K^~~~~~~~[m[K
+[3.541s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1241:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kconst Scalar&[m[K’ {aka ‘[01m[Kconst cv::Scalar_<double>&[m[K’}
+[3.541s]  1241 |     Mat& operator = ([01;36m[Kconst Scalar& s[m[K);
+[3.541s]       |                      [01;36m[K~~~~~~~~~~~~~~^[m[K
+[3.541s] In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3724[m[K,
+[3.541s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:28[m[K:
+[3.541s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1405:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::Mat& cv::Mat::operator=(cv::Mat&&)[m[K’
+[3.541s]  1405 | Mat& [01;36m[KMat[m[K::operator = (Mat&& m)
+[3.541s]       |      [01;36m[K^~~[m[K
+[3.541s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1405:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kexample_interfaces::msg::Int16MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<short int, std::allocator<short int> >[m[K’} to ‘[01m[Kcv::Mat&&[m[K’
+[3.542s]  1405 | Mat& Mat::operator = ([01;36m[KMat&& m[m[K)
+[3.542s]       |                       [01;36m[K~~~~~~^[m[K
+[3.542s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:435:32:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>>[m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[Kint[m[K’)
+[3.542s]   435 |       cv::cvtColor(uint8_t([32m[Kdata[m[K[01;31m[K>>[m[K[34m[K8[m[K), greyscale, CV_GRAY2BGR);
+[3.542s]       |                            [32m[K~~~~[m[K[01;31m[K^~[m[K[34m[K~[m[K
+[3.542s]       |                            [32m[K|[m[K     [34m[K|[m[K
+[3.542s]       |                            [32m[K|[m[K     [34m[Kint[m[K
+[3.542s]       |                            [32m[Kcv::Mat[m[K
+[3.542s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:60[m[K,
+[3.542s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.542s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[3.543s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1242:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::FileNodeIterator& cv::operator>>(cv::FileNodeIterator&, _Tp&)[m[K’
+[3.543s]  1242 | FileNodeIterator& [01;36m[Koperator[m[K >> (FileNodeIterator& it, _Tp& value)
+[3.543s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.543s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1242:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.543s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:435:28:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kdata[m[K’ (type ‘[01m[Kcv::Mat[m[K’) to type ‘[01m[Kcv::FileNodeIterator&[m[K’
+[3.543s]   435 |       cv::cvtColor(uint8_t([01;36m[Kdata[m[K>>8), greyscale, CV_GRAY2BGR);
+[3.543s]       |                            [01;36m[K^~~~[m[K
+[3.543s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:60[m[K,
+[3.543s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.543s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[3.543s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1251:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::FileNodeIterator& cv::operator>>(cv::FileNodeIterator&, std::vector<BufferT>&)[m[K’
+[3.544s]  1251 | FileNodeIterator& [01;36m[Koperator[m[K >> (FileNodeIterator& it, std::vector<_Tp>& vec)
+[3.544s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.544s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1251:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.544s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:435:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::vector<BufferT>[m[K’ and ‘[01m[Kint[m[K’
+[3.544s]   435 |       cv::cvtColor(uint8_t(data>>[01;36m[K8[m[K), greyscale, CV_GRAY2BGR);
+[3.544s]       |                                  [01;36m[K^[m[K
+[3.544s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:60[m[K,
+[3.544s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.544s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[3.545s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1266:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> void cv::operator>>(const cv::FileNode&, _Tp&)[m[K’
+[3.545s]  1266 | void [01;36m[Koperator[m[K >> (const FileNode& n, _Tp& value)
+[3.545s]       |      [01;36m[K^~~~~~~~[m[K
+[3.545s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1266:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.545s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:435:28:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kdata[m[K’ (type ‘[01m[Kcv::Mat[m[K’) to type ‘[01m[Kconst cv::FileNode&[m[K’
+[3.545s]   435 |       cv::cvtColor(uint8_t([01;36m[Kdata[m[K>>8), greyscale, CV_GRAY2BGR);
+[3.545s]       |                            [01;36m[K^~~~[m[K
+[3.545s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:60[m[K,
+[3.545s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.545s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[3.546s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1274:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> void cv::operator>>(const cv::FileNode&, std::vector<BufferT>&)[m[K’
+[3.546s]  1274 | void [01;36m[Koperator[m[K >> (const FileNode& n, std::vector<_Tp>& vec)
+[3.546s]       |      [01;36m[K^~~~~~~~[m[K
+[3.546s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1274:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.546s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:435:34:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::vector<BufferT>[m[K’ and ‘[01m[Kint[m[K’
+[3.546s]   435 |       cv::cvtColor(uint8_t(data>>[01;36m[K8[m[K), greyscale, CV_GRAY2BGR);
+[3.546s]       |                                  [01;36m[K^[m[K
+[3.546s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:60[m[K,
+[3.546s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.546s]                  from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:29[m[K:
+[3.547s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1284:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::operator>>(const cv::FileNode&, cv::KeyPoint&)[m[K’
+[3.547s]  1284 | void [01;36m[Koperator[m[K >> (const FileNode& n, KeyPoint& kpt)
+[3.547s]       |      [01;36m[K^~~~~~~~[m[K
+[3.547s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1284:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst cv::FileNode&[m[K’
+[3.547s]  1284 | void operator >> ([01;36m[Kconst FileNode& n[m[K, KeyPoint& kpt)
+[3.547s]       |                   [01;36m[K~~~~~~~~~~~~~~~~^[m[K
+[3.547s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1292:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::operator>>(const cv::FileNode&, std::vector<cv::KeyPoint>&)[m[K’
+[3.547s]  1292 | void [01;36m[Koperator[m[K >> (const FileNode& n, std::vector<KeyPoint>& vec)
+[3.547s]       |      [01;36m[K^~~~~~~~[m[K
+[3.547s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1292:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst cv::FileNode&[m[K’
+[3.548s]  1292 | void operator >> ([01;36m[Kconst FileNode& n[m[K, std::vector<KeyPoint>& vec)
+[3.548s]       |                   [01;36m[K~~~~~~~~~~~~~~~~^[m[K
+[3.548s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1297:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::operator>>(const cv::FileNode&, std::vector<cv::DMatch>&)[m[K’
+[3.548s]  1297 | void [01;36m[Koperator[m[K >> (const FileNode& n, std::vector<DMatch>& vec)
+[3.548s]       |      [01;36m[K^~~~~~~~[m[K
+[3.548s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1297:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst cv::FileNode&[m[K’
+[3.548s]  1297 | void operator >> ([01;36m[Kconst FileNode& n[m[K, std::vector<DMatch>& vec)
+[3.548s]       |                   [01;36m[K~~~~~~~~~~~~~~~~^[m[K
+[3.548s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1307:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid cv::operator>>(const cv::FileNode&, cv::DMatch&)[m[K’
+[3.548s]  1307 | void [01;36m[Koperator[m[K >> (const FileNode& n, DMatch& m)
+[3.549s]       |      [01;36m[K^~~~~~~~[m[K
+[3.549s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1307:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst cv::FileNode&[m[K’
+[3.549s]  1307 | void operator >> ([01;36m[Kconst FileNode& n[m[K, DMatch& m)
+[3.549s]       |                   [01;36m[K~~~~~~~~~~~~~~~~^[m[K
+[3.549s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:435:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kgreyscale[m[K’ was not declared in this scope; did you mean ‘[01m[Kgrayscale[m[K’?
+[3.549s]   435 |       cv::cvtColor(uint8_t(data>>8), [01;31m[Kgreyscale[m[K, CV_GRAY2BGR);
+[3.549s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[3.549s]       |                                      [32m[Kgrayscale[m[K
+[3.549s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:449:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<flir_lepton_msgs::msg::RawData_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<flir_lepton_msgs::msg::RawData_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[3.549s]   449 |       raw_data_pub_.[01;31m[Kpublish[m[K(raw_data);
+[3.549s]       |                     [01;31m[K^~~~~~~[m[K
+[3.551s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:450:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgray_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kgray_img[m[K’?
+[3.551s]   450 |       gray_image_pub_.publish([01;31m[Kgray_image[m[K);
+[3.551s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[3.551s]       |                               [32m[Kgray_img[m[K
+[3.556s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[Kvoid flir_lepton::gst_eos_cb(GstAppSink*, gpointer)[m[K’:
+[3.556s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.556s]   506 | void gst_eos_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+[3.556s]       |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[3.556s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.556s]   506 | void gst_eos_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+[3.556s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[3.557s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_preroll_cb(GstAppSink*, gpointer)[m[K’:
+[3.557s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.557s]   509 | GstFlowReturn gst_new_preroll_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+[3.557s]       |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[3.557s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.557s]   509 | stFlowReturn gst_new_preroll_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+[3.557s]       |                                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[3.557s] 
+[3.557s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_asample_cb(GstAppSink*, gpointer)[m[K’:
+[3.557s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.557s]   513 | GstFlowReturn gst_new_asample_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+[3.558s]       |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[3.558s] [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.558s]   513 | stFlowReturn gst_new_asample_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+[3.558s]       |                                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[3.558s] 
+[4.427s] make[2]: *** [CMakeFiles/flir_lepton_publisher.dir/build.make:63: CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o] Error 1
+[4.427s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flir_lepton_publisher.dir/all] Error 2
+[4.427s] make: *** [Makefile:141: all] Error 2
+[4.428s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_capture' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_capture:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy:/opt/ros/noetic LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib:/home/azraa/ros2_ws/install/v4l2_camera/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/home/azraa/ros2_ws/install/gscam/lib:/home/azraa/ros2_ws/install/audio_common_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/ros/noetic/lib PYTHONPATH=/home/azraa/ros2_ws/install/flir_lepton_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_python_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_capture -- -j4 -l4

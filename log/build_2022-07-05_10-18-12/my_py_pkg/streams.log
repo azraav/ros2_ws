@@ -1,0 +1,18 @@
+[1.499s] Invoking command in '/home/azraa/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/azraa/ros2_ws/install/my_py_pkg
+[2.094s] running develop
+[2.326s] running egg_info
+[2.326s] writing my_py_pkg.egg-info/PKG-INFO
+[2.328s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.328s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.329s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.330s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.409s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.411s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.513s] running build_ext
+[2.515s] Creating /home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[2.517s] Installing py_node script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.518s] Installing robot_news_station script to /home/azraa/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.519s] 
+[2.519s] Installed /home/azraa/ros2_ws/build/my_py_pkg
+[2.520s] running install_data
+[2.584s] Invoked command in '/home/azraa/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/azraa/ros2_ws/install/my_py_pkg --editable --build-directory /home/azraa/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/azraa/ros2_ws/install/my_py_pkg

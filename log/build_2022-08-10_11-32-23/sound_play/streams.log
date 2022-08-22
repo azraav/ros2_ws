@@ -1,0 +1,86 @@
+[0.050s] Invoking command in '/home/azraa/ros2_ws/build/sound_play': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:/home/azraa/ros2_ws/install/sound_play/lib:/home/azraa/ros2_ws/install/my_robot_interfaces/lib:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/sound_play/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/azraa/ros2_ws/install/m2s2_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/azraa/ros2_ws/build/sound_play -- -j4 -l4
+[0.123s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.186s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.602s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.620s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found audio_common_msgs: 0.3.12 (/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[1.197s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[1.385s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.792s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.669s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.670s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.729s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.730s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.730s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.910s] -- Configuring done
+[3.258s] -- Generating done
+[3.268s] -- Build files have been written to: /home/azraa/ros2_ws/build/sound_play
+[3.314s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.338s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.520s] [  5%] Built target sound_play__cpp
+[5.577s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.604s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.664s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.718s] [35m[1mScanning dependencies of target sound_play__rosidl_generator_c[0m
+[5.810s] [ 15%] [32mBuilding C object CMakeFiles/sound_play__rosidl_generator_c.dir/rosidl_generator_c/sound_play/msg/detail/sound_request__functions.c.o[0m
+[6.058s] [ 17%] [32mBuilding C object CMakeFiles/sound_play__rosidl_generator_c.dir/rosidl_generator_c/sound_play/action/detail/sound_request__functions.c.o[0m
+[6.579s] [ 20%] [32m[1mLinking C shared library libsound_play__rosidl_generator_c.so[0m
+[6.869s] [ 20%] Built target sound_play__rosidl_generator_c
+[6.972s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.550s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_cpp[0m
+[8.582s] [ 25%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sound_play/msg/sound_request__type_support.cpp.o[0m
+[9.041s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_fastrtps_cpp[0m
+[9.151s] [ 28%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sound_play/msg/detail/dds_fastrtps/sound_request__type_support.cpp.o[0m
+[9.317s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_introspection_cpp[0m
+[9.347s] [ 30%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sound_play/msg/detail/sound_request__type_support.cpp.o[0m
+[9.407s] [ 33%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sound_play/action/sound_request__type_support.cpp.o[0m
+[9.582s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_c[0m
+[9.679s] [ 35%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_c.dir/rosidl_typesupport_c/sound_play/msg/sound_request__type_support.cpp.o[0m
+[9.818s] [ 38%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_c.dir/rosidl_typesupport_c/sound_play/action/sound_request__type_support.cpp.o[0m
+[9.962s] [ 41%] [32m[1mLinking CXX shared library libsound_play__rosidl_typesupport_c.so[0m
+[10.161s] [ 43%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sound_play/action/detail/sound_request__type_support.cpp.o[0m
+[10.188s] [ 43%] Built target sound_play__rosidl_typesupport_c
+[10.247s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.588s] [ 48%] [32m[1mLinking CXX shared library libsound_play__rosidl_typesupport_cpp.so[0m
+[10.807s] [ 48%] Built target sound_play__rosidl_typesupport_cpp
+[10.866s] [ 51%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sound_play/action/detail/dds_fastrtps/sound_request__type_support.cpp.o[0m
+[11.342s] [ 53%] [32m[1mLinking CXX shared library libsound_play__rosidl_typesupport_introspection_cpp.so[0m
+[11.674s] [ 53%] Built target sound_play__rosidl_typesupport_introspection_cpp
+[12.320s] [ 56%] [32m[1mLinking CXX shared library libsound_play__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.325s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_introspection_c[0m
+[12.359s] [ 58%] [32mBuilding C object CMakeFiles/sound_play__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sound_play/action/detail/sound_request__type_support.c.o[0m
+[12.376s] [ 61%] [32mBuilding C object CMakeFiles/sound_play__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sound_play/msg/detail/sound_request__type_support.c.o[0m
+[12.509s] [ 64%] [32m[1mLinking C shared library libsound_play__rosidl_typesupport_introspection_c.so[0m
+[12.518s] [ 64%] Built target sound_play__rosidl_typesupport_fastrtps_cpp
+[12.541s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.581s] [ 66%] Built target sound_play__rosidl_typesupport_introspection_c
+[14.139s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_fastrtps_c[0m
+[14.185s] [ 69%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sound_play/action/detail/sound_request__type_support_c.cpp.o[0m
+[14.189s] [ 71%] [32mBuilding CXX object CMakeFiles/sound_play__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sound_play/msg/detail/sound_request__type_support_c.cpp.o[0m
+[14.980s] [ 74%] [32m[1mLinking CXX shared library libsound_play__rosidl_typesupport_fastrtps_c.so[0m
+[15.140s] [ 74%] Built target sound_play__rosidl_typesupport_fastrtps_c
+[15.173s] [ 74%] Built target sound_play
+[15.207s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.137s] [ 76%] Built target sound_play__py
+[18.158s] [35m[1mScanning dependencies of target sound_play__python[0m
+[18.199s] [ 79%] [32mBuilding C object CMakeFiles/sound_play__python.dir/rosidl_generator_py/sound_play/msg/_sound_request_s.c.o[0m
+[18.201s] [ 82%] [32mBuilding C object CMakeFiles/sound_play__python.dir/rosidl_generator_py/sound_play/action/_sound_request_s.c.o[0m
+[18.508s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/sound_play/libsound_play__python.so[0m
+[18.592s] [ 84%] Built target sound_play__python
+[18.614s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_c__pyext[0m
+[18.615s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_introspection_c__pyext[0m
+[18.619s] [35m[1mScanning dependencies of target sound_play__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.650s] [ 89%] [32mBuilding C object CMakeFiles/sound_play__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sound_play/_sound_play_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.650s] [ 89%] [32mBuilding C object CMakeFiles/sound_play__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sound_play/_sound_play_s.ep.rosidl_typesupport_c.c.o[0m
+[18.663s] [ 92%] [32mBuilding C object CMakeFiles/sound_play__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sound_play/_sound_play_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.877s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/sound_play/sound_play_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.891s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sound_play/sound_play_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.916s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/sound_play/sound_play_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.970s] [100%] Built target sound_play__rosidl_typesupport_c__pyext
+[18.983s] [100%] Built target sound_play__rosidl_typesupport_introspection_c__pyext
+[19.088s] [100%] Built target sound_play__rosidl_typesupport_fastrtps_c__pyext

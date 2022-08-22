@@ -1,0 +1,33 @@
+[0.074s] Invoking command in '/home/azraa/ros2_ws/build/flir_lepton_ros2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_ros2 -- -j4 -l4
+[0.241s] [35m[1mScanning dependencies of target lepton_capture[0m
+[0.333s] [ 50%] [32mBuilding CXX object CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o[0m
+[5.176s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid lepton_capture::LeptonGstCapture::publish_message(sensor_msgs::msg::Image&)[m[K’:
+[5.176s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:104:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::CameraPublisher::publish(sensor_msgs::msg::Image&, sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr&)[m[K’
+[5.176s]   104 |         _pub.publish(msg,cinfo[01;31m[K)[m[K;
+[5.176s]       |                               [01;31m[K^[m[K
+[5.176s] In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:45[m[K,
+[5.176s]                  from [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:7[m[K:
+[5.176s] [01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:106:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::CameraPublisher::publish(const Image&, const CameraInfo&) const[m[K’
+[5.177s]   106 |   void [01;36m[Kpublish[m[K(
+[5.177s]       |        [01;36m[K^~~~~~~[m[K
+[5.177s] [01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:108:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Ksensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::CameraInfo_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst CameraInfo&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CameraInfo_<std::allocator<void> >&[m[K’}
+[5.177s]   108 |     [01;36m[Kconst sensor_msgs::msg::CameraInfo & info[m[K) const;
+[5.177s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.178s] [01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:114:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::CameraPublisher::publish(const ConstSharedPtr&, const ConstSharedPtr&) const[m[K’
+[5.178s]   114 |   void [01;36m[Kpublish[m[K(
+[5.178s]       |        [01;36m[K^~~~~~~[m[K
+[5.178s] [01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:115:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::Image[m[K’ {aka ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+[5.178s]   115 |     [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & image[m[K,
+[5.178s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.178s] [01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:126:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid image_transport::CameraPublisher::publish(sensor_msgs::msg::Image&, sensor_msgs::msg::CameraInfo&, rclcpp::Time) const[m[K’
+[5.179s]   126 |   void [01;36m[Kpublish[m[K(
+[5.179s]       |        [01;36m[K^~~~~~~[m[K
+[5.179s] [01m[K/opt/ros/foxy/include/image_transport/camera_publisher.hpp:126:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[5.179s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[5.179s] [01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:164:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.179s]   164 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[5.179s]       |                                [01;35m[K~~~~~~~~^~~[m[K
+[6.484s] make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+[6.484s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+[6.484s] make: *** [Makefile:141: all] Error 2
+[6.488s] Invoked command in '/home/azraa/ros2_ws/build/flir_lepton_ros2' returned '2': CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/ximea_ros2_cam:/home/azraa/ros2_ws/install/v4l2_camera:/home/azraa/ros2_ws/install/audio_common:/home/azraa/ros2_ws/install/sound_play:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/home/azraa/ros2_ws/install/bme280:/home/azraa/ros2_ws/install/m2s2_custom_interfaces:/home/azraa/ros2_ws/install/m2s2_bringup:/home/azraa/ros2_ws/install/gscam:/home/azraa/ros2_ws/install/flir_lepton_ros2:/home/azraa/ros2_ws/install/flir_lepton_msgs:/home/azraa/ros2_ws/install/audio_play:/home/azraa/ros2_ws/install/audio_capture:/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/m2s2_test_python:/home/azraa/ros2_ws/install/flir_lepton_purethermal2:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/azraa/ros2_ws/build/flir_lepton_ros2 -- -j4 -l4

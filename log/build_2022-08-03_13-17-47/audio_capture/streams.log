@@ -1,0 +1,78 @@
+[0.311s] Invoking command in '/home/azraa/ros2_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/audio_capture
+[0.819s] -- The C compiler identification is GNU 9.4.0
+[1.423s] -- The CXX compiler identification is GNU 9.4.0
+[1.522s] -- Check for working C compiler: /usr/bin/cc
+[2.086s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.118s] -- Detecting C compiler ABI info
+[2.584s] -- Detecting C compiler ABI info - done
+[2.704s] -- Detecting C compile features
+[2.705s] -- Detecting C compile features - done
+[2.760s] -- Check for working CXX compiler: /usr/bin/c++
+[3.297s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.300s] -- Detecting CXX compiler ABI info
+[3.614s] -- Detecting CXX compiler ABI info - done
+[3.686s] -- Detecting CXX compile features
+[3.686s] -- Detecting CXX compile features - done
+[3.686s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.753s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.753s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.876s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.688s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.992s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.484s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.600s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.600s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.600s] -- Looking for pthread.h
+[9.877s] -- Looking for pthread.h - found
+[9.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.651s] -- Looking for pthread_create in pthreads
+[11.411s] -- Looking for pthread_create in pthreads - not found
+[11.417s] -- Looking for pthread_create in pthread
+[11.899s] -- Looking for pthread_create in pthread - found
+[11.903s] -- Found Threads: TRUE  
+[12.912s] -- Found audio_common_msgs: 0.3.12 (/home/azraa/ros2_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[12.954s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[12.958s] -- Checking for module 'gstreamer-1.0'
+[13.030s] --   Found gstreamer-1.0, version 1.16.2
+[13.260s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[13.725s] -- Configuring done
+[13.779s] -- Generating done
+[13.789s] -- Build files have been written to: /home/azraa/ros2_ws/build/audio_capture
+[13.840s] Invoked command in '/home/azraa/ros2_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture -DCMAKE_INSTALL_PREFIX=/home/azraa/ros2_ws/install/audio_capture
+[13.847s] Invoking command in '/home/azraa/ros2_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_capture -- -j4 -l4
+[14.207s] [35m[1mScanning dependencies of target audio_capture[0m
+[14.973s] [ 50%] [32mBuilding CXX object CMakeFiles/audio_capture.dir/src/audio_capture.cpp.o[0m
+[36.614s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean audio_transport::RosGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[36.614s] [01m[K/home/azraa/ros2_ws/src/M2S2/audio_common/audio_capture/src/audio_capture.cpp:211:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[36.615s]   211 |       static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+[36.615s]       |                                  [01;35m[K~~~~~~~~^~~[m[K
+[50.059s] [100%] [32m[1mLinking CXX executable audio_capture[0m
+[51.839s] [100%] Built target audio_capture
+[51.899s] Invoked command in '/home/azraa/ros2_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/azraa/ros2_ws/build/audio_capture -- -j4 -l4
+[52.283s] Invoking command in '/home/azraa/ros2_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_capture
+[52.411s] -- Install configuration: ""
+[52.411s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/lib/audio_capture/audio_capture
+[52.452s] -- Set runtime path of "/home/azraa/ros2_ws/install/audio_capture/lib/audio_capture/audio_capture" to ""
+[52.481s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch
+[52.482s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.xml
+[52.482s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.xml
+[52.482s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/launch/capture.launch.xml
+[52.482s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/ament_index/resource_index/package_run_dependencies/audio_capture
+[52.482s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/ament_index/resource_index/parent_prefix_path/audio_capture
+[52.483s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.sh
+[52.483s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.dsv
+[52.483s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/path.sh
+[52.483s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/environment/path.dsv
+[52.484s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.bash
+[52.484s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.sh
+[52.484s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.zsh
+[52.484s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/local_setup.dsv
+[52.485s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.dsv
+[52.485s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/ament_index/resource_index/packages/audio_capture
+[52.485s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig.cmake
+[52.486s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig-version.cmake
+[52.486s] -- Installing: /home/azraa/ros2_ws/install/audio_capture/share/audio_capture/package.xml
+[52.487s] Invoked command in '/home/azraa/ros2_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azraa/ros2_ws/install/audio_common_msgs:/home/azraa/ros2_ws/install/my_robot_bringup:/home/azraa/ros2_ws/install/my_cpp_pkg:/home/azraa/ros2_ws/install/my_robot_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/azraa/ros2_ws/install/audio_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/azraa/ros2_ws/build/audio_capture

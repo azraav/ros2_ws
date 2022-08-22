@@ -1,0 +1,7 @@
+{
+  "package_name": "sound_play",
+  "non_idl_tuples": [
+    "/home/azraa/ros2_ws/src/M2S2/audio_common/sound_play:msg/SoundRequest.msg",
+    "/home/azraa/ros2_ws/src/M2S2/audio_common/sound_play:action/SoundRequest.action"
+  ]
+}

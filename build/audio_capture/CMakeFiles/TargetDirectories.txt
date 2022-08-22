@@ -1,0 +1,10 @@
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/install/strip.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/install/local.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/install.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/list_install_components.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/rebuild_cache.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/edit_cache.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/test.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/audio_capture.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/audio_capture_uninstall.dir
+/home/azraa/ros2_ws/build/audio_capture/CMakeFiles/uninstall.dir

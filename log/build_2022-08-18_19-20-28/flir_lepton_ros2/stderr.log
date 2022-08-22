@@ -1,0 +1,133 @@
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:35:41:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   35 |             caps = gst_caps_from_string([01;35m[K"[m[Kvideo/x-raw, width=(int)160, height=(int)120, format=GRAY16_LE
+      |                                         [01;35m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:35:41:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   35 |             caps = gst_caps_from_string([01;31m[K"video/x-raw, width=(int)160, height=(int)120, format=GRAY16_LE[m[K
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   36 |             framerate=(fraction)9/1[01;35m[K"[m[K);
+      |                                    [01;35m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:36:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   36 |             framerate=(fraction)9/1[01;31m[K");[m[K
+      |                                    [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:76:18:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   76 |     ~videoCapture[01;31m[K([m[K) {
+      |                  [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   88 |     void publish( const [01;31m[Ksensor_msgs[m[K::CompressedImage &msg )
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   88 |     void publish( const sensor_msgs::CompressedImage [01;31m[K&[m[Kmsg )
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   88 |     void publish[34m[K([m[K const sensor_msgs::CompressedImage[01;31m[K [m[K[32m[K&[m[Kmsg )
+      |                 [34m[K~[m[K                                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                     [32m[K)[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   88 |     void publish( const sensor_msgs::CompressedImage [01;31m[K&[m[Kmsg )
+      |                                                      [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:88:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   88 |     void publish( const sensor_msgs::CompressedImage &[01;31m[Kmsg[m[K )
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In constructor ‘[01m[Klepton_capture::LeptonGstCapture::LeptonGstCapture()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kframerate[m[K’ was not declared in this scope
+   36 |             [01;31m[Kframerate[m[K=(fraction)9/1");
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kfraction[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+   36 |             framerate=([01;31m[Kfraction[m[K)9/1");
+      |                        [01;31m[K^~~~~~~~[m[K
+      |                        [32m[Ksigaction[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR_STREAM[m[K’?
+   59 |             [01;31m[KROS_ERROR_STREAM[m[K("Not all elements could be created.\n");
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[KRCLCPP_ERROR_STREAM[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:66:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_ERROR_STREAM[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR_STREAM[m[K’?
+   66 |             [01;31m[KROS_ERROR_STREAM[m[K("Elements can't be linked.");
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[KRCLCPP_ERROR_STREAM[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic GstFlowReturn lepton_capture::LeptonGstCapture::onNewBuffer(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRosGstCapture[m[K’ was not declared in this scope; did you mean ‘[01m[KLeptonGstCapture[m[K’?
+   95 |         [01;31m[KRosGstCapture[m[K *server = reinterpret_cast<RosGstCapture*>(userData);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[KLeptonGstCapture[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope
+   95 |         RosGstCapture *[01;31m[Kserver[m[K = reinterpret_cast<RosGstCapture*>(userData);
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:50:[m[K [01;31m[Kerror: [m[K‘[01m[KRosGstCapture[m[K’ does not name a type; did you mean ‘[01m[KLeptonGstCapture[m[K’?
+   95 |         RosGstCapture *server = reinterpret_cast<[01;31m[KRosGstCapture[m[K*>(userData);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                  [32m[KLeptonGstCapture[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K*[m[K’ token
+   95 |         RosGstCapture *server = reinterpret_cast<RosGstCapture[01;31m[K*[m[K>(userData);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K*[m[K’ token
+   95 |         RosGstCapture *server = reinterpret_cast<RosGstCapture[01;31m[K*[m[K>(userData);
+      |                                                               [01;31m[K^[m[K
+      |                                                               [32m[K([m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   95 |         RosGstCapture *server = reinterpret_cast<RosGstCapture*[01;31m[K>[m[K(userData);
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:95:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   95 |         RosGstCapture *server = reinterpret_cast<RosGstCapture*>(userData)[01;31m[K;[m[K
+      |                                                                           [01;31m[K^[m[K
+      |                                                                           [32m[K)[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:105:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  105 |         msg[01;31m[K->[m[Kraw_values.layout.dim[0].label = "height";
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:106:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  106 |         msg[01;31m[K->[m[Kraw_values.layout.dim[0].size = 120;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:107:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  107 |         msg[01;31m[K->[m[Kraw_values.layout.dim[0].stride = 120*160;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:110:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  110 |         msg[01;31m[K->[m[Kraw_values.layout.dim[1].label = "width";
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:111:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  111 |         msg[01;31m[K->[m[Kraw_values.layout.dim[1].size = 160;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:112:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  112 |         msg[01;31m[K->[m[Kraw_values.layout.dim[1].stride = 160;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:114:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData[m[K’ {aka ‘[01m[Km2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’}
+  114 |         msg[01;31m[K->[m[Kraw_values.layout.data_offset = 0;
+      |            [01;31m[K^~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:120:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RawLeptonData = struct m2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct m2s2_custom_interfaces::msg::RawLeptonData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+  120 |         memcpy( &msg.[01;31m[Kdata[m[K[0], map.data, map.size );
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:125:42:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+  125 |         msg.header.stamp = rclcpp::Time::[01;31m[Know[m[K();
+      |                                          [01;31m[K^~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:[m[K In static member function ‘[01m[Kstatic gboolean lepton_capture::LeptonGstCapture::onMessage(GstBus*, GstMessage*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRosGstCapture[m[K’ was not declared in this scope; did you mean ‘[01m[KLeptonGstCapture[m[K’?
+  133 |         [01;31m[KRosGstCapture[m[K *server = reinterpret_cast<RosGstCapture*>(userData);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[KLeptonGstCapture[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope
+  133 |         RosGstCapture *[01;31m[Kserver[m[K = reinterpret_cast<RosGstCapture*>(userData);
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:50:[m[K [01;31m[Kerror: [m[K‘[01m[KRosGstCapture[m[K’ does not name a type; did you mean ‘[01m[KLeptonGstCapture[m[K’?
+  133 |         RosGstCapture *server = reinterpret_cast<[01;31m[KRosGstCapture[m[K*>(userData);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                  [32m[KLeptonGstCapture[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K*[m[K’ token
+  133 |         RosGstCapture *server = reinterpret_cast<RosGstCapture[01;31m[K*[m[K>(userData);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K*[m[K’ token
+  133 |         RosGstCapture *server = reinterpret_cast<RosGstCapture[01;31m[K*[m[K>(userData);
+      |                                                               [01;31m[K^[m[K
+      |                                                               [32m[K([m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  133 |         RosGstCapture *server = reinterpret_cast<RosGstCapture*[01;31m[K>[m[K(userData);
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:133:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  133 |         RosGstCapture *server = reinterpret_cast<RosGstCapture*>(userData)[01;31m[K;[m[K
+      |                                                                           [01;31m[K^[m[K
+      |                                                                           [32m[K)[m[K
+[01m[K/home/azraa/ros2_ws/src/M2S2/flir_lepton_ros2/src/lepton_capture.cpp:131:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  131 |     static gboolean onMessage ([01;35m[KGstBus *bus[m[K, GstMessage *message, gpointer userData)
+      |                                [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/lepton_capture.dir/build.make:63: CMakeFiles/lepton_capture.dir/src/lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lepton_capture.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,11 @@
+[01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:[m[K In member function ‘[01m[Kvoid gscam::GSCam::publish_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:326:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kguint73[m[K’ was not declared in this scope; did you mean ‘[01m[Kguint[m[K’?
+  326 |     [01;31m[Kguint73[m[K * & buf_data = info.data;
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kguint[m[K
+[01m[K/home/azraa/ros2_ws/src/gscam/src/gscam.cpp:326:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuf_data[m[K’ was not declared in this scope
+  326 |     guint73 * & [01;31m[Kbuf_data[m[K = info.data;
+      |                 [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gscam.dir/build.make:63: CMakeFiles/gscam.dir/src/gscam.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:132: CMakeFiles/gscam.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

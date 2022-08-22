@@ -1,0 +1,95 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found m2s2_custom_interfaces: 0.0.0 (/home/azraa/ros2_ws/install/m2s2_custom_interfaces/share/m2s2_custom_interfaces/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azraa/ros2_ws/build/flir_lepton_capture
+[35m[1mScanning dependencies of target flir_lepton_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o[0m
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:68:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+  263 | data_pub_ = create_publisher<flir_lepton_msgs::msg::RawData>([01;35m[K'lepton_raw'[m[K,qos);
+      |                                                              [01;35m[K^~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:44[m[K:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kflir_lepton_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kflir_lepton[m[K’?
+   95 |   rclcpp::Publisher<[01;31m[Kflir_lepton_msgs[m[K::msg::RawData>::SharedPtr raw_data_pub_;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                     [32m[Kflir_lepton[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |   rclcpp::Publisher<flir_lepton_msgs::msg::RawData[01;31m[K>[m[K::SharedPtr raw_data_pub_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   95 |   rclcpp::Publisher<flir_lepton_msgs::msg::RawData>::[01;31m[KSharedPtr[m[K raw_data_pub_;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/include/flir_lepton_capture/flir_lepton.hpp:95:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_data_pub_[m[K’ does not name a type
+   95 |   rclcpp::Publisher<flir_lepton_msgs::msg::RawData>::SharedPtr [01;31m[Kraw_data_pub_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kbool flir_lepton::FlirLeptonNode::init_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_data_pub_[m[K’ was not declared in this scope
+  263 |   [01;31m[Kraw_data_pub_[m[K = create_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kflir_lepton_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kflir_lepton[m[K’?
+  263 |   raw_data_pub_ = create_publisher<[01;31m[Kflir_lepton_msgs[m[K::msg::RawData>('lepton_raw',qos);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                    [32m[Kflir_lepton[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:19:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  263 |   raw_data_pub_ = [01;31m[Kcreate_publisher<flir_lepton_msgs::msg::RawData>[m[K('lepton_raw',qos);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kflir_lepton::FlirLeptonNode::create_publisher<<expression error> >(int, const rclcpp::QoS&)[m[K’
+  263 | te_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:27[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:263:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  263 | te_publisher<flir_lepton_msgs::msg::RawData>('lepton_raw',qos[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In member function ‘[01m[Kvoid flir_lepton::FlirLeptonNode::publish_stream()[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:394:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kflir_lepton_msgs[m[K’ has not been declared
+  394 |       [01;31m[Kflir_lepton_msgs[m[K::msg::RawData::SharedPtr raw_data(new flir_lepton_msgs::msg::RawData());
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:400:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_data[m[K’ was not declared in this scope
+  400 |       [01;31m[Kraw_data[m[K->header.stamp = timestamp_;
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:449:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kraw_data_pub_[m[K’ was not declared in this scope
+  449 |       [01;31m[Kraw_data_pub_[m[K.publish(raw_data);
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[Kvoid flir_lepton::gst_eos_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  506 | void gst_eos_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                 [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:506:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  506 | void gst_eos_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                       [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_preroll_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  509 | GstFlowReturn gst_new_preroll_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:509:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  509 | GstFlowReturn gst_new_preroll_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:[m[K In function ‘[01m[KGstFlowReturn flir_lepton::gst_new_asample_cb(GstAppSink*, gpointer)[m[K’:
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kappsink[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  513 | GstFlowReturn gst_new_asample_cb([01;35m[KGstAppSink * appsink[m[K, gpointer user_data)
+      |                                  [01;35m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/azraa/ros2_ws/src/flir_lepton/flir_lepton_capture/src/flir_lepton_capture.cpp:513:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuser_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  513 | GstFlowReturn gst_new_asample_cb(GstAppSink * appsink, [01;35m[Kgpointer user_data[m[K)
+      |                                                        [01;35m[K~~~~~~~~~^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/flir_lepton_publisher.dir/build.make:63: CMakeFiles/flir_lepton_publisher.dir/src/flir_lepton_capture.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/flir_lepton_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

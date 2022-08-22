@@ -1,0 +1,25 @@
+[2.037s] Invoking command in '/home/azraa/ros2_ws/src/m2s2_test_python': PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/m2s2_test_python build --build-base /home/azraa/ros2_ws/build/m2s2_test_python/build install --prefix /home/azraa/ros2_ws/install/m2s2_test_python --record /home/azraa/ros2_ws/build/m2s2_test_python/install.log --single-version-externally-managed
+[2.525s] /home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.525s]   warnings.warn(
+[2.526s] /home/azraa/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.526s]   warnings.warn(
+[2.658s] running egg_info
+[2.679s] writing ../../build/m2s2_test_python/m2s2_test_python.egg-info/PKG-INFO
+[2.680s] writing dependency_links to ../../build/m2s2_test_python/m2s2_test_python.egg-info/dependency_links.txt
+[2.680s] writing requirements to ../../build/m2s2_test_python/m2s2_test_python.egg-info/requires.txt
+[2.681s] writing top-level names to ../../build/m2s2_test_python/m2s2_test_python.egg-info/top_level.txt
+[2.723s] reading manifest file '../../build/m2s2_test_python/m2s2_test_python.egg-info/SOURCES.txt'
+[2.725s] writing manifest file '../../build/m2s2_test_python/m2s2_test_python.egg-info/SOURCES.txt'
+[2.725s] running build
+[2.725s] running build_py
+[2.726s] running install
+[2.726s] /home/azraa/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.726s]   warnings.warn(
+[2.739s] running install_lib
+[2.760s] running install_data
+[2.781s] running install_egg_info
+[2.803s] removing '/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages/m2s2_test_python-0.0.0-py3.8.egg-info' (and everything under it)
+[2.803s] Copying ../../build/m2s2_test_python/m2s2_test_python.egg-info to /home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages/m2s2_test_python-0.0.0-py3.8.egg-info
+[2.804s] running install_scripts
+[2.920s] writing list of installed files to '/home/azraa/ros2_ws/build/m2s2_test_python/install.log'
+[2.978s] Invoked command in '/home/azraa/ros2_ws/src/m2s2_test_python' returned '0': PYTHONPATH=/home/azraa/ros2_ws/install/m2s2_test_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/m2s2_test_python build --build-base /home/azraa/ros2_ws/build/m2s2_test_python/build install --prefix /home/azraa/ros2_ws/install/m2s2_test_python --record /home/azraa/ros2_ws/build/m2s2_test_python/install.log --single-version-externally-managed

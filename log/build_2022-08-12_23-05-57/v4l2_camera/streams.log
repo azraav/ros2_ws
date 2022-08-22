@@ -1,0 +1,5 @@
+[0.040s] Invoking command in '/home/azraa/ros2_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/v4l2_camera -- -j4 -l4
+[0.073s] CMake Error: The source directory "/home/azraa/ros2_ws/src/src/v4l2_camera" does not exist.
+[0.073s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.074s] make: *** [Makefile:384: cmake_check_build_system] Error 1
+[0.081s] Invoked command in '/home/azraa/ros2_ws/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/azraa/ros2_ws/install/m2s2_test_python:/opt/ros/foxy /usr/bin/cmake --build /home/azraa/ros2_ws/build/v4l2_camera -- -j4 -l4
